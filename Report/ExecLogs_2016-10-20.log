@@ -1,0 +1,1011 @@
+2016-10-20 14:59:49 INFO  SetupSelenium:108 - Successfully started WebDriver Google Chrome Driver with command switches
+2016-10-20 14:59:50 INFO   Open Source Framework Automation :44 - Login functionality
+2016-10-20 14:59:51 INFO  Config:63 - Reading the ObjectRepository file
+2016-10-20 14:59:51 INFO  ReadXML:51 - Started reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-20 14:59:51 INFO  ReadXML:56 - Completed reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-20 14:59:56 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 14:59:56 INFO  WebActions:614 - [ClearText] executed on [//input[@id='_username']]
+2016-10-20 14:59:56 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 14:59:56 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 14:59:56 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 14:59:57 INFO  WebActions:729 - [getAttribute] executed on [//input[@id='_username']]
+2016-10-20 14:59:58 INFO  WebActions:297 - Screenshot collected
+2016-10-20 14:59:58 INFO  WebActions:1377 - [Type] executed on [txtLogin_UserName]
+2016-10-20 14:59:58 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 14:59:59 INFO  WebActions:614 - [ClearText] executed on [//input[@id='_password']]
+2016-10-20 14:59:59 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 14:59:59 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 14:59:59 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 14:59:59 INFO  WebActions:729 - [getAttribute] executed on [//input[@id='_password']]
+2016-10-20 15:00:01 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:00:01 INFO  WebActions:1377 - [Type] executed on [txtLogin_Password]
+2016-10-20 15:00:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:00:01 INFO  WebActions:1756 - Found element [lstLogin_Server] after [1] iterations
+2016-10-20 15:00:01 INFO  WebActions:1241 - Selected the value [ Accenture Personal Lines Policy - RN Environment] based in 'Value'[on [//select[@name='serverSelection']]
+2016-10-20 15:00:02 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:00:02 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:00:02 INFO  WebActions:1756 - Found element [btnLogin_Submit] after [1] iterations
+2016-10-20 15:00:18 INFO  WebActions:505 - [click] executed on [btnLogin_Submit]
+2016-10-20 15:00:19 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:00:19 INFO  LoginToMBG:47 - Logged into MBG Successfully
+2016-10-20 15:00:19 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:00:19 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:00:19 INFO   Open Source Framework Automation :65 - New Quote filling Functionality
+2016-10-20 15:00:20 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:00:20 INFO  WebActions:1756 - Found element [btnNewQuote_NewQuote] after [1] iterations
+2016-10-20 15:00:20 INFO  WebActions:505 - [click] executed on [btnNewQuote_NewQuote]
+2016-10-20 15:04:44 INFO  SetupSelenium:108 - Successfully started WebDriver Google Chrome Driver with command switches
+2016-10-20 15:04:45 INFO   Open Source Framework Automation :44 - Login functionality
+2016-10-20 15:04:46 INFO  Config:63 - Reading the ObjectRepository file
+2016-10-20 15:04:46 INFO  ReadXML:51 - Started reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-20 15:04:46 INFO  ReadXML:56 - Completed reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-20 15:04:51 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 15:04:51 INFO  WebActions:614 - [ClearText] executed on [//input[@id='_username']]
+2016-10-20 15:04:51 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:04:51 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 15:04:52 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 15:04:52 INFO  WebActions:729 - [getAttribute] executed on [//input[@id='_username']]
+2016-10-20 15:04:53 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:04:53 INFO  WebActions:1377 - [Type] executed on [txtLogin_UserName]
+2016-10-20 15:04:53 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 15:04:54 INFO  WebActions:614 - [ClearText] executed on [//input[@id='_password']]
+2016-10-20 15:04:54 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:04:54 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 15:04:54 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 15:04:54 INFO  WebActions:729 - [getAttribute] executed on [//input[@id='_password']]
+2016-10-20 15:04:56 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:04:56 INFO  WebActions:1377 - [Type] executed on [txtLogin_Password]
+2016-10-20 15:04:56 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:04:56 INFO  WebActions:1756 - Found element [lstLogin_Server] after [1] iterations
+2016-10-20 15:04:56 INFO  WebActions:1241 - Selected the value [ Accenture Personal Lines Policy - RN Environment] based in 'Value'[on [//select[@name='serverSelection']]
+2016-10-20 15:04:57 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:04:57 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:04:58 INFO  WebActions:1756 - Found element [btnLogin_Submit] after [1] iterations
+2016-10-20 15:05:06 INFO  WebActions:505 - [click] executed on [btnLogin_Submit]
+2016-10-20 15:05:06 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:07 INFO  LoginToMBG:47 - Logged into MBG Successfully
+2016-10-20 15:05:07 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:07 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:05:07 INFO   Open Source Framework Automation :65 - New Quote filling Functionality
+2016-10-20 15:05:07 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:07 INFO  WebActions:1756 - Found element [btnNewQuote_NewQuote] after [1] iterations
+2016-10-20 15:05:29 INFO  WebActions:505 - [click] executed on [btnNewQuote_NewQuote]
+2016-10-20 15:05:30 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:30 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:30 INFO  WebActions:1756 - Found element [lstNewQuote_Producer] after [1] iterations
+2016-10-20 15:05:32 INFO  WebActions:1241 - Selected the value [ M8980] based in 'Value'[on [//select[@fieldref='data.Producer']]
+2016-10-20 15:05:33 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:33 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:33 INFO  WebActions:1756 - Found element [txtNewQuote_EffDate] after [1] iterations
+2016-10-20 15:05:34 INFO  WebActions:1756 - Found element [txtNewQuote_EffDate] after [1] iterations
+2016-10-20 15:05:34 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='data.EffectiveDate']]
+2016-10-20 15:05:35 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:35 INFO  WebActions:1377 - [Type] executed on [txtNewQuote_EffDate]
+2016-10-20 15:05:35 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:35 INFO  WebActions:1756 - Found element [lstNewQuote_Line] after [1] iterations
+2016-10-20 15:05:35 INFO  WebActions:1241 - Selected the value [ Personal Auto] based in 'Value'[on [//select[@fieldref='data.Line']]
+2016-10-20 15:05:36 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:36 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:05:39 ERROR WebActions:2641 - Exception::
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds waiting for com.epam.fixtures.WebActions$2@46d8f407
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'HYD-SMOTHKURI1', ip: '192.168.252.66', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:9724/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 4f705dda-059f-40e1-ad88-3f609706a6a3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.epam.fixtures.WebActions.waitForDropdownToLoad(WebActions.java:2624)
+	at com.epam.businesslibs.NewQuotePage.FillNewQuoteDetails(NewQuotePage.java:43)
+	at com.epam.scenarios.NewBusniness.FillNewQuotePage(NewBusniness.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:266)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:189)
+2016-10-20 15:05:39 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:39 INFO  WebActions:1756 - Found element [lstNewQuote_State] after [1] iterations
+2016-10-20 15:05:39 INFO  WebActions:1241 - Selected the value [ PA] based in 'Value'[on [//select[@fieldref='data.State']]
+2016-10-20 15:05:40 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:40 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:05:40 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:40 INFO  WebActions:1756 - Found element [lstNewQuote_UseTransact] after [1] iterations
+2016-10-20 15:05:41 INFO  WebActions:1241 - Selected the value [ No] based in 'Value'[on [//select[@fieldref='data.UseTransact']]
+2016-10-20 15:05:41 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:41 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:42 INFO  WebActions:1756 - Found element [lstNewQuote_Procision] after [1] iterations
+2016-10-20 15:05:42 INFO  WebActions:1241 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='data.NewRatePlan_OnScreen']]
+2016-10-20 15:05:42 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:42 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:43 INFO  WebActions:1756 - Found element [lstNewQuote_QuoteType] after [1] iterations
+2016-10-20 15:05:43 INFO  WebActions:1241 - Selected the value [ Full Quote] based in 'Value'[on [//select[@fieldref='data.QuoteType']]
+2016-10-20 15:05:44 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:44 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:44 INFO  WebActions:1756 - Found element [btnNewQuote_StartQuote] after [1] iterations
+2016-10-20 15:05:52 INFO  WebActions:505 - [click] executed on [btnNewQuote_StartQuote]
+2016-10-20 15:05:53 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:53 INFO  NewQuotePage:65 - New Quote created Successfully
+2016-10-20 15:05:53 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:54 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:05:54 INFO   Open Source Framework Automation :81 - New Quote filling Functionality
+2016-10-20 15:05:54 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:54 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantFirstName] after [1] iterations
+2016-10-20 15:05:54 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantFirstName] after [1] iterations
+2016-10-20 15:05:54 INFO  WebActions:729 - [getAttribute] executed on [(//input[@fieldref='InsuredOrPrincipalInput.FirstName'])[1]
+			]
+2016-10-20 15:05:56 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:56 INFO  WebActions:1377 - [Type] executed on [txtApplicant_ApplicantFirstName]
+2016-10-20 15:05:56 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:05:57 INFO  ApplicantPage:26 - Object 'txtApplicant_ApplicantFirstName' Data updated Successfully.
+2016-10-20 15:05:57 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:57 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantLastName] after [1] iterations
+2016-10-20 15:05:57 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantLastName] after [1] iterations
+2016-10-20 15:05:57 INFO  WebActions:729 - [getAttribute] executed on [(//input[@fieldref='InsuredOrPrincipalInput.LastName'])[1]
+			]
+2016-10-20 15:05:59 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:05:59 INFO  WebActions:1377 - [Type] executed on [txtApplicant_ApplicantLastName]
+2016-10-20 15:05:59 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:05:59 INFO  ApplicantPage:33 - Object 'txtApplicant_ApplicantLastName' Data updated Successfully.
+2016-10-20 15:05:59 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:05:59 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber1] after [1] iterations
+2016-10-20 15:05:59 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber1] after [1] iterations
+2016-10-20 15:06:00 INFO  WebActions:729 - [getAttribute] executed on [(//input[@type='password'])[1]]
+2016-10-20 15:06:01 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:01 INFO  WebActions:1377 - [Type] executed on [txtApplicant_SocialSecurityNumber1]
+2016-10-20 15:06:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:01 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber2] after [1] iterations
+2016-10-20 15:06:01 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber2] after [1] iterations
+2016-10-20 15:06:01 INFO  WebActions:729 - [getAttribute] executed on [(//input[@type='password'])[2]]
+2016-10-20 15:06:02 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:02 INFO  WebActions:1377 - [Type] executed on [txtApplicant_SocialSecurityNumber2]
+2016-10-20 15:06:02 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:03 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber3] after [1] iterations
+2016-10-20 15:06:03 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber3] after [1] iterations
+2016-10-20 15:06:03 INFO  WebActions:729 - [getAttribute] executed on [//input[@size='4']]
+2016-10-20 15:06:04 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:04 INFO  WebActions:1377 - [Type] executed on [txtApplicant_SocialSecurityNumber3]
+2016-10-20 15:06:04 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:04 INFO  WebActions:1756 - Found element [lstApplicant_MaritalStatus] after [1] iterations
+2016-10-20 15:06:05 INFO  WebActions:1241 - Selected the value [ Single] based in 'Value'[on [//select[@fieldref='InsuredOrPrincipalInput.MaritalStatus']
+			]
+2016-10-20 15:06:05 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:05 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:06 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantDOB] after [1] iterations
+2016-10-20 15:06:06 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantDOB] after [1] iterations
+2016-10-20 15:06:06 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='InsuredOrPrincipalInput.DateOfBirth']
+			]
+2016-10-20 15:06:07 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:07 INFO  WebActions:1377 - [Type] executed on [txtApplicant_ApplicantDOB]
+2016-10-20 15:06:07 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:07 INFO  WebActions:1756 - Found element [txtApplicant_InsuredStreetAddress] after [1] iterations
+2016-10-20 15:06:08 INFO  WebActions:1756 - Found element [txtApplicant_InsuredStreetAddress] after [1] iterations
+2016-10-20 15:06:08 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='LocationsInput.Address1']]
+2016-10-20 15:06:10 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:10 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredStreetAddress]
+2016-10-20 15:06:10 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:10 INFO  WebActions:1756 - Found element [txtApplicant_InsuredCity] after [1] iterations
+2016-10-20 15:06:10 INFO  WebActions:1756 - Found element [txtApplicant_InsuredCity] after [1] iterations
+2016-10-20 15:06:10 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='LocationsInput.City']]
+2016-10-20 15:06:13 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:13 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredCity]
+2016-10-20 15:06:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:13 INFO  WebActions:1756 - Found element [txtApplicant_InsuredZipCode] after [1] iterations
+2016-10-20 15:06:13 INFO  WebActions:1756 - Found element [txtApplicant_InsuredZipCode] after [1] iterations
+2016-10-20 15:06:14 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='LocationsInput.ZipCodeDisplay']]
+2016-10-20 15:06:15 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:15 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredZipCode]
+2016-10-20 15:06:15 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:06:22 INFO  ApplicantPage:77 - Object 'txtApplicant_InsuredZipCode' Data updated Successfully.
+2016-10-20 15:06:23 INFO  WebActions:1756 - Found element [lstApplicant_InsuredCountry] after [1] iterations
+2016-10-20 15:06:23 INFO  WebActions:729 - [getAttribute] executed on [//select[@fieldref='LocationsInput.County']]
+2016-10-20 15:06:23 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:06:23 INFO  ApplicantPage:83 - Object 'lstApplicant_InsuredCounty' Data updated Successfully.
+2016-10-20 15:06:23 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:23 INFO  WebActions:1756 - Found element [lstApplicant_InsuredYearsResidence] after [1] iterations
+2016-10-20 15:06:24 INFO  WebActions:1241 - Selected the value [ 3 Years or More] based in 'Value'[on [//select[@fieldref='PolicyInput.YearsAtCurrentResidence']
+			]
+2016-10-20 15:06:24 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:24 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:06:25 INFO  ApplicantPage:90 - Object 'lstApplicant_InsuredYearsResidence' Data updated Successfully.
+2016-10-20 15:06:25 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:25 INFO  WebActions:1756 - Found element [lstApplicant_InsuredCurrentAddressAsMailing] after [1] iterations
+2016-10-20 15:06:25 INFO  WebActions:1241 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='PolicyInput.CurrentSameAsMailing']]
+2016-10-20 15:06:26 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:26 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:26 INFO  WebActions:1756 - Found element [txtApplicant_InsuredEffectiveDate] after [1] iterations
+2016-10-20 15:06:26 INFO  WebActions:1756 - Found element [txtApplicant_InsuredEffectiveDate] after [1] iterations
+2016-10-20 15:06:26 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='PolicyInput.EffectiveDate']]
+2016-10-20 15:06:27 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:27 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredEffectiveDate]
+2016-10-20 15:06:28 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:06:28 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:28 INFO  WebActions:1756 - Found element [lstApplicant_InsuredTerm] after [1] iterations
+2016-10-20 15:06:28 INFO  WebActions:1241 - Selected the value [ 12 Months] based in 'Value'[on [//select[@fieldref='PolicyInput.Term']]
+2016-10-20 15:06:29 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:29 INFO  ApplicantPage:110 - Object 'lstApplicant_InsuredTerm' Data updated Successfully.
+2016-10-20 15:06:29 INFO  WebActions:1756 - Found element [lstApplicant_InsuredTerm] after [1] iterations
+2016-10-20 15:06:29 INFO  WebActions:729 - [getAttribute] executed on [//select[@fieldref='PolicyInput.Term']]
+2016-10-20 15:06:29 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:06:29 INFO  ApplicantPage:113 - Object 'lstApplicant_InsuredTerm' Data updated Successfully.
+2016-10-20 15:06:29 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:30 INFO  WebActions:1756 - Found element [txtApplicant_InsuredPhone] after [1] iterations
+2016-10-20 15:06:30 INFO  WebActions:1756 - Found element [txtApplicant_InsuredPhone] after [1] iterations
+2016-10-20 15:06:30 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='InsuredOrPrincipalInput.PhoneNumberDisplay']
+			]
+2016-10-20 15:06:31 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:31 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredPhone]
+2016-10-20 15:06:31 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:06:32 INFO  ApplicantPage:120 - Object 'txtApplicant_InsuredPhone' Data updated Successfully.
+2016-10-20 15:06:32 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:32 INFO  WebActions:1756 - Found element [lstApplicant_InsuredTypeOfBusiness] after [1] iterations
+2016-10-20 15:06:32 INFO  WebActions:1241 - Selected the value [ New business with Mutual Benefit] based in 'Value'[on [//select[@fieldref='PolicyInput.TypeOfBusiness']]
+2016-10-20 15:06:33 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:33 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:06:33 INFO  ApplicantPage:127 - Object 'lstApplicant_InsuredTypeOfBusiness' Data updated Successfully.
+2016-10-20 15:06:33 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:33 INFO  WebActions:1756 - Found element [btnApplicant_Next] after [1] iterations
+2016-10-20 15:06:45 INFO  WebActions:505 - [click] executed on [btnApplicant_Next]
+2016-10-20 15:06:45 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:46 INFO  ApplicantPage:146 - Applicant Data filled Successfully
+2016-10-20 15:06:46 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:46 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:06:46 INFO   Open Source Framework Automation :98 - Adding Drivers Functionality
+2016-10-20 15:06:46 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:46 INFO  WebActions:1756 - Found element [lnkDetail] after [1] iterations
+2016-10-20 15:06:54 INFO  WebActions:505 - [click] executed on [lnkDetail]
+2016-10-20 15:06:55 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:55 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:55 INFO  WebActions:1756 - Found element [lstGender] after [1] iterations
+2016-10-20 15:06:57 INFO  WebActions:1241 - Selected the value [ Male] based in 'Value'[on [//select[@fieldref='DriverInput.Gender']]
+2016-10-20 15:06:58 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:58 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:06:58 INFO  WebActions:1756 - Found element [lstRelationToApplicant] after [1] iterations
+2016-10-20 15:06:59 INFO  WebActions:1241 - Selected the value [ Insured] based in 'Value'[on [//select[@fieldref='DriverInput.RelationToApplicant']]
+2016-10-20 15:06:59 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:06:59 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:00 INFO  WebActions:1756 - Found element [lstOccupation] after [1] iterations
+2016-10-20 15:07:00 INFO  WebActions:1241 - Selected the value [ ANALYST] based in 'Value'[on [//select[@fieldref='DriverInput.Occupation_OnScreen']]
+2016-10-20 15:07:01 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:07:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:01 INFO  WebActions:1756 - Found element [txtDriversLicenseNumber] after [1] iterations
+2016-10-20 15:07:01 INFO  WebActions:1756 - Found element [txtDriversLicenseNumber] after [1] iterations
+2016-10-20 15:07:01 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref ='DriverInput.DriversLicenseNumber']]
+2016-10-20 15:07:02 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:07:02 INFO  WebActions:1377 - [Type] executed on [txtDriversLicenseNumber]
+2016-10-20 15:07:02 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:02 INFO  WebActions:1756 - Found element [btnOK] after [1] iterations
+2016-10-20 15:07:10 INFO  WebActions:505 - [click] executed on [btnOK]
+2016-10-20 15:07:11 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:07:11 INFO  DriversPage:41 - Driver Details Added Successfully
+2016-10-20 15:07:11 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:11 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:07:11 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:12 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:07:19 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:07:20 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:07:23 INFO  DriversPage:55 - Drivers  Added Successfully
+2016-10-20 15:07:23 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:24 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:07:24 INFO   Open Source Framework Automation :117 - Operations on Violations Page
+2016-10-20 15:07:24 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:25 INFO  WebActions:1756 - Found element [btnContinue] after [1] iterations
+2016-10-20 15:07:36 INFO  WebActions:505 - [click] executed on [btnContinue]
+2016-10-20 15:07:37 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:07:37 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:38 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:07:47 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:07:48 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:07:48 INFO   Open Source Framework Automation :136 - Adding or Updating Vehicals Functionality
+2016-10-20 15:07:48 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:48 INFO  WebActions:1756 - Found element [lnkDetail] after [1] iterations
+2016-10-20 15:07:56 INFO  WebActions:505 - [click] executed on [lnkDetail]
+2016-10-20 15:07:57 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:07:57 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:07:57 INFO  WebActions:1756 - Found element [lstType] after [1] iterations
+2016-10-20 15:07:59 INFO  WebActions:1241 - Selected the value [ Automobile] based in 'Value'[on [//select[@fieldref='VehicleInput.Type']]
+2016-10-20 15:08:00 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:00 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:02 INFO  VehiclesPage:24 - Object 'lstType' Data updated Successfully.
+2016-10-20 15:08:02 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:02 INFO  WebActions:1756 - Found element [txtVIN] after [1] iterations
+2016-10-20 15:08:02 INFO  WebActions:1756 - Found element [txtVIN] after [1] iterations
+2016-10-20 15:08:03 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='VehicleInput.VIN']]
+2016-10-20 15:08:05 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:05 INFO  WebActions:1377 - [Type] executed on [txtVIN]
+2016-10-20 15:08:05 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:06 INFO  VehiclesPage:29 - Object 'txtVIN' Data updated Successfully.
+2016-10-20 15:08:06 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:06 INFO  WebActions:1756 - Found element [lstTitle] after [1] iterations
+2016-10-20 15:08:06 INFO  WebActions:1241 - Selected the value [ Standard] based in 'Value'[on [//select[@fieldref='VehicleInput.TitleQuestion']]
+2016-10-20 15:08:07 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:07 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:07 INFO  VehiclesPage:34 - Object 'lstTitle' Data updated Successfully.
+2016-10-20 15:08:07 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:07 INFO  WebActions:1756 - Found element [lstVehicleRegisteredinPA] after [1] iterations
+2016-10-20 15:08:08 INFO  WebActions:1241 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='VehicleInput.VehicleRegistrationQuestion']
+			]
+2016-10-20 15:08:09 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:09 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:09 INFO  VehiclesPage:39 - Object 'lstVehicleRegisteredinPA' Data updated Successfully.
+2016-10-20 15:08:09 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:09 INFO  WebActions:1756 - Found element [lstUsage] after [1] iterations
+2016-10-20 15:08:09 INFO  WebActions:1241 - Selected the value [ Business] based in 'Value'[on [//select[@fieldref='VehicleInput.Usage']]
+2016-10-20 15:08:10 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:10 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:10 INFO  VehiclesPage:45 - Object 'lstUsage' Data updated Successfully.
+2016-10-20 15:08:10 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:11 INFO  WebActions:1756 - Found element [txtDetailsofBusinessUsage] after [1] iterations
+2016-10-20 15:08:11 INFO  WebActions:1756 - Found element [txtDetailsofBusinessUsage] after [1] iterations
+2016-10-20 15:08:11 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='VehicleInput.DetailsOfBusinessUse']]
+2016-10-20 15:08:13 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:13 INFO  WebActions:1377 - [Type] executed on [txtDetailsofBusinessUsage]
+2016-10-20 15:08:13 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:13 INFO  VehiclesPage:50 - Object 'lstUsage' Data updated Successfully.
+2016-10-20 15:08:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:13 INFO  WebActions:1756 - Found element [btnOK] after [1] iterations
+2016-10-20 15:08:21 INFO  WebActions:505 - [click] executed on [btnOK]
+2016-10-20 15:08:22 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:22 INFO  VehiclesPage:57 - Vehicle Details Added Successfully
+2016-10-20 15:08:22 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:23 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:08:23 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:23 INFO  WebActions:1756 - Found element [lstOtherMBGPolicy] after [1] iterations
+2016-10-20 15:08:25 INFO  WebActions:1241 - Selected the value [ No] based in 'Value'[on [//select[@fieldref='PolicyInput.OtherMBGAutoPolicy']]
+2016-10-20 15:08:26 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:26 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:26 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:08:34 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:08:35 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:35 INFO  WebActions:1756 - Found element [divCoverageDetails_PageTitle] after [1] iterations
+2016-10-20 15:08:35 INFO  VehiclesPage:73 - Vehicals  Added Successfully
+2016-10-20 15:08:35 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:36 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:08:36 INFO   Open Source Framework Automation :155 - Adding Coverages
+2016-10-20 15:08:41 ERROR CoveragesPage:17 - Object 'ApplicantPageTitle' not found.
+2016-10-20 15:08:41 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:41 INFO  WebActions:1756 - Found element [lstBI] after [1] iterations
+2016-10-20 15:08:44 INFO  WebActions:1241 - Selected the value [ 250/500] based in 'Value'[on [//select[@fieldref='Coverages.BILimits']]
+2016-10-20 15:08:45 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:45 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:45 INFO  CoveragesPage:19 - Object 'lstBI' Data updated Successfully.
+2016-10-20 15:08:45 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:45 INFO  WebActions:1756 - Found element [lstPD] after [1] iterations
+2016-10-20 15:08:46 INFO  WebActions:1241 - Selected the value [ 100000] based in 'Value'[on [//select[@fieldref='Coverages.PDLimits']]
+2016-10-20 15:08:46 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:46 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:47 INFO  CoveragesPage:24 - Object 'lstPD' Data updated Successfully.
+2016-10-20 15:08:47 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:47 INFO  WebActions:1756 - Found element [lstTortOption] after [1] iterations
+2016-10-20 15:08:47 INFO  WebActions:1241 - Selected the value [ Full] based in 'Value'[on [//select[@fieldref='Tort.TortOption']]
+2016-10-20 15:08:48 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:48 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:48 INFO  CoveragesPage:30 - Object 'lstTortOption' Data updated Successfully.
+2016-10-20 15:08:48 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:48 INFO  WebActions:1756 - Found element [lstMedPay] after [1] iterations
+2016-10-20 15:08:48 INFO  WebActions:1241 - Selected the value [ 5,000] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyMedicalPayments']
+			]
+2016-10-20 15:08:49 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:49 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:49 INFO  CoveragesPage:36 - Object 'lstMedPay' Data updated Successfully.
+2016-10-20 15:08:49 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:49 INFO  WebActions:1756 - Found element [lstWKLoss] after [1] iterations
+2016-10-20 15:08:50 INFO  WebActions:1241 - Selected the value [ 1,000/5,000] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyWKLoss']]
+2016-10-20 15:08:51 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:51 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:51 INFO  CoveragesPage:41 - Object 'lstWKLoss' Data updated Successfully.
+2016-10-20 15:08:51 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:51 INFO  WebActions:1756 - Found element [lstFuneral] after [1] iterations
+2016-10-20 15:08:51 INFO  WebActions:1241 - Selected the value [ 1,500] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyFuneral']]
+2016-10-20 15:08:52 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:52 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:52 INFO  CoveragesPage:46 - Object 'lstFuneral' Data updated Successfully.
+2016-10-20 15:08:52 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:53 INFO  WebActions:1756 - Found element [lstAccDeath] after [1] iterations
+2016-10-20 15:08:53 INFO  WebActions:1241 - Selected the value [ 10,000] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyAccidentalDeath']
+			]
+2016-10-20 15:08:54 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:54 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:54 INFO  CoveragesPage:51 - Object 'lstAccDeath' Data updated Successfully.
+2016-10-20 15:08:54 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:54 INFO  WebActions:1756 - Found element [lstExtraordinaryMedical] after [1] iterations
+2016-10-20 15:08:54 INFO  WebActions:1241 - Selected the value [ 300,000] based in 'Value'[on [//select[@fieldref='Coverages.ExtraordinaryMed']]
+2016-10-20 15:08:55 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:55 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:55 INFO  CoveragesPage:56 - Object 'lstExtraordinaryMedical' Data updated Successfully.
+2016-10-20 15:08:55 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:55 INFO  WebActions:1756 - Found element [lstUnderInsuredStackOption] after [1] iterations
+2016-10-20 15:08:56 INFO  WebActions:1241 - Selected the value [ Stacked] based in 'Value'[on [//select[@fieldref='Coverages.UIMStacked']]
+2016-10-20 15:08:57 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:57 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:57 INFO  CoveragesPage:61 - Object 'lstUnderInsuredStackOption' Data updated Successfully.
+2016-10-20 15:08:57 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:57 INFO  WebActions:1756 - Found element [lstUnderInsuredBI] after [1] iterations
+2016-10-20 15:08:57 INFO  WebActions:1241 - Selected the value [ 25/50] based in 'Value'[on [//select[@fieldref='Coverages.UIMLimit']]
+2016-10-20 15:08:58 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:08:58 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:08:58 INFO  CoveragesPage:66 - Object 'lstUnderInsuredBI' Data updated Successfully.
+2016-10-20 15:08:58 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:08:59 INFO  WebActions:1756 - Found element [lstUnInsuredStackOption] after [1] iterations
+2016-10-20 15:08:59 INFO  WebActions:1241 - Selected the value [ Non-Stacked] based in 'Value'[on [//select[@fieldref='Coverages.UMStacked']]
+2016-10-20 15:09:00 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:09:00 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:09:00 INFO  CoveragesPage:71 - Object 'lstUnInsuredStackOption' Data updated Successfully.
+2016-10-20 15:09:00 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:09:00 INFO  WebActions:1756 - Found element [lstUnInsuredBI] after [1] iterations
+2016-10-20 15:09:00 INFO  WebActions:1241 - Selected the value [ 100/300] based in 'Value'[on [//select[@fieldref='Coverages.UMLimit']]
+2016-10-20 15:09:01 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:09:01 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:09:01 INFO  CoveragesPage:76 - Object 'lstUnInsuredBI' Data updated Successfully.
+2016-10-20 15:09:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:09:01 INFO  WebActions:1756 - Found element [lstPriorBILimit] after [1] iterations
+2016-10-20 15:09:02 INFO  WebActions:1241 - Selected the value [ None] based in 'Value'[on [//select[@fieldref='PolicyInput.PriorBILimit' and
+				@fielditems='Prior BI Limit_string_req_']
+			]
+2016-10-20 15:09:02 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:09:03 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:09:03 INFO  CoveragesPage:81 - Object 'lstPriorBILimit' Data updated Successfully.
+2016-10-20 15:09:03 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:09:03 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:09:11 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:09:11 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:09:11 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:09:11 INFO  WebActions:1756 - Found element [btnCompleteApplication] after [1] iterations
+2016-10-20 15:09:19 INFO  WebActions:505 - [click] executed on [btnCompleteApplication]
+2016-10-20 15:09:20 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:09:20 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:09:20 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:11:05 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:11:06 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:11:06 INFO   Open Source Framework Automation :200 - Selecting Questions in underwriting page
+2016-10-20 15:11:22 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:11:22 INFO  WebActions:1756 - Found element [btnQuestionsComplete] after [1] iterations
+2016-10-20 15:11:30 INFO  WebActions:505 - [click] executed on [btnQuestionsComplete]
+2016-10-20 15:11:31 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:11:31 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:11:31 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:11:38 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:11:39 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:11:39 INFO   Open Source Framework Automation :219 - Filling prior coverage information
+2016-10-20 15:11:39 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:11:39 INFO  WebActions:1756 - Found element [lstCarrier] after [1] iterations
+2016-10-20 15:11:42 INFO  WebActions:1241 - Selected the value [ LIBERTY MUTUAL] based in 'Value'[on [//select[@fieldref='OtherPolicy.PriorCarrierSelect']]
+2016-10-20 15:11:42 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:11:43 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:11:44 INFO  GeneralInformationPage:20 - Object 'lstCarrier' Data updated Successfully.
+2016-10-20 15:11:44 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:11:44 INFO  WebActions:1756 - Found element [lstYearsWithCompany] after [1] iterations
+2016-10-20 15:11:45 INFO  WebActions:1241 - Selected the value [ 1 to 3 years] based in 'Value'[on [//select[@fieldref='OtherPolicy.NumYearsWithPriorCarrierSelect']
+			]
+2016-10-20 15:11:45 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:11:45 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:11:46 INFO  GeneralInformationPage:26 - Object 'lstYearsWithCompany' Data updated Successfully.
+2016-10-20 15:11:46 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:11:46 INFO  WebActions:1756 - Found element [lstExpirationDate] after [1] iterations
+2016-10-20 15:11:46 INFO  WebActions:1241 - Selected the value [ Less than 30 days ago] based in 'Value'[on [//select[@fieldref='OtherPolicy.ExpirationDateSelect']]
+2016-10-20 15:11:47 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:11:47 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:11:48 INFO  GeneralInformationPage:33 - Object 'lstExpirationDate' Data updated Successfully.
+2016-10-20 15:11:48 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:11:48 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:11:56 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:11:57 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:11:57 INFO   Open Source Framework Automation :237 - Validating Vins and Refer to UnderWriter
+2016-10-20 15:11:58 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:00 INFO  WebActions:1756 - Found element [btnValidateVins] after [1] iterations
+2016-10-20 15:12:10 INFO  WebActions:505 - [click] executed on [btnValidateVins]
+2016-10-20 15:12:11 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:12:11 INFO  NewQuotePage:26 - Rating Message Triggered Successfully
+2016-10-20 15:12:11 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:12 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:12:12 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:12 INFO  WebActions:1756 - Found element [btnRefertoUnderWriting] after [1] iterations
+2016-10-20 15:12:21 INFO  WebActions:505 - [click] executed on [btnRefertoUnderWriting]
+2016-10-20 15:12:21 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:12:23 INFO  SetupSelenium:323 - Successfully closed the browser and Web Driver instance
+2016-10-20 15:12:23 INFO   Open Source Framework Automation :282 - Test scenarios added to the XML report
+2016-10-20 15:12:23 INFO   Open Source Framework Automation :245 - Execution Result of SubmissionsPage : PASS
+2016-10-20 15:12:38 INFO  SetupSelenium:108 - Successfully started WebDriver Google Chrome Driver with command switches
+2016-10-20 15:12:38 INFO   Open Source Framework Automation :44 - Login functionality
+2016-10-20 15:12:44 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 15:12:44 INFO  WebActions:614 - [ClearText] executed on [//input[@id='_username']]
+2016-10-20 15:12:44 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:44 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 15:12:45 INFO  WebActions:1756 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-20 15:12:45 INFO  WebActions:729 - [getAttribute] executed on [//input[@id='_username']]
+2016-10-20 15:12:46 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:12:46 INFO  WebActions:1377 - [Type] executed on [txtLogin_UserName]
+2016-10-20 15:12:46 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 15:12:47 INFO  WebActions:614 - [ClearText] executed on [//input[@id='_password']]
+2016-10-20 15:12:47 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:47 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 15:12:47 INFO  WebActions:1756 - Found element [txtLogin_Password] after [1] iterations
+2016-10-20 15:12:47 INFO  WebActions:729 - [getAttribute] executed on [//input[@id='_password']]
+2016-10-20 15:12:49 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:12:49 INFO  WebActions:1377 - [Type] executed on [txtLogin_Password]
+2016-10-20 15:12:49 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:49 INFO  WebActions:1756 - Found element [lstLogin_Server] after [1] iterations
+2016-10-20 15:12:49 INFO  WebActions:1241 - Selected the value [ Accenture Personal Lines Policy - RN Environment] based in 'Value'[on [//select[@name='serverSelection']]
+2016-10-20 15:12:50 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:12:50 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:50 INFO  WebActions:1756 - Found element [btnLogin_Submit] after [1] iterations
+2016-10-20 15:12:58 INFO  WebActions:505 - [click] executed on [btnLogin_Submit]
+2016-10-20 15:12:58 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:12:58 INFO  LoginToMBG:47 - Logged into MBG Successfully
+2016-10-20 15:12:58 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:59 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:12:59 INFO   Open Source Framework Automation :65 - New Quote filling Functionality
+2016-10-20 15:12:59 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:12:59 INFO  WebActions:1756 - Found element [btnNewQuote_NewQuote] after [1] iterations
+2016-10-20 15:13:02 INFO  WebActions:505 - [click] executed on [btnNewQuote_NewQuote]
+2016-10-20 15:13:03 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:03 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:03 INFO  WebActions:1756 - Found element [lstNewQuote_Producer] after [1] iterations
+2016-10-20 15:13:05 INFO  WebActions:1241 - Selected the value [ M8980] based in 'Value'[on [//select[@fieldref='data.Producer']]
+2016-10-20 15:13:06 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:06 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:06 INFO  WebActions:1756 - Found element [txtNewQuote_EffDate] after [1] iterations
+2016-10-20 15:13:07 INFO  WebActions:1756 - Found element [txtNewQuote_EffDate] after [1] iterations
+2016-10-20 15:13:07 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='data.EffectiveDate']]
+2016-10-20 15:13:08 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:08 INFO  WebActions:1377 - [Type] executed on [txtNewQuote_EffDate]
+2016-10-20 15:13:08 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:08 INFO  WebActions:1756 - Found element [lstNewQuote_Line] after [1] iterations
+2016-10-20 15:13:09 INFO  WebActions:1241 - Selected the value [ Personal Auto] based in 'Value'[on [//select[@fieldref='data.Line']]
+2016-10-20 15:13:09 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:10 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:13:12 ERROR WebActions:2641 - Exception::
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds waiting for com.epam.fixtures.WebActions$2@323f3c96
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'HYD-SMOTHKURI1', ip: '192.168.252.66', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10353/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 000cdec5-c639-4c81-aabe-711345df5ca0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.epam.fixtures.WebActions.waitForDropdownToLoad(WebActions.java:2624)
+	at com.epam.businesslibs.NewQuotePage.FillNewQuoteDetails(NewQuotePage.java:43)
+	at com.epam.scenarios.NewBusniness.FillNewQuotePage(NewBusniness.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:266)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:189)
+2016-10-20 15:13:12 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:12 INFO  WebActions:1756 - Found element [lstNewQuote_State] after [1] iterations
+2016-10-20 15:13:13 INFO  WebActions:1241 - Selected the value [ PA] based in 'Value'[on [//select[@fieldref='data.State']]
+2016-10-20 15:13:13 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:13 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:13:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:14 INFO  WebActions:1756 - Found element [lstNewQuote_UseTransact] after [1] iterations
+2016-10-20 15:13:14 INFO  WebActions:1241 - Selected the value [ No] based in 'Value'[on [//select[@fieldref='data.UseTransact']]
+2016-10-20 15:13:15 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:15 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:15 INFO  WebActions:1756 - Found element [lstNewQuote_Procision] after [1] iterations
+2016-10-20 15:13:15 INFO  WebActions:1241 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='data.NewRatePlan_OnScreen']]
+2016-10-20 15:13:16 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:16 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:16 INFO  WebActions:1756 - Found element [lstNewQuote_QuoteType] after [1] iterations
+2016-10-20 15:13:16 INFO  WebActions:1241 - Selected the value [ Full Quote] based in 'Value'[on [//select[@fieldref='data.QuoteType']]
+2016-10-20 15:13:17 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:17 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:17 INFO  WebActions:1756 - Found element [btnNewQuote_StartQuote] after [1] iterations
+2016-10-20 15:13:25 INFO  WebActions:505 - [click] executed on [btnNewQuote_StartQuote]
+2016-10-20 15:13:25 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:26 INFO  NewQuotePage:65 - New Quote created Successfully
+2016-10-20 15:13:26 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:26 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:13:26 INFO   Open Source Framework Automation :81 - New Quote filling Functionality
+2016-10-20 15:13:27 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:27 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantFirstName] after [1] iterations
+2016-10-20 15:13:27 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantFirstName] after [1] iterations
+2016-10-20 15:13:27 INFO  WebActions:729 - [getAttribute] executed on [(//input[@fieldref='InsuredOrPrincipalInput.FirstName'])[1]
+			]
+2016-10-20 15:13:29 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:29 INFO  WebActions:1377 - [Type] executed on [txtApplicant_ApplicantFirstName]
+2016-10-20 15:13:29 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:13:30 INFO  ApplicantPage:26 - Object 'txtApplicant_ApplicantFirstName' Data updated Successfully.
+2016-10-20 15:13:30 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:30 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantLastName] after [1] iterations
+2016-10-20 15:13:30 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantLastName] after [1] iterations
+2016-10-20 15:13:30 INFO  WebActions:729 - [getAttribute] executed on [(//input[@fieldref='InsuredOrPrincipalInput.LastName'])[1]
+			]
+2016-10-20 15:13:31 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:31 INFO  WebActions:1377 - [Type] executed on [txtApplicant_ApplicantLastName]
+2016-10-20 15:13:32 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:13:32 INFO  ApplicantPage:33 - Object 'txtApplicant_ApplicantLastName' Data updated Successfully.
+2016-10-20 15:13:32 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:32 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber1] after [1] iterations
+2016-10-20 15:13:32 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber1] after [1] iterations
+2016-10-20 15:13:32 INFO  WebActions:729 - [getAttribute] executed on [(//input[@type='password'])[1]]
+2016-10-20 15:13:33 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:33 INFO  WebActions:1377 - [Type] executed on [txtApplicant_SocialSecurityNumber1]
+2016-10-20 15:13:33 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:33 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber2] after [1] iterations
+2016-10-20 15:13:34 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber2] after [1] iterations
+2016-10-20 15:13:34 INFO  WebActions:729 - [getAttribute] executed on [(//input[@type='password'])[2]]
+2016-10-20 15:13:35 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:35 INFO  WebActions:1377 - [Type] executed on [txtApplicant_SocialSecurityNumber2]
+2016-10-20 15:13:35 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:35 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber3] after [1] iterations
+2016-10-20 15:13:35 INFO  WebActions:1756 - Found element [txtApplicant_SocialSecurityNumber3] after [1] iterations
+2016-10-20 15:13:36 INFO  WebActions:729 - [getAttribute] executed on [//input[@size='4']]
+2016-10-20 15:13:37 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:37 INFO  WebActions:1377 - [Type] executed on [txtApplicant_SocialSecurityNumber3]
+2016-10-20 15:13:37 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:37 INFO  WebActions:1756 - Found element [lstApplicant_MaritalStatus] after [1] iterations
+2016-10-20 15:13:37 INFO  WebActions:1241 - Selected the value [ Single] based in 'Value'[on [//select[@fieldref='InsuredOrPrincipalInput.MaritalStatus']
+			]
+2016-10-20 15:13:38 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:38 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:38 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantDOB] after [1] iterations
+2016-10-20 15:13:38 INFO  WebActions:1756 - Found element [txtApplicant_ApplicantDOB] after [1] iterations
+2016-10-20 15:13:38 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='InsuredOrPrincipalInput.DateOfBirth']
+			]
+2016-10-20 15:13:40 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:40 INFO  WebActions:1377 - [Type] executed on [txtApplicant_ApplicantDOB]
+2016-10-20 15:13:40 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:40 INFO  WebActions:1756 - Found element [txtApplicant_InsuredStreetAddress] after [1] iterations
+2016-10-20 15:13:40 INFO  WebActions:1756 - Found element [txtApplicant_InsuredStreetAddress] after [1] iterations
+2016-10-20 15:13:40 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='LocationsInput.Address1']]
+2016-10-20 15:13:47 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:13:47 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredStreetAddress]
+2016-10-20 15:13:47 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:13:48 INFO  WebActions:1756 - Found element [txtApplicant_InsuredCity] after [1] iterations
+2016-10-20 15:13:54 INFO  WebActions:1756 - Found element [txtApplicant_InsuredCity] after [1] iterations
+2016-10-20 15:13:58 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='LocationsInput.City']]
+2016-10-20 15:14:02 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:02 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredCity]
+2016-10-20 15:14:02 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:02 INFO  WebActions:1756 - Found element [txtApplicant_InsuredZipCode] after [1] iterations
+2016-10-20 15:14:03 INFO  WebActions:1756 - Found element [txtApplicant_InsuredZipCode] after [1] iterations
+2016-10-20 15:14:03 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='LocationsInput.ZipCodeDisplay']]
+2016-10-20 15:14:04 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:04 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredZipCode]
+2016-10-20 15:14:04 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:14:06 INFO  ApplicantPage:77 - Object 'txtApplicant_InsuredZipCode' Data updated Successfully.
+2016-10-20 15:14:06 INFO  WebActions:1756 - Found element [lstApplicant_InsuredCountry] after [1] iterations
+2016-10-20 15:14:06 INFO  WebActions:729 - [getAttribute] executed on [//select[@fieldref='LocationsInput.County']]
+2016-10-20 15:14:06 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:14:06 INFO  ApplicantPage:83 - Object 'lstApplicant_InsuredCounty' Data updated Successfully.
+2016-10-20 15:14:06 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:06 INFO  WebActions:1756 - Found element [lstApplicant_InsuredYearsResidence] after [1] iterations
+2016-10-20 15:14:07 INFO  WebActions:1241 - Selected the value [ 3 Years or More] based in 'Value'[on [//select[@fieldref='PolicyInput.YearsAtCurrentResidence']
+			]
+2016-10-20 15:14:08 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:08 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:14:08 INFO  ApplicantPage:90 - Object 'lstApplicant_InsuredYearsResidence' Data updated Successfully.
+2016-10-20 15:14:08 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:08 INFO  WebActions:1756 - Found element [lstApplicant_InsuredCurrentAddressAsMailing] after [1] iterations
+2016-10-20 15:14:09 INFO  WebActions:1241 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='PolicyInput.CurrentSameAsMailing']]
+2016-10-20 15:14:09 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:09 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:09 INFO  WebActions:1756 - Found element [txtApplicant_InsuredEffectiveDate] after [1] iterations
+2016-10-20 15:14:10 INFO  WebActions:1756 - Found element [txtApplicant_InsuredEffectiveDate] after [1] iterations
+2016-10-20 15:14:10 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='PolicyInput.EffectiveDate']]
+2016-10-20 15:14:17 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:17 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredEffectiveDate]
+2016-10-20 15:14:18 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:14:22 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:24 INFO  WebActions:1756 - Found element [lstApplicant_InsuredTerm] after [1] iterations
+2016-10-20 15:14:32 INFO  WebActions:1241 - Selected the value [ 12 Months] based in 'Value'[on [//select[@fieldref='PolicyInput.Term']]
+2016-10-20 15:14:33 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:33 INFO  ApplicantPage:110 - Object 'lstApplicant_InsuredTerm' Data updated Successfully.
+2016-10-20 15:14:33 INFO  WebActions:1756 - Found element [lstApplicant_InsuredTerm] after [1] iterations
+2016-10-20 15:14:33 INFO  WebActions:729 - [getAttribute] executed on [//select[@fieldref='PolicyInput.Term']]
+2016-10-20 15:14:33 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:14:34 INFO  ApplicantPage:113 - Object 'lstApplicant_InsuredTerm' Data updated Successfully.
+2016-10-20 15:14:34 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:34 INFO  WebActions:1756 - Found element [txtApplicant_InsuredPhone] after [1] iterations
+2016-10-20 15:14:34 INFO  WebActions:1756 - Found element [txtApplicant_InsuredPhone] after [1] iterations
+2016-10-20 15:14:35 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='InsuredOrPrincipalInput.PhoneNumberDisplay']
+			]
+2016-10-20 15:14:36 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:36 INFO  WebActions:1377 - [Type] executed on [txtApplicant_InsuredPhone]
+2016-10-20 15:14:36 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:14:36 INFO  ApplicantPage:120 - Object 'txtApplicant_InsuredPhone' Data updated Successfully.
+2016-10-20 15:14:36 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:37 INFO  WebActions:1756 - Found element [lstApplicant_InsuredTypeOfBusiness] after [1] iterations
+2016-10-20 15:14:39 INFO  WebActions:1241 - Selected the value [ New business with Mutual Benefit] based in 'Value'[on [//select[@fieldref='PolicyInput.TypeOfBusiness']]
+2016-10-20 15:14:41 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:42 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:14:42 INFO  ApplicantPage:127 - Object 'lstApplicant_InsuredTypeOfBusiness' Data updated Successfully.
+2016-10-20 15:14:42 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:42 INFO  WebActions:1756 - Found element [btnApplicant_Next] after [1] iterations
+2016-10-20 15:14:50 INFO  WebActions:505 - [click] executed on [btnApplicant_Next]
+2016-10-20 15:14:50 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:14:51 INFO  ApplicantPage:146 - Applicant Data filled Successfully
+2016-10-20 15:14:51 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:51 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:14:51 INFO   Open Source Framework Automation :98 - Adding Drivers Functionality
+2016-10-20 15:14:51 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:14:52 INFO  WebActions:1756 - Found element [lnkDetail] after [1] iterations
+2016-10-20 15:15:00 INFO  WebActions:505 - [click] executed on [lnkDetail]
+2016-10-20 15:15:01 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:01 INFO  WebActions:1756 - Found element [lstGender] after [1] iterations
+2016-10-20 15:15:01 INFO  WebActions:1241 - Selected the value [ Male] based in 'Value'[on [//select[@fieldref='DriverInput.Gender']]
+2016-10-20 15:15:02 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:02 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:02 INFO  WebActions:1756 - Found element [lstRelationToApplicant] after [1] iterations
+2016-10-20 15:15:02 INFO  WebActions:1241 - Selected the value [ Insured] based in 'Value'[on [//select[@fieldref='DriverInput.RelationToApplicant']]
+2016-10-20 15:15:03 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:03 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:03 INFO  WebActions:1756 - Found element [lstOccupation] after [1] iterations
+2016-10-20 15:15:04 INFO  WebActions:1241 - Selected the value [ ANALYST] based in 'Value'[on [//select[@fieldref='DriverInput.Occupation_OnScreen']]
+2016-10-20 15:15:05 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:05 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:05 INFO  WebActions:1756 - Found element [txtDriversLicenseNumber] after [1] iterations
+2016-10-20 15:15:05 INFO  WebActions:1756 - Found element [txtDriversLicenseNumber] after [1] iterations
+2016-10-20 15:15:05 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref ='DriverInput.DriversLicenseNumber']]
+2016-10-20 15:15:10 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:10 INFO  WebActions:1377 - [Type] executed on [txtDriversLicenseNumber]
+2016-10-20 15:15:10 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:11 INFO  WebActions:1756 - Found element [btnOK] after [1] iterations
+2016-10-20 15:15:19 INFO  WebActions:505 - [click] executed on [btnOK]
+2016-10-20 15:15:19 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:19 INFO  DriversPage:41 - Driver Details Added Successfully
+2016-10-20 15:15:19 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:20 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:15:20 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:20 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:15:27 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:15:28 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:31 INFO  DriversPage:55 - Drivers  Added Successfully
+2016-10-20 15:15:31 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:32 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:15:32 INFO   Open Source Framework Automation :117 - Operations on Violations Page
+2016-10-20 15:15:32 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:33 INFO  WebActions:1756 - Found element [btnContinue] after [1] iterations
+2016-10-20 15:15:44 INFO  WebActions:505 - [click] executed on [btnContinue]
+2016-10-20 15:15:45 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:45 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:45 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:15:53 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:15:53 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:15:53 INFO   Open Source Framework Automation :136 - Adding or Updating Vehicals Functionality
+2016-10-20 15:15:54 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:15:54 INFO  WebActions:1756 - Found element [lnkDetail] after [1] iterations
+2016-10-20 15:16:02 INFO  WebActions:505 - [click] executed on [lnkDetail]
+2016-10-20 15:16:03 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:16:03 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:16:04 INFO  WebActions:1756 - Found element [lstType] after [1] iterations
+2016-10-20 15:16:11 INFO  WebActions:1241 - Selected the value [ Automobile] based in 'Value'[on [//select[@fieldref='VehicleInput.Type']]
+2016-10-20 15:16:12 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:16:15 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:16:20 INFO  VehiclesPage:24 - Object 'lstType' Data updated Successfully.
+2016-10-20 15:16:20 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:16:23 INFO  WebActions:1756 - Found element [txtVIN] after [1] iterations
+2016-10-20 15:16:31 INFO  WebActions:1756 - Found element [txtVIN] after [1] iterations
+2016-10-20 15:16:36 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='VehicleInput.VIN']]
+2016-10-20 15:16:50 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:16:50 INFO  WebActions:1377 - [Type] executed on [txtVIN]
+2016-10-20 15:16:54 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:17:01 INFO  VehiclesPage:29 - Object 'txtVIN' Data updated Successfully.
+2016-10-20 15:17:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:17:04 INFO  WebActions:1756 - Found element [lstTitle] after [1] iterations
+2016-10-20 15:17:18 INFO  WebActions:1241 - Selected the value [ Standard] based in 'Value'[on [//select[@fieldref='VehicleInput.TitleQuestion']]
+2016-10-20 15:17:34 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:17:37 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:17:43 INFO  VehiclesPage:34 - Object 'lstTitle' Data updated Successfully.
+2016-10-20 15:17:43 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:17:47 INFO  WebActions:1756 - Found element [lstVehicleRegisteredinPA] after [1] iterations
+2016-10-20 15:18:01 INFO  WebActions:1241 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='VehicleInput.VehicleRegistrationQuestion']
+			]
+2016-10-20 15:18:13 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:18:14 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:18:14 INFO  VehiclesPage:39 - Object 'lstVehicleRegisteredinPA' Data updated Successfully.
+2016-10-20 15:18:14 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:18:14 INFO  WebActions:1756 - Found element [lstUsage] after [1] iterations
+2016-10-20 15:18:15 INFO  WebActions:1241 - Selected the value [ Business] based in 'Value'[on [//select[@fieldref='VehicleInput.Usage']]
+2016-10-20 15:18:15 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:18:16 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:18:16 INFO  VehiclesPage:45 - Object 'lstUsage' Data updated Successfully.
+2016-10-20 15:18:16 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:18:16 INFO  WebActions:1756 - Found element [txtDetailsofBusinessUsage] after [1] iterations
+2016-10-20 15:18:16 INFO  WebActions:1756 - Found element [txtDetailsofBusinessUsage] after [1] iterations
+2016-10-20 15:18:17 INFO  WebActions:729 - [getAttribute] executed on [//input[@fieldref='VehicleInput.DetailsOfBusinessUse']]
+2016-10-20 15:18:18 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:18:18 INFO  WebActions:1377 - [Type] executed on [txtDetailsofBusinessUsage]
+2016-10-20 15:18:20 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:18:26 INFO  VehiclesPage:50 - Object 'lstUsage' Data updated Successfully.
+2016-10-20 15:18:26 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:18:29 INFO  WebActions:1756 - Found element [btnOK] after [1] iterations
+2016-10-20 15:18:44 INFO  WebActions:505 - [click] executed on [btnOK]
+2016-10-20 15:18:45 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:18:45 INFO  VehiclesPage:57 - Vehicle Details Added Successfully
+2016-10-20 15:18:45 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:18:46 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:18:46 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:18:46 INFO  WebActions:1756 - Found element [lstOtherMBGPolicy] after [1] iterations
+2016-10-20 15:18:48 INFO  WebActions:1241 - Selected the value [ No] based in 'Value'[on [//select[@fieldref='PolicyInput.OtherMBGAutoPolicy']]
+2016-10-20 15:18:49 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:18:49 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:18:49 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:18:57 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:18:57 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:18:58 INFO  WebActions:1756 - Found element [divCoverageDetails_PageTitle] after [1] iterations
+2016-10-20 15:18:58 INFO  VehiclesPage:73 - Vehicals  Added Successfully
+2016-10-20 15:18:58 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:18:59 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:18:59 INFO   Open Source Framework Automation :155 - Adding Coverages
+2016-10-20 15:19:04 ERROR CoveragesPage:17 - Object 'ApplicantPageTitle' not found.
+2016-10-20 15:19:04 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:04 INFO  WebActions:1756 - Found element [lstBI] after [1] iterations
+2016-10-20 15:19:06 INFO  WebActions:1241 - Selected the value [ 250/500] based in 'Value'[on [//select[@fieldref='Coverages.BILimits']]
+2016-10-20 15:19:07 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:08 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:08 INFO  CoveragesPage:19 - Object 'lstBI' Data updated Successfully.
+2016-10-20 15:19:08 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:08 INFO  WebActions:1756 - Found element [lstPD] after [1] iterations
+2016-10-20 15:19:08 INFO  WebActions:1241 - Selected the value [ 100000] based in 'Value'[on [//select[@fieldref='Coverages.PDLimits']]
+2016-10-20 15:19:09 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:09 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:09 INFO  CoveragesPage:24 - Object 'lstPD' Data updated Successfully.
+2016-10-20 15:19:09 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:09 INFO  WebActions:1756 - Found element [lstTortOption] after [1] iterations
+2016-10-20 15:19:09 INFO  WebActions:1241 - Selected the value [ Full] based in 'Value'[on [//select[@fieldref='Tort.TortOption']]
+2016-10-20 15:19:10 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:10 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:10 INFO  CoveragesPage:30 - Object 'lstTortOption' Data updated Successfully.
+2016-10-20 15:19:10 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:11 INFO  WebActions:1756 - Found element [lstMedPay] after [1] iterations
+2016-10-20 15:19:11 INFO  WebActions:1241 - Selected the value [ 5,000] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyMedicalPayments']
+			]
+2016-10-20 15:19:11 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:12 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:12 INFO  CoveragesPage:36 - Object 'lstMedPay' Data updated Successfully.
+2016-10-20 15:19:12 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:12 INFO  WebActions:1756 - Found element [lstWKLoss] after [1] iterations
+2016-10-20 15:19:12 INFO  WebActions:1241 - Selected the value [ 1,000/5,000] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyWKLoss']]
+2016-10-20 15:19:13 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:13 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:13 INFO  CoveragesPage:41 - Object 'lstWKLoss' Data updated Successfully.
+2016-10-20 15:19:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:13 INFO  WebActions:1756 - Found element [lstFuneral] after [1] iterations
+2016-10-20 15:19:14 INFO  WebActions:1241 - Selected the value [ 1,500] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyFuneral']]
+2016-10-20 15:19:14 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:15 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:15 INFO  CoveragesPage:46 - Object 'lstFuneral' Data updated Successfully.
+2016-10-20 15:19:15 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:15 INFO  WebActions:1756 - Found element [lstAccDeath] after [1] iterations
+2016-10-20 15:19:15 INFO  WebActions:1241 - Selected the value [ 10,000] based in 'Value'[on [//select[@fieldref='FSBLimits.FirstPartyAccidentalDeath']
+			]
+2016-10-20 15:19:16 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:16 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:16 INFO  CoveragesPage:51 - Object 'lstAccDeath' Data updated Successfully.
+2016-10-20 15:19:16 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:16 INFO  WebActions:1756 - Found element [lstExtraordinaryMedical] after [1] iterations
+2016-10-20 15:19:17 INFO  WebActions:1241 - Selected the value [ 300,000] based in 'Value'[on [//select[@fieldref='Coverages.ExtraordinaryMed']]
+2016-10-20 15:19:17 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:18 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:18 INFO  CoveragesPage:56 - Object 'lstExtraordinaryMedical' Data updated Successfully.
+2016-10-20 15:19:18 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:18 INFO  WebActions:1756 - Found element [lstUnderInsuredStackOption] after [1] iterations
+2016-10-20 15:19:18 INFO  WebActions:1241 - Selected the value [ Stacked] based in 'Value'[on [//select[@fieldref='Coverages.UIMStacked']]
+2016-10-20 15:19:19 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:19 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:19 INFO  CoveragesPage:61 - Object 'lstUnderInsuredStackOption' Data updated Successfully.
+2016-10-20 15:19:19 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:19 INFO  WebActions:1756 - Found element [lstUnderInsuredBI] after [1] iterations
+2016-10-20 15:19:20 INFO  WebActions:1241 - Selected the value [ 25/50] based in 'Value'[on [//select[@fieldref='Coverages.UIMLimit']]
+2016-10-20 15:19:20 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:21 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:21 INFO  CoveragesPage:66 - Object 'lstUnderInsuredBI' Data updated Successfully.
+2016-10-20 15:19:21 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:21 INFO  WebActions:1756 - Found element [lstUnInsuredStackOption] after [1] iterations
+2016-10-20 15:19:21 INFO  WebActions:1241 - Selected the value [ Non-Stacked] based in 'Value'[on [//select[@fieldref='Coverages.UMStacked']]
+2016-10-20 15:19:22 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:22 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:22 INFO  CoveragesPage:71 - Object 'lstUnInsuredStackOption' Data updated Successfully.
+2016-10-20 15:19:22 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:22 INFO  WebActions:1756 - Found element [lstUnInsuredBI] after [1] iterations
+2016-10-20 15:19:22 INFO  WebActions:1241 - Selected the value [ 100/300] based in 'Value'[on [//select[@fieldref='Coverages.UMLimit']]
+2016-10-20 15:19:23 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:23 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:23 INFO  CoveragesPage:76 - Object 'lstUnInsuredBI' Data updated Successfully.
+2016-10-20 15:19:23 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:24 INFO  WebActions:1756 - Found element [lstPriorBILimit] after [1] iterations
+2016-10-20 15:19:24 INFO  WebActions:1241 - Selected the value [ None] based in 'Value'[on [//select[@fieldref='PolicyInput.PriorBILimit' and
+				@fielditems='Prior BI Limit_string_req_']
+			]
+2016-10-20 15:19:25 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:25 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:19:25 INFO  CoveragesPage:81 - Object 'lstPriorBILimit' Data updated Successfully.
+2016-10-20 15:19:25 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:25 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:19:33 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:19:33 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:33 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:34 INFO  WebActions:1756 - Found element [btnCompleteApplication] after [1] iterations
+2016-10-20 15:19:41 INFO  WebActions:505 - [click] executed on [btnCompleteApplication]
+2016-10-20 15:19:42 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:42 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:19:43 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:19:55 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:19:56 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:19:56 INFO   Open Source Framework Automation :200 - Selecting Questions in underwriting page
+2016-10-20 15:20:44 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:20:44 INFO  WebActions:1756 - Found element [btnQuestionsComplete] after [1] iterations
+2016-10-20 15:20:52 INFO  WebActions:505 - [click] executed on [btnQuestionsComplete]
+2016-10-20 15:20:52 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:20:52 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:20:52 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:21:00 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:21:01 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:21:01 INFO   Open Source Framework Automation :219 - Filling prior coverage information
+2016-10-20 15:21:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:21:01 INFO  WebActions:1756 - Found element [lstCarrier] after [1] iterations
+2016-10-20 15:21:03 INFO  WebActions:1241 - Selected the value [ LIBERTY MUTUAL] based in 'Value'[on [//select[@fieldref='OtherPolicy.PriorCarrierSelect']]
+2016-10-20 15:21:04 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:21:04 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:21:05 INFO  GeneralInformationPage:20 - Object 'lstCarrier' Data updated Successfully.
+2016-10-20 15:21:05 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:21:05 INFO  WebActions:1756 - Found element [lstYearsWithCompany] after [1] iterations
+2016-10-20 15:21:06 INFO  WebActions:1241 - Selected the value [ 1 to 3 years] based in 'Value'[on [//select[@fieldref='OtherPolicy.NumYearsWithPriorCarrierSelect']
+			]
+2016-10-20 15:21:07 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:21:07 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:21:07 INFO  GeneralInformationPage:26 - Object 'lstYearsWithCompany' Data updated Successfully.
+2016-10-20 15:21:07 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:21:07 INFO  WebActions:1756 - Found element [lstExpirationDate] after [1] iterations
+2016-10-20 15:21:08 INFO  WebActions:1241 - Selected the value [ Less than 30 days ago] based in 'Value'[on [//select[@fieldref='OtherPolicy.ExpirationDateSelect']]
+2016-10-20 15:21:08 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:21:09 INFO  WebActions:2693 - element is still loading.....!
+2016-10-20 15:21:09 INFO  GeneralInformationPage:33 - Object 'lstExpirationDate' Data updated Successfully.
+2016-10-20 15:21:09 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:21:10 INFO  WebActions:1756 - Found element [btnNext] after [1] iterations
+2016-10-20 15:21:17 INFO  WebActions:505 - [click] executed on [btnNext]
+2016-10-20 15:21:18 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:21:18 INFO   Open Source Framework Automation :237 - Validating Vins and Refer to UnderWriter
+2016-10-20 15:21:20 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:21:22 INFO  WebActions:1756 - Found element [btnValidateVins] after [1] iterations
+2016-10-20 15:21:32 INFO  WebActions:505 - [click] executed on [btnValidateVins]
+2016-10-20 15:21:33 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:21:33 INFO  NewQuotePage:26 - Rating Message Triggered Successfully
+2016-10-20 15:21:33 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:21:34 INFO  WebActions:423 - Screenshot collected
+2016-10-20 15:21:34 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2016-10-20 15:21:34 INFO  WebActions:1756 - Found element [btnRefertoUnderWriting] after [1] iterations
+2016-10-20 15:21:43 INFO  WebActions:505 - [click] executed on [btnRefertoUnderWriting]
+2016-10-20 15:21:43 INFO  WebActions:297 - Screenshot collected
+2016-10-20 15:21:44 INFO  SetupSelenium:323 - Successfully closed the browser and Web Driver instance
+2016-10-20 15:21:45 INFO   Open Source Framework Automation :282 - Test scenarios added to the XML report
+2016-10-20 15:21:48 INFO  FrameworkExceptions:52 - ****************************************************************************************
+2016-10-20 15:21:48 INFO  FrameworkExceptions:53 - ||||||||||||||||||          End of Execution!!!!!!!!               ||||||||||||||||||||||||
+2016-10-20 15:21:48 INFO  FrameworkExceptions:54 - ****************************************************************************************

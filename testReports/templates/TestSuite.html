@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<script language='javascript' src='../js/common.js'></script>
+	<script language="javascript" type="text/javascript" src='../js/jquery.js'></script>
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+	
+		<link class="include" rel="stylesheet" type="text/css" href="../js/jquery.jqplot.min.css" />	
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.jqplot.min.js"></script>
+        <script class="include" language="javascript" type="text/javascript" src="../js/plugins/jqplot.barRenderer.min.js"></script>
+		<script class="include" language="javascript" type="text/javascript" src="../js/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+		<script class="include" language="javascript" type="text/javascript" src="../js/plugins/jqplot.pointLabels.min.js"></script>
+		<script class="include" type="text/javascript" src="../js/plugins/jqplot.canvasTextRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="../js/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="../js/plugins/jqplot.dateAxisRenderer.min.js"></script>	
+	 
+
+		<script type="text/javascript" src="../js/plugins/jqplot.pieRenderer.min.js"></script>
+		    	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+		
+<style type="text/css"> 
+
+	.box1
+	{
+		width:100%;
+		float:left;
+		min-height:80px;
+
+		overflow:auto;
+		overflow-x:auto;
+		margin-top:2%;
+	}
+
+	
+	.box2
+	{
+		width:100%;
+		float:right;
+
+		margin-top:0%;
+	}
+	.box3
+	{
+		width:100%;
+		float:left;
+
+		margin-top:0%;
+	}	
+	.jqplot-data-label
+{
+   color: white;
+
+
+}
+
+	.clear
+	{ clear:both; }
+	
+	.leftArea
+	{ width:68%; float:left }
+	.rightArea
+	{ width:32%; float:left; }	
+	</style>
+</head>
+	<body style="background-color:White">
+		<span align="left"><img border="0px" width="200px" height="54px" src="..\images\Epam.png"></span>
+		<h1  class="header" style="color: #FF4500; text-align: center; vertical-align: bottom; border: 0px">
+		<span id='testsuitename'></span> - Test Scenario Level Report</h1>
+		<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+		
+	<TABLE id='tblEnvInfo' align="center" width="98%" border="0" cellspacing="1" cellpadding="1">         
+		 <tr>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Host : <span class='data' style="color: #000000" id='host_info'></span>
+			</td>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details">
+				Operating System : <span class='data' style="color: #000000" id='os_info'></span>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Start Time : <span id='start_time' style="color: #000000" class='data'></span>
+			</td>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				End Time : <span id='end_time' style="color: #000000" class='data'></span>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Browser : <span id='browser_name' style="color: #000000" class='data'></span>
+			</td>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Execution URL : <span id='executionUrl' style="color: #000000" class='data'></span>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Category : <span id='category' style="color: #000000" class='data'></span>
+			</td>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Execution Engine : <span id='executionEngine' style="color: #000000" class='data'></span>
+			</td>
+		</tr>	
+    </TABLE>
+
+	<TABLE align="center" width="98%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td style="background-color: #FFFFFF; text-align:right;">
+			<!-- <a id="replay" href="javascript:replayScreenshots();">Replay Screenshots</a>&nbsp;&nbsp; -->
+			<a href='#' onclick="history.back(); return false;" class='view'>Back</a></td>
+		</tr>
+	</TABLE>
+
+	<!-- <div align='right' width='98%'><a href='#' onclick="history.back(); return false;" class='view'>Back</a></div> -->
+<div class='leftArea'>	
+<div class='box1'>	
+	<TABLE id='tblSample' cellspacing='1' cellpadding='1' align='left' border="0">
+		<TR style="background-color: #26466D; text-align:center; ">
+			<Th class="th2" style="color:#FFFFFF;">S.No.</Th>			
+			<Th class="th2" style="color:#FFFFFF;">TestScenario Id</Th>
+			<Th class="th2" style="color:#FFFFFF;">TestCase Id /  Req.Id</Th>
+			<Th class="th2" style="color:#FFFFFF;">Description</Th>
+			<Th class="th2" style="color:#FFFFFF;">Result</Th>
+			<Th class="th2" style="color:#FFFFFF;">Exec. Duration</Th>
+			<Th class="th2" style="color:#FFFFFF;">Report</Th>
+			<Th class="th2" style="color:#FFFFFF;">Replay Scrnshots</Th>
+			<Th class="th2" style="color:#FFFFFF;">Spell Errors</Th>
+			<Th class="th2" style="color:#FFFFFF;">Link Errors</Th>
+		</TR>
+		<tr style="background-color: white" height="2px"></tr>
+	</TABLE>
+</div>	
+</div><!--leftArea closed-->
+
+
+<div class='rightArea'>	
+	<div class='box2'>
+		<TR style="background-color:#FFFFFF; text-align:right; ">
+			<Th  colspan="4"><font color="#FF4500" style="margin-left: 50px;"><b></b></font></Th>
+		</TR>
+		<table id ="pie_chart1" cellspacing='1' cellpadding='0' width='99%' align='right' border="0" >
+			<tr><td style="width:200px; height: 300px;"></td>
+			</tr>
+
+	</table>	
+<!--	<div class='box3'>
+		<TR style="background-color:#FFFFFF; text-align:right; ">
+			<Th  colspan="4"><font color="#FF4500" style="margin-left: 50px;"><b></b></font></Th>
+		</TR>	
+		<table id ="pie_chart2" cellspacing='1' cellpadding='0' width='99%' align='left' border="0" >
+			<tr><td  style="width:200px; height:300px;"></td>
+			</tr>
+
+	</table>	
+</div>
+-->
+</div>
+	<div class='box2'>
+		<TR style="background-color:#FFFFFF; text-align:right; ">
+			<Th  colspan="4"><font color="#FF4500" style="margin-left: 50px;"><b></b></font></Th>
+		</TR>
+		<table id ="Errorspie_spl" cellspacing='1' cellpadding='0' width='99%' align='right' border="0" >
+			<tr><td style="width:200px; height: 300px;"></td>
+			</tr>
+
+	</table>	
+	<div class='box3'>
+		<TR style="background-color:#FFFFFF; text-align:right; ">
+			<Th  colspan="4"><font color="#FF4500" style="margin-left: 50px;"><b></b></font></Th>
+		</TR>	
+		<table id ="Errorspie_gra" cellspacing='1' cellpadding='0' width='99%' align='left' border="0" >
+			<tr><td  style="width:200px; height:300px;"></td>
+			</tr>
+
+	</table>	
+</div>
+</div>			
+		</div><!-- chartbox div end here -->	
+	</body>
+
+
+	<script language='javascript'>
+		var xmlDoc = null;
+		xmlDoc = CreateXMLObject();
+		var parseQueryString = new ParseQueryString();
+		var appName = parseQueryString.getParamValue('apps');
+		var browser = parseQueryString.getParamValue('browser');
+		var baseurl = parseQueryString.getParamValue('baseurl');
+	//	document.getElementById("testsuitename").innerHTML = appName.toUpperCase();
+		var the_xmlFileName = parseQueryString.getParamValue('xml');
+		var resultType = parseQueryString.getParamValue('resultType');
+
+		parseAppsLevelXML(the_xmlFileName, xmlDoc, appName, browser, baseurl, resultType);
+
+		//Apply Alternate row color 
+		var table = document.getElementById("tblSample");
+		var rows = table.getElementsByTagName("tr");
+		//alert('rows='+rows.length);
+		
+		for(var i=0; i<rows.length; i++ ){
+			if(i % 2 == 0){
+				if(rows[i].className.toLowerCase() == "pass")
+					rows[i].className = "evenPass";			
+				else
+					rows[i].className = "evenFail";			
+			}else{
+				if(rows[i].className.toLowerCase() == "pass")
+					rows[i].className = "oddPass";			
+				else
+					rows[i].className = "oddFail";	
+			}
+		}
+		
+
+				//For Replay screen shot link
+			function replayScreenshots(url){
+			
+				window.open(url, "_blank", "width=820px,height=650px"); 
+
+				//width=820px,height=650px,titlebar=no,toolbar=no,menubar=no,locationbar=no,status=no,resizable=no"
+			}
+		load(the_xmlFileName);
+		
+     parseMultimediaerrorXMLTOPie(the_xmlFileName);
+	 parseMultimediaerrorXMLTOPie_spell(the_xmlFileName);
+		
+
+	</script>
+</html>

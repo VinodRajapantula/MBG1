@@ -1,0 +1,280 @@
+2017-10-30 17:17:51 INFO  Config:62 - Reading the Configuartion file
+2017-10-30 17:17:51 INFO  ReadXML:51 - Started reading of the xml file: ./Configuration/Config.xml
+2017-10-30 17:17:52 INFO  ReadXML:56 - Completed reading of the xml file: ./Configuration/Config.xml
+2017-10-30 17:17:52 INFO  Config:75 - Completed the reading of the Configuration file
+2017-10-30 17:17:52 INFO  FrameworkExceptions:55 - ****************************************************************************************
+2017-10-30 17:17:52 INFO  FrameworkExceptions:56 - ||||||||||||||||||          Initializing the Automation Framework               ||||||||||||||||||||||||
+2017-10-30 17:17:52 INFO  FrameworkExceptions:57 - ****************************************************************************************
+2017-10-30 17:17:52 INFO  CoreDriverScript:247 - Execution Result of null : PASS
+2017-10-30 17:17:52 INFO  SetupSelenium:132 - User had specified [WebDriverCommandSwitch] command switch for Chrome Browser
+2017-10-30 17:17:55 INFO  SetupSelenium:146 - Successfully started WebDriver Google Chrome Driver with command switches
+2017-10-30 17:17:57 INFO   Open Source Framework Automation :51 - Login functionality
+2017-10-30 17:18:01 INFO  Config:63 - Reading the ObjectRepository file
+2017-10-30 17:18:01 INFO  ReadXML:51 - Started reading of the xml file: ./Configuration/OR_MBG.xml
+2017-10-30 17:18:01 INFO  ReadXML:56 - Completed reading of the xml file: ./Configuration/OR_MBG.xml
+2017-10-30 17:18:01 INFO  WebActions:1831 - Found element [txtLogin_UserName] after [1] iterations
+2017-10-30 17:18:01 INFO  WebActions:621 - [ClearText] executed on [//input[@id='username']]
+2017-10-30 17:18:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:01 INFO  WebActions:1831 - Found element [txtLogin_UserName] after [1] iterations
+2017-10-30 17:18:01 INFO  WebActions:1831 - Found element [txtLogin_UserName] after [1] iterations
+2017-10-30 17:18:01 INFO  WebActions:739 - [getAttribute] executed on [//input[@id='username']]
+2017-10-30 17:18:01 INFO  WebActions:1449 - [Type] executed on [txtLogin_UserName]
+2017-10-30 17:18:01 INFO  WebActions:1831 - Found element [txtLogin_Password] after [1] iterations
+2017-10-30 17:18:01 INFO  WebActions:621 - [ClearText] executed on [//input[@id='password']]
+2017-10-30 17:18:01 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:01 INFO  WebActions:1831 - Found element [txtLogin_Password] after [1] iterations
+2017-10-30 17:18:01 INFO  WebActions:1831 - Found element [txtLogin_Password] after [1] iterations
+2017-10-30 17:18:01 INFO  WebActions:739 - [getAttribute] executed on [//input[@id='password']]
+2017-10-30 17:18:02 INFO  WebActions:1449 - [Type] executed on [txtLogin_Password]
+2017-10-30 17:18:02 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:02 INFO  WebActions:1831 - Found element [btnLogin_Submit] after [1] iterations
+2017-10-30 17:18:05 INFO  WebActions:509 - [click] executed on [btnLogin_Submit]
+2017-10-30 17:18:05 INFO  LoginToMBG:61 - Logged into MBG Successfully
+2017-10-30 17:18:05 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:05 INFO   Open Source Framework Automation :71 - Select Agency functionality
+2017-10-30 17:18:05 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:05 INFO  WebActions:1831 - Found element [lstSelectAgency] after [1] iterations
+2017-10-30 17:18:05 INFO  WebActions:1227 - Selected the value [ 168] based in 'Value'[on [_ddlAgencies]
+2017-10-30 17:18:05 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:05 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:05 INFO  WebActions:1831 - Found element [btnContinue] after [1] iterations
+2017-10-30 17:18:06 INFO  WebActions:509 - [click] executed on [btnContinue]
+2017-10-30 17:18:06 INFO  SelectAgencyPage:50 - Logged into MBG Successfully
+2017-10-30 17:18:06 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:06 INFO   Open Source Framework Automation :88 - New Quote filling Functionality
+2017-10-30 17:18:06 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:06 INFO  WebActions:1831 - Found element [btnNewQuote_NewQuote] after [1] iterations
+2017-10-30 17:18:09 INFO  WebActions:509 - [click] executed on [btnNewQuote_NewQuote]
+2017-10-30 17:18:09 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:09 INFO  WebActions:1831 - Found element [txtNewQuote_EffDate] after [1] iterations
+2017-10-30 17:18:10 INFO  WebActions:1831 - Found element [txtNewQuote_EffDate] after [1] iterations
+2017-10-30 17:18:10 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='data.EffectiveDate']]
+2017-10-30 17:18:10 INFO  WebActions:1449 - [Type] executed on [txtNewQuote_EffDate]
+2017-10-30 17:18:10 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:10 INFO  WebActions:1831 - Found element [lstNewQuote_Line] after [1] iterations
+2017-10-30 17:18:10 INFO  WebActions:1299 - Selected the value [ Personal Auto] based in 'Value'[on [//select[@fieldref='data.Line']]
+2017-10-30 17:18:10 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:13 INFO  WebActions:1831 - Found element [lstNewQuote_State] after [1] iterations
+2017-10-30 17:18:13 INFO  WebActions:1299 - Selected the value [ MD] based in 'Value'[on [//select[@fieldref='data.State']]
+2017-10-30 17:18:13 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:13 INFO  WebActions:1831 - Found element [lstNewQuote_UseTransact] after [1] iterations
+2017-10-30 17:18:13 INFO  WebActions:1299 - Selected the value [ No] based in 'Value'[on [//select[@fieldref='data.UseTransact']]
+2017-10-30 17:18:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:13 INFO  WebActions:1831 - Found element [lstNewQuote_QuoteType] after [1] iterations
+2017-10-30 17:18:13 INFO  WebActions:1299 - Selected the value [ Full Quote] based in 'Value'[on [//select[@fieldref='data.QuoteType']]
+2017-10-30 17:18:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:13 INFO  WebActions:1831 - Found element [btnNewQuote_StartQuote] after [1] iterations
+2017-10-30 17:18:17 INFO  WebActions:509 - [click] executed on [btnNewQuote_StartQuote]
+2017-10-30 17:18:17 INFO  NewQuotePage:88 - New Quote created Successfully
+2017-10-30 17:18:17 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:17 INFO   Open Source Framework Automation :140 - Applicant page filling Functionality
+2017-10-30 17:18:17 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:17 INFO  WebActions:1831 - Found element [txtApplicant_ApplicantFirstName] after [1] iterations
+2017-10-30 17:18:17 INFO  WebActions:1831 - Found element [txtApplicant_ApplicantFirstName] after [1] iterations
+2017-10-30 17:18:17 INFO  WebActions:739 - [getAttribute] executed on [(//input[@fieldref='InsuredOrPrincipalInput.FirstName'])[1]
+			]
+2017-10-30 17:18:18 INFO  WebActions:1449 - [Type] executed on [txtApplicant_ApplicantFirstName]
+2017-10-30 17:18:23 ERROR WebActions:1564 - Element [//div[contains(@class,'x-panel-noborder')]]not found
+2017-10-30 17:18:23 INFO  ApplicantPage:47 - Object 'txtApplicant_ApplicantFirstName' Data updated Successfully.
+2017-10-30 17:18:23 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:23 INFO  WebActions:1831 - Found element [txtApplicant_ApplicantLastName] after [1] iterations
+2017-10-30 17:18:23 INFO  WebActions:1831 - Found element [txtApplicant_ApplicantLastName] after [1] iterations
+2017-10-30 17:18:23 INFO  WebActions:739 - [getAttribute] executed on [(//input[@fieldref='InsuredOrPrincipalInput.LastName'])[1]
+			]
+2017-10-30 17:18:23 INFO  WebActions:1449 - [Type] executed on [txtApplicant_ApplicantLastName]
+2017-10-30 17:18:23 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:23 INFO  ApplicantPage:54 - Object 'txtApplicant_ApplicantLastName' Data updated Successfully.
+2017-10-30 17:18:23 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:23 INFO  WebActions:1831 - Found element [txtApplicant_SocialSecurityNumber1] after [1] iterations
+2017-10-30 17:18:23 INFO  WebActions:1831 - Found element [txtApplicant_SocialSecurityNumber1] after [1] iterations
+2017-10-30 17:18:23 INFO  WebActions:739 - [getAttribute] executed on [(//input[@type='password'])[1]]
+2017-10-30 17:18:23 INFO  WebActions:1449 - [Type] executed on [txtApplicant_SocialSecurityNumber1]
+2017-10-30 17:18:23 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [txtApplicant_SocialSecurityNumber2] after [1] iterations
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [txtApplicant_SocialSecurityNumber2] after [1] iterations
+2017-10-30 17:18:24 INFO  WebActions:739 - [getAttribute] executed on [(//input[@type='password'])[2]]
+2017-10-30 17:18:24 INFO  WebActions:1449 - [Type] executed on [txtApplicant_SocialSecurityNumber2]
+2017-10-30 17:18:24 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [txtApplicant_SocialSecurityNumber3] after [1] iterations
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [txtApplicant_SocialSecurityNumber3] after [1] iterations
+2017-10-30 17:18:24 INFO  WebActions:739 - [getAttribute] executed on [//input[@size='4']]
+2017-10-30 17:18:24 INFO  WebActions:1449 - [Type] executed on [txtApplicant_SocialSecurityNumber3]
+2017-10-30 17:18:24 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [lstApplicant_MaritalStatus] after [1] iterations
+2017-10-30 17:18:24 INFO  WebActions:1299 - Selected the value [ Single] based in 'Value'[on [//select[@fieldref='InsuredOrPrincipalInput.MaritalStatus']
+			]
+2017-10-30 17:18:24 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [txtApplicant_ApplicantDOB] after [1] iterations
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [txtApplicant_ApplicantDOB] after [1] iterations
+2017-10-30 17:18:24 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='InsuredOrPrincipalInput.DateOfBirth']
+			]
+2017-10-30 17:18:24 INFO  WebActions:1449 - [Type] executed on [txtApplicant_ApplicantDOB]
+2017-10-30 17:18:24 INFO  WebActions:1831 - Found element [txtApplicant_NamedInsuredFirstName] after [1] iterations
+2017-10-30 17:18:25 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:26 INFO  ApplicantPage:144 - Object 'txtApplicant_InsuredZipCode' Data updated Successfully.
+2017-10-30 17:18:26 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:26 INFO  WebActions:1831 - Found element [lstApplicant_InsuredCurrentAddressAsMailing] after [1] iterations
+2017-10-30 17:18:26 INFO  WebActions:1299 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='PolicyInput.CurrentSameAsMailing']]
+2017-10-30 17:18:26 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:26 INFO  WebActions:1831 - Found element [lstApplicant_InsuredCountry] after [1] iterations
+2017-10-30 17:18:26 INFO  WebActions:739 - [getAttribute] executed on [//select[@fieldref='LocationsInput.County']]
+2017-10-30 17:18:26 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:27 INFO  ApplicantPage:231 - Object 'lstApplicant_InsuredCounty' Data updated Successfully.
+2017-10-30 17:18:29 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:29 INFO  WebActions:1831 - Found element [lstApplicant_InsuredYearsResidence] after [1] iterations
+2017-10-30 17:18:29 INFO  WebActions:1299 - Selected the value [ 3 Years or More] based in 'Value'[on [//select[@fieldref='PolicyInput.YearsAtCurrentResidence']
+			]
+2017-10-30 17:18:29 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:29 INFO  ApplicantPage:248 - Object 'lstApplicant_InsuredYearsResidence' Data updated Successfully.
+2017-10-30 17:18:29 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:30 INFO  WebActions:1831 - Found element [txtApplicant_InsuredEffectiveDate] after [1] iterations
+2017-10-30 17:18:30 INFO  WebActions:1831 - Found element [txtApplicant_InsuredEffectiveDate] after [1] iterations
+2017-10-30 17:18:30 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='PolicyInput.EffectiveDate']]
+2017-10-30 17:18:30 INFO  WebActions:1449 - [Type] executed on [txtApplicant_InsuredEffectiveDate]
+2017-10-30 17:18:30 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:30 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:30 INFO  WebActions:1831 - Found element [lstApplicant_InsuredTerm] after [1] iterations
+2017-10-30 17:18:30 INFO  WebActions:1299 - Selected the value [ 12 Months] based in 'Value'[on [//select[@fieldref='PolicyInput.Term']]
+2017-10-30 17:18:30 INFO  ApplicantPage:264 - Object 'lstApplicant_InsuredTerm' Data updated Successfully.
+2017-10-30 17:18:30 INFO  WebActions:1831 - Found element [lstApplicant_InsuredTerm] after [1] iterations
+2017-10-30 17:18:30 INFO  WebActions:739 - [getAttribute] executed on [//select[@fieldref='PolicyInput.Term']]
+2017-10-30 17:18:30 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:30 INFO  ApplicantPage:267 - Object 'lstApplicant_InsuredTerm' Data updated Successfully.
+2017-10-30 17:18:30 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:30 INFO  WebActions:1831 - Found element [txtApplicant_InsuredPhone] after [1] iterations
+2017-10-30 17:18:30 INFO  WebActions:1831 - Found element [txtApplicant_InsuredPhone] after [1] iterations
+2017-10-30 17:18:30 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='InsuredOrPrincipalInput.PhoneNumberDisplay']
+			]
+2017-10-30 17:18:30 INFO  WebActions:1449 - [Type] executed on [txtApplicant_InsuredPhone]
+2017-10-30 17:18:30 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:30 INFO  ApplicantPage:274 - Object 'txtApplicant_InsuredPhone' Data updated Successfully.
+2017-10-30 17:18:30 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:31 INFO  WebActions:1831 - Found element [lstApplicant_InsuredTypeOfBusiness] after [1] iterations
+2017-10-30 17:18:31 INFO  WebActions:1299 - Selected the value [ New business with Mutual Benefit] based in 'Value'[on [//select[@fieldref='PolicyInput.TypeOfBusiness']]
+2017-10-30 17:18:31 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:31 INFO  ApplicantPage:281 - Object 'lstApplicant_InsuredTypeOfBusiness' Data updated Successfully.
+2017-10-30 17:18:31 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:31 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:31 INFO  WebActions:1831 - Found element [btnApplicant_Next] after [1] iterations
+2017-10-30 17:18:35 INFO  WebActions:509 - [click] executed on [btnApplicant_Next]
+2017-10-30 17:18:35 INFO  ApplicantPage:623 - Clicked on Next in Applicant and Navigated to the Drivers Page
+2017-10-30 17:18:35 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:35 INFO   Open Source Framework Automation :167 - Adding Drivers Functionality
+2017-10-30 17:18:40 ERROR WebActions:1564 - Element [(//a[text()='Detail'])[1] ]not found
+2017-10-30 17:18:46 ERROR WebActions:1564 - Element [//div[contains(@class,'x-panel-noborder')]]not found
+2017-10-30 17:18:53 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:53 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:53 INFO  WebActions:1831 - Found element [lnkDetail] after [1] iterations
+2017-10-30 17:18:54 INFO  WebActions:509 - [click] executed on [lnkDetail]
+2017-10-30 17:18:54 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:54 INFO  WebActions:1831 - Found element [lstGender] after [1] iterations
+2017-10-30 17:18:54 INFO  WebActions:1299 - Selected the value [ Male] based in 'Value'[on [//select[@fieldref='DriverInput.Gender']]
+2017-10-30 17:18:54 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:55 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:55 INFO  WebActions:1831 - Found element [lstRelationToApplicant] after [1] iterations
+2017-10-30 17:18:55 INFO  WebActions:1299 - Selected the value [ Insured] based in 'Value'[on [//select[@fieldref='DriverInput.RelationToApplicant']]
+2017-10-30 17:18:55 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:55 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:55 INFO  WebActions:1831 - Found element [txtDateLicensed] after [1] iterations
+2017-10-30 17:18:55 INFO  WebActions:1831 - Found element [txtDateLicensed] after [1] iterations
+2017-10-30 17:18:55 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='DriverInput.DateLicensed']]
+2017-10-30 17:18:55 INFO  WebActions:1449 - [Type] executed on [txtDateLicensed]
+2017-10-30 17:18:55 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:55 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:55 INFO  WebActions:1831 - Found element [lstOccupation] after [1] iterations
+2017-10-30 17:18:55 INFO  WebActions:1299 - Selected the value [ ANALYST] based in 'Value'[on [//select[@fieldref='DriverInput.Occupation_OnScreen']]
+2017-10-30 17:18:55 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:55 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:55 INFO  WebActions:1831 - Found element [txtDriversLicenseNumber] after [1] iterations
+2017-10-30 17:18:56 INFO  WebActions:1831 - Found element [txtDriversLicenseNumber] after [1] iterations
+2017-10-30 17:18:56 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref ='DriverInput.DriversLicenseNumber']]
+2017-10-30 17:18:56 INFO  WebActions:1449 - [Type] executed on [txtDriversLicenseNumber]
+2017-10-30 17:18:56 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:56 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:18:56 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:56 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:56 INFO  WebActions:1831 - Found element [btnOK] after [1] iterations
+2017-10-30 17:18:56 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:56 INFO  WebActions:1831 - Found element [btnOK] after [1] iterations
+2017-10-30 17:18:56 INFO  WebActions:1163 - [click] executed on [btnOK]
+2017-10-30 17:18:56 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:18:58 INFO  DriversPage:247 - Drivers  Added Successfully
+2017-10-30 17:18:58 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:03 ERROR WebActions:1564 - Element [//div[contains(@class,'x-panel-noborder')]]not found
+2017-10-30 17:19:08 ERROR WebActions:1564 - Element [//div[@id='interviewList_DriverInput.DriversLicenseNumber']
+			]not found
+2017-10-30 17:19:09 INFO  WebActions:1831 - Found element [divLicenseNumber] after [1] iterations
+2017-10-30 17:19:09 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:09 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:09 INFO  WebActions:1831 - Found element [btnAddDriver] after [1] iterations
+2017-10-30 17:19:10 INFO  WebActions:509 - [click] executed on [btnAddDriver]
+2017-10-30 17:19:10 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:10 INFO  WebActions:1831 - Found element [txtDriverFirstName] after [1] iterations
+2017-10-30 17:19:10 INFO  WebActions:1831 - Found element [txtDriverFirstName] after [1] iterations
+2017-10-30 17:19:10 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='DriverInput.FirstName']]
+2017-10-30 17:19:10 INFO  WebActions:1449 - [Type] executed on [txtDriverFirstName]
+2017-10-30 17:19:10 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:10 INFO  WebActions:1831 - Found element [txtDriverLastName] after [1] iterations
+2017-10-30 17:19:10 INFO  WebActions:1831 - Found element [txtDriverLastName] after [1] iterations
+2017-10-30 17:19:10 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='DriverInput.LastName']]
+2017-10-30 17:19:11 INFO  WebActions:1449 - [Type] executed on [txtDriverLastName]
+2017-10-30 17:19:11 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:11 INFO  WebActions:1831 - Found element [txtDriverDateOfBirth] after [1] iterations
+2017-10-30 17:19:11 INFO  WebActions:1831 - Found element [txtDriverDateOfBirth] after [1] iterations
+2017-10-30 17:19:11 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='DriverInput.DateOfBirth']]
+2017-10-30 17:19:11 INFO  WebActions:1449 - [Type] executed on [txtDriverDateOfBirth]
+2017-10-30 17:19:11 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:11 INFO  WebActions:1831 - Found element [lstGender] after [1] iterations
+2017-10-30 17:19:11 INFO  WebActions:1299 - Selected the value [ Male] based in 'Value'[on [//select[@fieldref='DriverInput.Gender']]
+2017-10-30 17:19:11 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:11 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:11 INFO  WebActions:1831 - Found element [lstMaritalStatus] after [1] iterations
+2017-10-30 17:19:11 INFO  WebActions:1299 - Selected the value [ Single] based in 'Value'[on [//select[@fieldref='DriverInput.MaritalStatus']]
+2017-10-30 17:19:11 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:12 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:12 INFO  WebActions:1831 - Found element [lstRelationToApplicant] after [1] iterations
+2017-10-30 17:19:12 INFO  WebActions:1299 - Selected the value [ Son] based in 'Value'[on [//select[@fieldref='DriverInput.RelationToApplicant']]
+2017-10-30 17:19:12 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:12 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:12 INFO  WebActions:1831 - Found element [txtDateLicensed] after [1] iterations
+2017-10-30 17:19:12 INFO  WebActions:1831 - Found element [txtDateLicensed] after [1] iterations
+2017-10-30 17:19:12 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref='DriverInput.DateLicensed']]
+2017-10-30 17:19:12 INFO  WebActions:1449 - [Type] executed on [txtDateLicensed]
+2017-10-30 17:19:12 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:12 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:12 INFO  WebActions:1831 - Found element [lstOccupation] after [1] iterations
+2017-10-30 17:19:12 INFO  WebActions:1299 - Selected the value [ ANALYST] based in 'Value'[on [//select[@fieldref='DriverInput.Occupation_OnScreen']]
+2017-10-30 17:19:12 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriver_SocialSecurityNumber1] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriver_SocialSecurityNumber1] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:739 - [getAttribute] executed on [(//input[@type='password'])[1]]
+2017-10-30 17:19:13 INFO  WebActions:1449 - [Type] executed on [txtDriver_SocialSecurityNumber1]
+2017-10-30 17:19:13 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriver_SocialSecurityNumber2] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriver_SocialSecurityNumber2] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:739 - [getAttribute] executed on [(//input[@type='password'])[2]]
+2017-10-30 17:19:13 INFO  WebActions:1449 - [Type] executed on [txtDriver_SocialSecurityNumber2]
+2017-10-30 17:19:13 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriver_SocialSecurityNumber3] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriver_SocialSecurityNumber3] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:739 - [getAttribute] executed on [//input[@size='4']]
+2017-10-30 17:19:13 INFO  WebActions:1449 - [Type] executed on [txtDriver_SocialSecurityNumber3]
+2017-10-30 17:19:13 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [lstLicenseState] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:1299 - Selected the value [ MARYLAND] based in 'Value'[on [//select[@fieldref='DriverInput.LicenseState']]
+2017-10-30 17:19:13 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:13 INFO  WebActions:151 - keyword value is get the keyword and set it here
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriversLicenseNumber] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:1831 - Found element [txtDriversLicenseNumber] after [1] iterations
+2017-10-30 17:19:13 INFO  WebActions:739 - [getAttribute] executed on [//input[@fieldref ='DriverInput.DriversLicenseNumber']]
+2017-10-30 17:19:13 INFO  WebActions:1449 - [Type] executed on [txtDriversLicenseNumber]
+2017-10-30 17:19:13 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:14 INFO  WebActions:2788 - element is still loading.....!
+2017-10-30 17:19:14 INFO  WebActions:2788 - element is still loading.....!

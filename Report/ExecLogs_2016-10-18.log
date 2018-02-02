@@ -1,0 +1,207 @@
+2016-10-18 16:54:14 INFO  SetupSelenium:108 - Successfully started WebDriver Google Chrome Driver with command switches
+2016-10-18 16:54:15 INFO   Open Source Framework Automation :41 - Login functionality
+2016-10-18 16:54:15 INFO  Config:63 - Reading the ObjectRepository file
+2016-10-18 16:54:15 INFO  ReadXML:51 - Started reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-18 16:54:15 INFO  ReadXML:56 - Completed reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-18 16:54:15 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 16:54:15 INFO  WebActions:616 - [ClearText] executed on [//input[@id='_username']]
+2016-10-18 16:54:15 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 16:54:16 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 16:54:16 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 16:54:16 INFO  WebActions:732 - [getAttribute] executed on [//input[@id='_username']]
+2016-10-18 16:54:18 INFO  WebActions:298 - Screenshot collected
+2016-10-18 16:54:18 INFO  WebActions:1384 - [Type] executed on [txtLogin_UserName]
+2016-10-18 16:54:18 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 16:54:18 INFO  WebActions:616 - [ClearText] executed on [//input[@id='_password']]
+2016-10-18 16:54:18 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 16:54:18 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 16:54:18 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 16:54:18 INFO  WebActions:732 - [getAttribute] executed on [//input[@id='_password']]
+2016-10-18 16:54:20 INFO  WebActions:298 - Screenshot collected
+2016-10-18 16:54:20 INFO  WebActions:1384 - [Type] executed on [txtLogin_Password]
+2016-10-18 16:54:20 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 16:54:20 INFO  WebActions:1762 - Found element [lstLogin_Server] after [1] iterations
+2016-10-18 16:54:26 ERROR WebActions:1260 - Exception::
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'HYD-SMOTHKURI1', ip: '192.168.252.61', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at com.epam.fixtures.WebActions.selectOptionByText(WebActions.java:1247)
+	at com.epam.businesslibs.LoginToMBG.Login(LoginToMBG.java:28)
+	at com.epam.scenarios.NewBusniness.loginToMBGroup(NewBusniness.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:265)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:189)
+2016-10-18 16:54:27 INFO  WebActions:208 - Screenshot collected
+2016-10-18 16:54:27 ERROR LoginToMBG:43 - Failed to login to MBG
+2016-10-18 16:54:28 INFO  WebActions:208 - Screenshot collected
+2016-10-18 16:54:30 INFO  SetupSelenium:323 - Successfully closed the browser and Web Driver instance
+2016-10-18 16:54:30 INFO   Open Source Framework Automation :281 - Test scenarios added to the XML report
+2016-10-18 16:54:32 INFO  FrameworkExceptions:52 - ****************************************************************************************
+2016-10-18 16:54:32 INFO  FrameworkExceptions:53 - ||||||||||||||||||          End of Execution!!!!!!!!               ||||||||||||||||||||||||
+2016-10-18 16:54:32 INFO  FrameworkExceptions:54 - ****************************************************************************************
+2016-10-18 17:01:59 INFO  SetupSelenium:108 - Successfully started WebDriver Google Chrome Driver with command switches
+2016-10-18 17:02:00 INFO   Open Source Framework Automation :41 - Login functionality
+2016-10-18 17:02:00 INFO  Config:63 - Reading the ObjectRepository file
+2016-10-18 17:02:00 INFO  ReadXML:51 - Started reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-18 17:02:00 INFO  ReadXML:56 - Completed reading of the xml file: ./Configuration/OR_MBG.xml
+2016-10-18 17:02:00 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 17:02:01 INFO  WebActions:616 - [ClearText] executed on [//input[@id='_username']]
+2016-10-18 17:02:01 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:01 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 17:02:01 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 17:02:01 INFO  WebActions:732 - [getAttribute] executed on [//input[@id='_username']]
+2016-10-18 17:02:03 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:03 INFO  WebActions:1384 - [Type] executed on [txtLogin_UserName]
+2016-10-18 17:02:03 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 17:02:03 INFO  WebActions:616 - [ClearText] executed on [//input[@id='_password']]
+2016-10-18 17:02:03 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:03 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 17:02:03 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 17:02:03 INFO  WebActions:732 - [getAttribute] executed on [//input[@id='_password']]
+2016-10-18 17:02:05 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:05 INFO  WebActions:1384 - [Type] executed on [txtLogin_Password]
+2016-10-18 17:02:05 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:05 INFO  WebActions:1762 - Found element [lstLogin_Server] after [1] iterations
+2016-10-18 17:02:06 INFO  WebActions:1248 - Selected the value [ Accenture Personal Lines Policy - RN Environment] based in 'Value'[on [//select[@name='serverSelection']]
+2016-10-18 17:02:07 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:07 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:07 INFO  WebActions:1762 - Found element [btnLogin_Submit] after [1] iterations
+2016-10-18 17:02:27 INFO  WebActions:506 - [click] executed on [btnLogin_Submit]
+2016-10-18 17:02:27 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:27 INFO  LoginToMBG:33 - Logged into MBG Successfully
+2016-10-18 17:02:27 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:28 INFO  WebActions:424 - Screenshot collected
+2016-10-18 17:02:28 INFO   Open Source Framework Automation :62 - New Quote filling Functionality
+2016-10-18 17:02:28 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:28 INFO  WebActions:1762 - Found element [btnNewQuote_NewQuote] after [1] iterations
+2016-10-18 17:02:31 INFO  WebActions:506 - [click] executed on [btnNewQuote_NewQuote]
+2016-10-18 17:02:32 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:32 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:32 INFO  WebActions:1762 - Found element [lstNewQuote_Producer] after [1] iterations
+2016-10-18 17:02:34 INFO  WebActions:1248 - Selected the value [ M8980] based in 'Value'[on [//select[@fieldref='data.Producer']]
+2016-10-18 17:02:35 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:35 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:35 INFO  WebActions:1762 - Found element [txtNewQuote_EffDate] after [1] iterations
+2016-10-18 17:02:35 INFO  WebActions:1762 - Found element [txtNewQuote_EffDate] after [1] iterations
+2016-10-18 17:02:36 INFO  WebActions:732 - [getAttribute] executed on [//input[@fieldref='data.EffectiveDate']]
+2016-10-18 17:02:37 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:37 INFO  WebActions:1384 - [Type] executed on [txtNewQuote_EffDate]
+2016-10-18 17:02:37 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:37 INFO  WebActions:1762 - Found element [lstNewQuote_Line] after [1] iterations
+2016-10-18 17:02:37 INFO  WebActions:1248 - Selected the value [ Personal Auto] based in 'Value'[on [//select[@fieldref='data.Line']]
+2016-10-18 17:02:38 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:38 INFO  WebActions:2700 - element is still loading.....!
+2016-10-18 17:02:41 ERROR WebActions:2648 - Exception::
+org.openqa.selenium.TimeoutException: Timed out after 0 seconds waiting for com.epam.fixtures.WebActions$2@3a0d172f
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'HYD-SMOTHKURI1', ip: '192.168.252.61', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=true, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:11787/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: ec027d8a-0258-48be-a001-b0b3e7a64032
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.epam.fixtures.WebActions.waitForDropdownToLoad(WebActions.java:2631)
+	at com.epam.businesslibs.NewQuotePage.FillNewQuoteDetails(NewQuotePage.java:31)
+	at com.epam.scenarios.NewBusniness.FillNewQuotePage(NewBusniness.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:265)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:189)
+2016-10-18 17:02:41 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:41 INFO  WebActions:1762 - Found element [lstNewQuote_State] after [1] iterations
+2016-10-18 17:02:41 INFO  WebActions:1248 - Selected the value [ PA] based in 'Value'[on [//select[@fieldref='data.State']]
+2016-10-18 17:02:42 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:42 INFO  WebActions:2700 - element is still loading.....!
+2016-10-18 17:02:42 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:42 INFO  WebActions:1762 - Found element [lstNewQuote_UseTransact] after [1] iterations
+2016-10-18 17:02:43 INFO  WebActions:1248 - Selected the value [ No] based in 'Value'[on [//select[@fieldref='data.UseTransact']]
+2016-10-18 17:02:43 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:43 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:43 INFO  WebActions:1762 - Found element [lstNewQuote_Procision] after [1] iterations
+2016-10-18 17:02:44 INFO  WebActions:1248 - Selected the value [ Yes] based in 'Value'[on [//select[@fieldref='data.NewRatePlan_OnScreen']]
+2016-10-18 17:02:44 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:44 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:44 INFO  WebActions:1762 - Found element [lstNewQuote_QuoteType] after [1] iterations
+2016-10-18 17:02:45 INFO  WebActions:1248 - Selected the value [ Full Quote] based in 'Value'[on [//select[@fieldref='data.QuoteType']]
+2016-10-18 17:02:45 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:45 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:46 INFO  WebActions:1762 - Found element [btnNewQuote_StartQuote] after [1] iterations
+2016-10-18 17:02:49 INFO  WebActions:506 - [click] executed on [btnNewQuote_StartQuote]
+2016-10-18 17:02:49 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:50 INFO  NewQuotePage:43 - New Quote created Successfully
+2016-10-18 17:02:50 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:50 INFO  WebActions:424 - Screenshot collected
+2016-10-18 17:02:52 INFO  SetupSelenium:323 - Successfully closed the browser and Web Driver instance
+2016-10-18 17:02:55 INFO  SetupSelenium:108 - Successfully started WebDriver Google Chrome Driver with command switches
+2016-10-18 17:02:55 INFO   Open Source Framework Automation :41 - Login functionality
+2016-10-18 17:02:55 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 17:02:56 INFO  WebActions:616 - [ClearText] executed on [//input[@id='_username']]
+2016-10-18 17:02:56 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:56 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 17:02:56 INFO  WebActions:1762 - Found element [txtLogin_UserName] after [1] iterations
+2016-10-18 17:02:56 INFO  WebActions:732 - [getAttribute] executed on [//input[@id='_username']]
+2016-10-18 17:02:58 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:02:58 INFO  WebActions:1384 - [Type] executed on [txtLogin_UserName]
+2016-10-18 17:02:58 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 17:02:58 INFO  WebActions:616 - [ClearText] executed on [//input[@id='_password']]
+2016-10-18 17:02:58 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:02:58 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 17:02:58 INFO  WebActions:1762 - Found element [txtLogin_Password] after [1] iterations
+2016-10-18 17:02:58 INFO  WebActions:732 - [getAttribute] executed on [//input[@id='_password']]
+2016-10-18 17:03:00 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:03:00 INFO  WebActions:1384 - [Type] executed on [txtLogin_Password]
+2016-10-18 17:03:00 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:03:00 INFO  WebActions:1762 - Found element [lstLogin_Server] after [1] iterations
+2016-10-18 17:03:01 INFO  WebActions:1248 - Selected the value [ Accenture Personal Lines Policy - RN Environment] based in 'Value'[on [//select[@name='serverSelection']]
+2016-10-18 17:03:02 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:03:02 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:03:02 INFO  WebActions:1762 - Found element [btnLogin_Submit] after [1] iterations
+2016-10-18 17:03:09 INFO  WebActions:506 - [click] executed on [btnLogin_Submit]
+2016-10-18 17:03:10 INFO  WebActions:298 - Screenshot collected
+2016-10-18 17:03:10 INFO  LoginToMBG:33 - Logged into MBG Successfully
+2016-10-18 17:03:10 INFO  WebActions:152 - keyword value is get the keyword and set it here
+2016-10-18 17:03:10 INFO  WebActions:424 - Screenshot collected
+2016-10-18 17:03:12 INFO  SetupSelenium:323 - Successfully closed the browser and Web Driver instance
+2016-10-18 17:03:12 INFO   Open Source Framework Automation :281 - Test scenarios added to the XML report

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResultList>
+    <Result file="HYD-SMOTHKURI1_20161005_190652270.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>0</Test_Pass>
+            <Test_Fail>0</Test_Fail>
+            <TestCase_Pass>0</TestCase_Pass>
+            <TestCase_Fail>0</TestCase_Fail>
+        </TestSuite>
+    </Result>
+    <Result file="HYD-SMOTHKURI1_20161005_19120778.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>0</Test_Pass>
+            <Test_Fail>0</Test_Fail>
+            <TestCase_Pass>0</TestCase_Pass>
+            <TestCase_Fail>0</TestCase_Fail>
+        </TestSuite>
+    </Result>
+    <Result file="HYD-SMOTHKURI1_20161005_191252833.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>0</Test_Pass>
+            <Test_Fail>0</Test_Fail>
+            <TestCase_Pass>0</TestCase_Pass>
+            <TestCase_Fail>0</TestCase_Fail>
+        </TestSuite>
+    </Result>
+    <Result file="HYD-SMOTHKURI1_20161005_191328545.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>0</Test_Pass>
+            <Test_Fail>0</Test_Fail>
+            <TestCase_Pass>0</TestCase_Pass>
+            <TestCase_Fail>0</TestCase_Fail>
+        </TestSuite>
+    </Result>
+    <Result file="HYD-SMOTHKURI1_20161005_191340522.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>0</Test_Pass>
+            <Test_Fail>0</Test_Fail>
+            <TestCase_Pass>0</TestCase_Pass>
+            <TestCase_Fail>0</TestCase_Fail>
+        </TestSuite>
+    </Result>
+    <Result file="HYD-SMOTHKURI1_20161005_191525385.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>0</Test_Pass>
+            <Test_Fail>0</Test_Fail>
+            <TestCase_Pass>0</TestCase_Pass>
+            <TestCase_Fail>0</TestCase_Fail>
+        </TestSuite>
+    </Result>
+    <Result file="HYD-SMOTHKURI1_20161005_191631905.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>0</Test_Pass>
+            <Test_Fail>0</Test_Fail>
+            <TestCase_Pass>0</TestCase_Pass>
+            <TestCase_Fail>0</TestCase_Fail>
+        </TestSuite>
+    </Result>
+    <Result file="HYD-SMOTHKURI1_20161006_080429841.xml">
+        <TestSuite Name="MBG Automation Reporting" browser="iexplore">
+            <Test_Pass>8</Test_Pass>
+            <Test_Fail>4</Test_Fail>
+            <TestCase_Pass>173</TestCase_Pass>
+            <TestCase_Fail>1</TestCase_Fail>
+        </TestSuite>
+    </Result>
+</ResultList>

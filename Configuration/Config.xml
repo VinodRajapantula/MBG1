@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameworkConfig>
+  <TestEnvironment Name="default">   
+    <Config name="Log4JPropertiesFilePath" value="./configuration/log4j.properties"></Config>
+	<!--  <Config name="TestResultPath" value="./testReports/xml"></Config> -->
+	<!-- <Config name="SharedTestResultPath" value="\\\\hyd-spoduri\\Srinivas_Share\\AHM POC\\testReports\\xml"></Config> -->
+	<Config name="SharedTestResultPath" value=""></Config>
+	<Config name="LocalTestResultPath" value="./testReports/xml"></Config>
+    <Config name="LogFilePath" value="./logging"></Config>
+	<Config name="LibFolderPath" value="./lib"></Config>
+	<Config name="GECKOEDRIVERPATH32Bit" value=".\\resources\\geckodriver-v0.18.0-win32\\geckodriver.exe"></Config>
+	<Config name="GECKOEDRIVERPATH64Bit" value=".\\resources\\geckodriver-v0.18.0-win64\\geckodriver_64bit.exe"></Config>
+	
+	<Config name="ChromeDriverExecutablePath" value=".\\resources\\chromedriver_win32\\chromedriver.exe"></Config>
+	
+	<Config name="IEEDRIVERPATH32Bit" value=".\\resources\\IEDriverServer32.exe"></Config> 
+	<Config name="IEEDRIVERPATH64bit" value=".\\resources\\IEDriverServer_x64_3.5.1\\IEDriverServer_x64_3_5_1.exe"></Config>
+	
+	<Config name="IEEDRIVERPATH32Bit_Se3" value=".\\resources\\IEDriverServer_Win32_3.5.1\\IEDriverServer.exe"></Config> 
+	<Config name="IEEDRIVERPATH64bit_Se3" value=".\\resources\\IEDriverServer_x64_3.5.1\\IEDriverServer_x64_3_5_1.exe"></Config>
+	 
+	<Config name="WebDriverCommandSwitch" value="webdriver_enable_native_events,--start-maximized,--ignore-certificate-errors"></Config>
+	<Config name="TestDataFilePath" value="./configuration/TestData.xls"></Config>
+	<Config name="ORFilePath" value="./Configuration/OR_MBG.xml"></Config>
+	<Config name="AppURL" value="https://dctqa6x.eastus.cloudapp.azure.com/express/default.aspx"></Config>	
+	<Config name="caffeinePath" value="./Configuration/caffeine.exe"></Config>
+	<Config name="defaultWaitTime" value="10"></Config> <!--When to Default wait time is 20 seconds -->
+	<Config name="BrowserType" value="chrome"></Config> <!--IE = iexplore , FireFox = firefox , Chrome = chrome , Safari = safari -->
+	<Config name="ElementWaitTime" value="10000"></Config> <!-- ElementWaitTime = 10 seconds -->
+	<Config name="captureScreeLevel" value="STEP"></Config>
+	<Config name="sslEnabled" value="Yes"></Config>
+    <Config name="ScreenShotPath" value="./testReports/screenShots/"></Config>
+    <Config name="ServiceRequestPath" value="./serviceRequests"></Config>
+    <Config name="CaptureScreenShot" value="FAIL"></Config> <!--When to capture screen shot for a step? PASS/FAIL/BOTH/ALL -->
+    <Config name="OnError" value="ResumeNextTestScenario"></Config>
+	<Config name="testSuiteCategory" value="MBG Automation"></Config>
+	<Config name="testSuiteDescription" value="MBG Automation Reporting"></Config>
+	<Config name="testSuiteId" value="MBG Automation_Suite"></Config>
+	<Config name="testSuiteName" value="MBG Automation Reporting"></Config>
+	<Config name="testSuiteURL" value="http://mbggroup.com/"></Config>
+	<Config name="testSuiteExecutionEngine" value="Selenium Webdriver"></Config>
+	<Config name="testScenarioRequirementId" value="MBG Automation Framework"></Config>
+	<Config name="testScenarioBusinessScenarioDesc" value="MBG Automation"></Config>
+	<Config name="onFail" value="nextTestCase"></Config>
+	<Config name="screenshotFileType" value=".jpg"></Config>	
+	<Config name="databaseName" value="oracle"></Config>	
+  </TestEnvironment>
+  <DBEnvironment>  	
+  	<Config name="oracle_user" value="portico"></Config>
+  	<Config name="oracle_pwd" value="portico"></Config>
+  	<Config name="ORACLE_CONNECTION_URL" value="jdbc:oracle:thin:@10.2.5.43:1521:orcl"></Config>  
+  </DBEnvironment>
+  <CloudExection>
+	<Config value="NO" name="cloudExecution"/>
+	<Config value="NO" name="saucelabs"/>
+	<Config value="WINDOWS 7" name="sauceos"/>
+	<Config value="IE" name="sauceBrowser"/>
+	<Config value="8" name="sauceBrowserVersion"/>
+	<Config value="prabhukumarramaswamy" name="SauceUserName"/>
+	<Config value="1914f63c-dcd8-4ec6-813b-563ff7716a9d" name="SauceEncryptedPassword"/>
+	<Config value=".\\resources\\sc.exe" name="sauceExecutablePath32"/>
+	<Config value=".\\resources\\sc.exe" name="sauceExecutablePath64"/>
+	<Config value="YES" name="sauceproxy"/>
+	<Config value="172.16.100.111" name="sauceproxyHost"/>
+	<Config value="8080" name="sauceproxyPort"/>
+	<Config value="rarigela" name="sauceproxyUserID"/>
+	<Config value="Rama1234$" name="sauceproxyPwd"/>
+  </CloudExection>
+
+  <CloudExection>
+	<Config value="NO" name="browserStackExecution"/>
+	<Config value="NO" name="browserStack"/>
+	<Config value="WINDOWS 7" name="browserStackos"/>
+	<Config value="IE" name="browserStackBrowser"/>
+	<Config value="8" name="browserStackBrowserVersion"/>
+	<Config value="prabhukumarramaswamy" name="browserStackUserName"/>
+	<Config value="1914f63c-dcd8-4ec6-813b-563ff7716a9d" name="browserStackKey"/>
+  </CloudExection>
+  
+</FrameworkConfig>

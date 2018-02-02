@@ -1,0 +1,129 @@
+<html>
+	<body style="background-color:White">
+		<span align="left"><img border="0px" width="200px" height="54px" src="..\images\Epam.png"></span>
+		<h1  class="header" style="color: #FF4500; text-align: center; vertical-align: bottom; border: 0px">
+		<span id='teststepname'></span>DigiSure_Error_Summary</h1>
+		<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+		
+
+
+	  <TABLE align="center" width="98%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td style="background-color: #FFFFFF; text-align:right;"><a href='#' onclick="home(); return false;" class='view'>Home</a>&nbsp;&nbsp;<a href='#' onclick="history.back(); return false;" class='view'>Back</a></td>
+		</tr>
+	   </TABLE> 
+
+		<!-- <div align='right' style=' padding: 10px 35px 10px 10px;'><a href='#' onclick="home(); return false;" class='view'>Home</a>&nbsp;&nbsp;<a href='#' onclick="history.back(); return false;" class='view'>Back</a></div> -->
+
+		<TABLE id='tblSample' cellspacing='1' cellpadding='0' width='100%' align='center' style='table-layout:fixed'>
+	
+		<col width='18%'> <!-- Test Case ID -->
+		<col width='18%'> <!-- Execution Details -->
+		<col width='44%'> 
+		<col width='10%'>
+		<col width='10%'><!-- Result -->
+		<tr> </tr>
+		<TR style="background-color: #26466D;text-align:center;">
+			 		
+			 <Th class="th2" style="color:#FFFFFF;">TestSet  Name</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Test Scenario ID</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Page</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Spell-Error Count</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Grammar-Error Count</Th>
+			 
+		 </TR>
+		<tr style="background-color: white" height="2px"></tr>
+		</TABLE>
+     </br>
+	
+	  <TABLE align="center" width="98%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td style="background-color: #FFFFFF; text-align:right;"><a href='#' onclick="Details(); return false;">Details</a></td>
+		</tr>
+	   </TABLE> 
+	   
+	<div  id="lnktable1" name="lnktable1">		
+	<TABLE id='tblSample1' cellspacing='1' cellpadding='1' width='100%' align='center' style='table-layout:fixed'>
+		<TR style="background-color:#FFFFFF; text-align:center; ">
+			<Th  colspan="6"><font color="#FF4500"><div id='tablesettitle'>DigiSure_Error_Details</div></font></Th>
+		</TR>
+	
+		<col width='18%'> <!-- Test Case ID -->
+		<col width='22%'> 
+		<col width='10%'>
+		<col width='50%'><!-- Result -->
+		<tr> </tr>
+		<TR style="background-color: #26466D;text-align:center;">
+			 		
+			 <Th class="th2" style="color:#FFFFFF;">TestSet  Name</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Page</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Error Type</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Error Details</Th>
+		 </TR>
+		<tr style="background-color: white" height="2px"></tr>
+		</TABLE>		
+	</div>	
+	</body>
+
+	<script language='javascript' src='../js/common.js' ></script>
+	<script language='javascript'>
+		var xmlDoc = null;
+		xmlDoc = CreateXMLObject();
+		var parseQueryString = new ParseQueryString();
+		var appName = parseQueryString.getParamValue('apps');
+
+		var browser = parseQueryString.getParamValue('browser');
+		var test = parseQueryString.getParamValue('test');
+	//	document.getElementById("testsuitename").innerHTML = appName.toUpperCase();
+		var the_xmlFileName = parseQueryString.getParamValue('xml');
+		var resultType = parseQueryString.getParamValue('resultType');
+
+	
+
+		 parseMultimediaerrorSuiteXML(appName,test,the_xmlFileName);
+    
+		//Apply Alternate row color 
+		var table = document.getElementById("tblSample");
+		var rows = table.getElementsByTagName("tr");
+		//alert('rows='+rows.length);
+		function home(){
+			location.href="../TestResult.html?xml="+the_xmlFileName;
+		}
+		for(var i=0; i<rows.length; i++ ){
+			if(i % 2 == 0){
+				if(rows[i].className.toLowerCase() == "pass")
+					rows[i].className = "evenPass";			
+				else
+					rows[i].className = "evenFail";			
+			}else{
+				if(rows[i].className.toLowerCase() == "pass")
+					rows[i].className = "oddPass";			
+				else
+					rows[i].className = "oddFail";	
+			}
+		}
+	 
+	 		var table = document.getElementById("tblSample1");
+		var rows = table.getElementsByTagName("tr");
+		//alert('rows='+rows.length);
+		function home(){
+			location.href="../TestResult.html?xml="+the_xmlFileName;
+		}
+		for(var i=0; i<rows.length; i++ ){
+			if(i % 2 == 0){
+				if(rows[i].className.toLowerCase() == "pass")
+					rows[i].className = "evenPass";			
+				else
+					rows[i].className = "evenFail";			
+			}else{
+				if(rows[i].className.toLowerCase() == "pass")
+					rows[i].className = "oddPass";			
+				else
+					rows[i].className = "oddFail";	
+			}
+		}
+		function home(){
+			location.href="../TestResult.html?xml="+the_xmlFileName;
+		}
+	</script>
+</html>

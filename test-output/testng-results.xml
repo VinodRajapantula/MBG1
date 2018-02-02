@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="1" total="14" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Command line suite]]>
+    </line>
+    <line>
+      <![CDATA[Starting Testset Command line test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : CoreDriverScript.setup]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : NewBusiness.loginToMBGroup]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : NewBusiness.loginToMBGroup]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : NewBusiness.SelectAgency]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : NewBusiness.SelectAgency]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : NewBusiness.FillNewQuotePage]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : NewBusiness.FillNewQuotePage]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : NewBusiness.FillApplicantData]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : NewBusiness.FillApplicantData]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="607800" started-at="2017-09-26T09:09:08Z" finished-at="2017-09-26T09:19:16Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="607800" started-at="2017-09-26T09:09:08Z" finished-at="2017-09-26T09:19:16Z">
+      <class name="com.epam.scenarios.NewBusiness">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="setup" is-config="true" duration-ms="4058" started-at="2017-09-26T14:39:08Z" finished-at="2017-09-26T14:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginToMBGroup()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="loginToMBGroup" duration-ms="5582" started-at="2017-09-26T14:39:13Z" finished-at="2017-09-26T14:39:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : NewBusiness.loginToMBGroup]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToMBGroup -->
+        <test-method status="PASS" signature="SelectAgency()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="SelectAgency" duration-ms="1525" started-at="2017-09-26T14:39:18Z" depends-on-methods="com.epam.scenarios.NewBusiness.loginToMBGroup" finished-at="2017-09-26T14:39:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : NewBusiness.SelectAgency]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectAgency -->
+        <test-method status="PASS" signature="FillNewQuotePage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="FillNewQuotePage" duration-ms="7849" started-at="2017-09-26T14:39:20Z" depends-on-methods="com.epam.scenarios.NewBusiness.SelectAgency" finished-at="2017-09-26T14:39:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : NewBusiness.FillNewQuotePage]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillNewQuotePage -->
+        <test-method status="FAIL" signature="FillApplicantData()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="FillApplicantData" duration-ms="588526" started-at="2017-09-26T14:39:27Z" depends-on-methods="com.epam.scenarios.NewBusiness.FillNewQuotePage" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[-1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.epam.businesslibs.ApplicantPage.FillApplicantAddressDetails(ApplicantPage.java:160)
+	at com.epam.scenarios.NewBusiness.FillApplicantData(NewBusiness.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : NewBusiness.FillApplicantData]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.epam.scenarios.NewBusiness]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillApplicantData -->
+        <test-method status="SKIP" signature="UpdateDrivers()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="UpdateDrivers" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.FillApplicantData" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.UpdateDrivers()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.UpdateDrivers()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateDrivers -->
+        <test-method status="SKIP" signature="ViolationsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="ViolationsPage" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.UpdateDrivers" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.ViolationsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.ViolationsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViolationsPage -->
+        <test-method status="SKIP" signature="UpdateVehicals()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="UpdateVehicals" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.ViolationsPage" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.UpdateVehicals()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.UpdateVehicals()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateVehicals -->
+        <test-method status="SKIP" signature="AddCoverages()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="AddCoverages" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.UpdateVehicals" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.AddCoverages()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.AddCoverages()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCoverages -->
+        <test-method status="SKIP" signature="ActionsOnPremiumDetailsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="ActionsOnPremiumDetailsPage" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.AddCoverages" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.ActionsOnPremiumDetailsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.ActionsOnPremiumDetailsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActionsOnPremiumDetailsPage -->
+        <test-method status="SKIP" signature="ActionsonAdditionalInterest()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="ActionsonAdditionalInterest" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.ActionsOnPremiumDetailsPage" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.ActionsonAdditionalInterest()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.ActionsonAdditionalInterest()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActionsonAdditionalInterest -->
+        <test-method status="SKIP" signature="GeneralInformationPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="GeneralInformationPage" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.ActionsonUnderWritingPage" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.GeneralInformationPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.GeneralInformationPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneralInformationPage -->
+        <test-method status="SKIP" signature="ActionsonUnderWritingPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="ActionsonUnderWritingPage" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.ActionsonAdditionalInterest" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.ActionsonUnderWritingPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.ActionsonUnderWritingPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActionsonUnderWritingPage -->
+        <test-method status="PASS" signature="stopTest()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="stopTest" is-config="true" duration-ms="241" started-at="2017-09-26T14:49:16Z" finished-at="2017-09-26T14:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method status="SKIP" signature="SubmissionsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="SubmissionsPage" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.GeneralInformationPage" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.SubmissionsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.SubmissionsPage()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmissionsPage -->
+        <test-method status="SKIP" signature="LoginAsUnderWriter()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5]" name="LoginAsUnderWriter" duration-ms="0" started-at="2017-09-26T14:49:16Z" depends-on-methods="com.epam.scenarios.NewBusiness.SubmissionsPage" finished-at="2017-09-26T14:49:16Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewBusiness.LoginAsUnderWriter()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewBusiness.LoginAsUnderWriter()[pri:0, instance:com.epam.scenarios.NewBusiness@1e4d3ce5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at com.epam.driver.CoreDriverScript.executeTestCases(CoreDriverScript.java:270)
+	at com.epam.driver.CoreDriverScript.main(CoreDriverScript.java:182)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsUnderWriter -->
+      </class> <!-- com.epam.scenarios.NewBusiness -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

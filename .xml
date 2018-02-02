@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestResult>
+    <TestSuite BaseUrl="http://mbggroup.com/" Category="MBG Automation"
+        ExecutionEngine="Selenium Webdriver"
+        Name="MBG Automation Reporting" browser="iexplore" executionTime="00:00:39">
+        <Test executionTime="00:12:298" id="NewBusniness">
+            <TestCaseDetails>
+                <TestCase description="Login to MBG"
+                    executionTime="00:12:298" id="loginToMBGroup"
+                    reusable="false" sortId=""/>
+            </TestCaseDetails>
+            <Steps>
+                <Step
+                    action="Executing clearText action on object:LogintxtUname"
+                    description="Executing clearText action on object:LogintxtUname"
+                    errorMessage="" executionTime="00:00:330"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing clearText action on object:LogintxtUname"/>
+                <Step
+                    action="Executing getAttribute action on object:LogintxtUname of attribute: id"
+                    description="Executing getAttribute action on object:LogintxtUname of attribute: id"
+                    errorMessage="" executionTime="00:00:880"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing getAttribute action on object:LogintxtUname of attribute: id"/>
+                <Step
+                    action="Executing getAttribute action on object:LogintxtUname of attribute: id"
+                    description="Executing getAttribute action on object:LogintxtUname of attribute: id"
+                    errorMessage="" executionTime="00:00:880"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing getAttribute action on object:LogintxtUname of attribute: id"/>
+                <Step
+                    action="Executing clearText action on object:LoginTxtPwd"
+                    description="Executing clearText action on object:LoginTxtPwd"
+                    errorMessage="" executionTime="00:00:320"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing clearText action on object:LoginTxtPwd"/>
+                <Step
+                    action="Executing getAttribute action on object:LoginTxtPwd of attribute: id"
+                    description="Executing getAttribute action on object:LoginTxtPwd of attribute: id"
+                    errorMessage="" executionTime="00:01:020"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing getAttribute action on object:LoginTxtPwd of attribute: id"/>
+                <Step
+                    action="Executing getAttribute action on object:LoginTxtPwd of attribute: id"
+                    description="Executing getAttribute action on object:LoginTxtPwd of attribute: id"
+                    errorMessage="" executionTime="00:01:020"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing getAttribute action on object:LoginTxtPwd of attribute: id"/>
+                <Step
+                    action="Executing selectOptionByText action to select the option of object: LoginServer. The text is: Accenture Personal Lines Policy"
+                    description="Executing selectOptionByText action to select the option of object: LoginServer. The text is: Accenture Personal Lines Policy"
+                    errorMessage="" executionTime="00:00:381"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing selectOptionByText action to select the option of object: LoginServer. The text is: Accenture Personal Lines Policy"/>
+                <Step action="Clicking on the object: LoginSubmit"
+                    description="Clicking on the object: LoginSubmit"
+                    errorMessage="" executionTime="00:07:467"
+                    id="loginToMBGroup" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Clicking on the object: LoginSubmit"/>
+                <Step action="Logged into MBG successfully"
+                    description="Logged into MBG successfully"
+                    errorMessage="Successfully logged in to MBG"
+                    executionTime="00:00:000" id="loginToMBGroup"
+                    image="" object="get the keyword and set it here"
+                    result="PASS" reusable="false" sortId="" stepId="Logged into MBG successfully"/>
+            </Steps>
+            <Description/>
+            <Result>PASS</Result>
+            <TestCaseRequirementId>NewBusniness</TestCaseRequirementId>
+        </Test>
+        <Test executionTime="00:29:601" id="NewBusniness">
+            <TestCaseDetails>
+                <TestCase description="filling new quote"
+                    executionTime="00:17:303" id="FillNewQuotePage"
+                    reusable="false" sortId=""/>
+            </TestCaseDetails>
+            <Steps>
+                <Step action="Clicking on the object: NewQuote"
+                    description="Clicking on the object: NewQuote"
+                    errorMessage="" executionTime="00:02:863"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Clicking on the object: NewQuote"/>
+                <Step
+                    action="Executing selectOptionByText action to select the option of object: lstNewQuote_Producer. The text is: Agent User Profile"
+                    description="Executing selectOptionByText action to select the option of object: lstNewQuote_Producer. The text is: Agent User Profile"
+                    errorMessage="" executionTime="00:02:451"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing selectOptionByText action to select the option of object: lstNewQuote_Producer. The text is: Agent User Profile"/>
+                <Step
+                    action="Executing getAttribute action on object:txtNewQuote_EffDate of attribute: id"
+                    description="Executing getAttribute action on object:txtNewQuote_EffDate of attribute: id"
+                    errorMessage="" executionTime="00:00:895"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing getAttribute action on object:txtNewQuote_EffDate of attribute: id"/>
+                <Step
+                    action="Executing getAttribute action on object:txtNewQuote_EffDate of attribute: id"
+                    description="Executing getAttribute action on object:txtNewQuote_EffDate of attribute: id"
+                    errorMessage="" executionTime="00:00:895"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing getAttribute action on object:txtNewQuote_EffDate of attribute: id"/>
+                <Step
+                    action="Executing selectOptionByText action to select the option of object: lstNewQuote_Line. The text is: Personal Auto"
+                    description="Executing selectOptionByText action to select the option of object: lstNewQuote_Line. The text is: Personal Auto"
+                    errorMessage="" executionTime="00:00:539"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing selectOptionByText action to select the option of object: lstNewQuote_Line. The text is: Personal Auto"/>
+                <Step
+                    action="Executing selectOptionByText action to select the option of object: lstNewQuote_State. The text is: PA"
+                    description="Executing selectOptionByText action to select the option of object: lstNewQuote_State. The text is: PA"
+                    errorMessage="" executionTime="00:00:541"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing selectOptionByText action to select the option of object: lstNewQuote_State. The text is: PA"/>
+                <Step
+                    action="Executing selectOptionByText action to select the option of object: lstNewQuote_UseTransact. The text is: No"
+                    description="Executing selectOptionByText action to select the option of object: lstNewQuote_UseTransact. The text is: No"
+                    errorMessage="" executionTime="00:00:522"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing selectOptionByText action to select the option of object: lstNewQuote_UseTransact. The text is: No"/>
+                <Step
+                    action="Executing selectOptionByText action to select the option of object: lstNewQuote_Procision. The text is: Yes"
+                    description="Executing selectOptionByText action to select the option of object: lstNewQuote_Procision. The text is: Yes"
+                    errorMessage="" executionTime="00:00:401"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing selectOptionByText action to select the option of object: lstNewQuote_Procision. The text is: Yes"/>
+                <Step
+                    action="Executing selectOptionByText action to select the option of object: lstNewQuote_QuoteType. The text is: Full Quote"
+                    description="Executing selectOptionByText action to select the option of object: lstNewQuote_QuoteType. The text is: Full Quote"
+                    errorMessage="" executionTime="00:00:565"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Executing selectOptionByText action to select the option of object: lstNewQuote_QuoteType. The text is: Full Quote"/>
+                <Step
+                    action="Clicking on the object: btnNewQuote_StartQuote"
+                    description="Clicking on the object: btnNewQuote_StartQuote"
+                    errorMessage="" executionTime="00:07:631"
+                    id="FillNewQuotePage" image=""
+                    object="get the keyword and set it here"
+                    result="INFO" reusable="false" sortId="" stepId="Clicking on the object: btnNewQuote_StartQuote"/>
+                <Step action="New Quote page filled successfully"
+                    description="New Quote page filled successfully"
+                    errorMessage="new Quote creation failed"
+                    executionTime="00:00:000" id="FillNewQuotePage"
+                    image="" object="get the keyword and set it here"
+                    result="PASS" reusable="false" sortId="" stepId="New Quote page filled successfully"/>
+            </Steps>
+            <Description/>
+            <Result>PASS</Result>
+            <TestCaseRequirementId>NewBusniness</TestCaseRequirementId>
+        </Test>
+    </TestSuite>
+    <Environment endTime="2016-10-13 16:37:53" hostname="HYD-SMOTHKURI1"
+        logFile=".\Report\ExecLogs_2016-10-13.log" os="Windows 7"
+        startTime="2016-10-13 16:37:14" totalExecutionDuration="00:00:39"/>
+</TestResult>

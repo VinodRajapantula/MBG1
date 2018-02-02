@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObjectRepository>
+	<FeatureSet name="CommonObjects">
+
+		<Element name="Spinner" type="Link">
+			<xpath>//div[contains(@class,'x-panel-noborder')]</xpath>
+		</Element>
+
+		<Element name="Loading" type="Link">
+			<xpath>//span[@id='loadingText']</xpath>
+		</Element>
+
+		<Element name="btnNext" type="Button">
+			<xpath>//a[contains(text(),'Next')]</xpath>
+		</Element>
+
+		<Element name="btnPrevious" type="Button">
+			<xpath>//a[contains(text(),'Previous')]</xpath>
+		</Element>
+
+		<Element name="divCommon_PageTitle" type="text">
+			<xpath>//div[@id='pageTitle']</xpath>
+		</Element>
+
+		<Element name="eleCommon_RatingMessages" type="text">
+			<xpath>//ul[@id='justMessages']/li</xpath>
+		</Element>
+
+		<Element name="btnContinue" type="Button">
+			<xpath>//a[contains(text(),'Continue')]</xpath>
+		</Element>
+
+		<Element name="lnkSubmission" type="link">
+			<xpath>//a[contains(text(),'Submission')]</xpath>
+		</Element>
+
+		<Element name="chkOther" type="check">
+			<xpath>(//input[@fieldref='PolicyPrivateReReferral.MakeChanges_EffectiveDate'])[2]
+			</xpath>
+		</Element>
+
+
+		<Element name="btnApprovedQuoteWithoutChanges" type="check">
+			<xpath>//a[contains(text(),'Approved Quote (without changes)')]
+			</xpath>
+		</Element>
+
+		<Element name="btnApprovedQuoteWithoutChanges" type="check">
+			<xpath>//a[contains(text(),'Approved Quote (without changes)')]
+			</xpath>
+		</Element>
+
+		<Element name="btnApprovedQuoteWithChanges" type="check">
+			<xpath>//a[contains(text(),'Approved Quote (with changes)')]</xpath>
+		</Element>
+
+		<Element name="lnkLogOut" type="link">
+			<xpath>//a[@id='id_LogOut']</xpath>
+		</Element>
+
+		<Element name="LnkWebPages" type="link">
+			<xpath>//div[@class='pageNav']//ul//li/a</xpath>
+		</Element>
+
+		<Element name="spanQuoteNumber" type="link">
+			<xpath>//span[@fieldref = 'PolicyOutput.QuoteNumber']</xpath>
+		</Element>
+
+		<Element name="txtSearch" type="text">
+			<xpath>//input[@id='quickSearchText']</xpath>
+		</Element>
+
+		<Element name="txtSearch" type="text">
+			<xpath>//input[@id='quickSearchText']</xpath>
+		</Element>
+
+		<Element name="btnSearch" type="link">
+			<xpath>//img[@id='imgid_quickSearch']</xpath>
+		</Element>
+
+		<Element name="divQuotes" type="link">
+			<xpath>//div[@id='quoteList_policyNumber']//a</xpath>
+		</Element>
+
+
+
+	</FeatureSet>
+
+	<FeatureSet name="LoginPage">
+		<Element name="txtLogin_UserName" type="email">
+			<xpath>//input[@id='username']</xpath>
+		</Element>
+		<Element name="txtLogin_Password" type="password">
+			<xpath>//input[@id='password']</xpath>
+		</Element>
+		<Element name="lstLogin_Server" type="Select">
+			<xpath>//select[@name='serverSelection']</xpath>
+		</Element>
+		<Element name="btnLogin_Submit" type="Button">
+			<xpath>//input[@name='Submit']</xpath>
+		</Element>
+		<Element name="btnLogin_Submit" type="Button">
+			<xpath>//a[@id='home']</xpath>
+		</Element>
+
+	</FeatureSet>
+	<FeatureSet name="SelectAgencyPage">
+		<Element name="lstSelectAgency" type="Select">
+			<id>_ddlAgencies</id>
+		</Element>
+		
+		<Element name="divSelectAgency_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Select an Agency')]</xpath>
+		</Element> 
+	</FeatureSet> 
+	
+	
+
+	<FeatureSet name="NewQuotePage">
+		<Element name="btnNewQuote_NewQuote" type="Button">
+			<xpath>//a[@id='id_New']</xpath>
+		</Element>
+
+		<Element name="lstNewQuote_Agency" type="Select">
+			<xpath>//select[@fieldref='data.AgencyID']</xpath>
+		</Element>		
+
+		<Element name="lstNewQuote_Producer" type="Select">
+			<xpath>//select[@fieldref='data.Producer']</xpath>
+		</Element>
+
+		<Element name="txtNewQuote_EffDate" type="text">
+			<xpath>//input[@fieldref='data.EffectiveDate']</xpath>
+		</Element>
+
+		<Element name="lstNewQuote_Line" type="Select">
+			<xpath>//select[@fieldref='data.Line']</xpath>
+		</Element>
+
+		<Element name="lstNewQuote_State" type="Select">
+			<xpath>//select[@fieldref='data.State']</xpath>
+		</Element>
+		<Element name="lstNewQuote_UseTransact" type="Select">
+			<xpath>//select[@fieldref='data.UseTransact']</xpath>
+		</Element>
+
+		<Element name="lstNewQuote_Procision" type="Select">
+			<xpath>//select[@fieldref='data.NewRatePlan_OnScreen']</xpath>
+		</Element>
+
+		<Element name="lstNewQuote_QuoteType" type="Select">
+			<xpath>//select[@fieldref='data.QuoteType']</xpath>
+		</Element>
+		<Element name="btnNewQuote_StartQuote" type="Button">
+			<xpath>//a[contains(text(),'Start Quote')]</xpath>
+		</Element>
+
+	</FeatureSet>
+
+	<FeatureSet name="ApplicantPage">
+		<!--  <Element name="divApplicant_PageTitle" type="text">
+			<xpath>//div[@id='pageTitle']</xpath>
+		</Element>-->
+		
+		<Element name="divApplicant_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Applicant')]</xpath>
+		</Element>
+
+		<Element name="txtApplicant_ApplicantFirstName" type="text">
+			<xpath>(//input[@fieldref='InsuredOrPrincipalInput.FirstName'])[1]
+			</xpath>
+		</Element>
+
+		<Element name="txtApplicant_ApplicantMI" type="text">
+			<xpath>(//input[@fielditems='MI_string_opt_'])[1]</xpath>
+		</Element>
+
+		<Element name="txtApplicant_ApplicantLastName" type="text">
+			<xpath>(//input[@fieldref='InsuredOrPrincipalInput.LastName'])[1]
+			</xpath>
+		</Element>
+
+		<Element name="txtApplicant_SocialSecurityNumber1" type="text">
+			<xpath>(//input[@type='password'])[1]</xpath>
+		</Element>
+
+		<Element name="txtApplicant_SocialSecurityNumber2" type="text">
+			<xpath>(//input[@type='password'])[2]</xpath>
+		</Element>
+		<Element name="txtApplicant_SocialSecurityNumber3" type="text">
+			<xpath>//input[@size='4']</xpath>
+		</Element>
+
+		<Element name="lstApplicant_MaritalStatus" type="Select">
+			<xpath>//select[@fieldref='InsuredOrPrincipalInput.MaritalStatus']
+			</xpath>
+		</Element>
+
+		<Element name="txtApplicant_ApplicantDOB" type="text">
+			<xpath>//input[@fieldref='InsuredOrPrincipalInput.DateOfBirth']
+			</xpath>
+		</Element>
+
+		<!-- Adding Insured details -->
+
+		<Element name="txtApplicant_NamedInsuredFirstName" type="text">
+			<xpath>(//input[@fieldref='InsuredOrPrincipalInput.FirstName'])[2]
+			</xpath>
+		</Element>
+		
+		<Element name="btnNamedInsured" type="Link">
+			<xpath>//a[contains(text(),'Add Named Insured')]</xpath>
+		</Element>
+
+		<Element name="txtApplicant_NamedInsuredMI" type="text">
+			<xpath>(//input[@fielditems='MI_string_opt_'])[2]
+			</xpath>
+		</Element>
+
+		<Element name="txtApplicant_NamedInsuredLastName" type="text">
+			<xpath>(//input[@fieldref='InsuredOrPrincipalInput.LastName'])[2]
+			</xpath>
+		</Element>
+
+	<Element name="lstDoseNamedInsuredneedtobeListed" type="Select">
+			<xpath>//select[@fieldref='InsuredOrPrincipalInput.Driver']</xpath>
+		</Element>
+		
+		<Element name="lstAreAnyVehiclesNotSolelyOwned" type="Select">
+			<xpath>//select[@fieldref='InsuredOrPrincipalInput.AnyVehiclesSolelyOwned']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_NamedInsuredSocialSecurityNumber1"
+			type="text">
+			<xpath>(//input[@type='password'])[3]</xpath>
+		</Element>
+
+		<Element name="txtApplicant_NamedInsuredSocialSecurityNumber2"
+			type="text">
+			<xpath>(//input[@type='password'])[4]</xpath>
+		</Element>
+		<Element name="txtApplicant_NamedInsuredSocialSecurityNumber3"
+			type="text">
+			<xpath>(//input[@size='4'])[2]</xpath>
+		</Element>
+
+		<Element name="lstApplicant_NamedInsuredMaritalStatus" type="Select">
+			<xpath>(//select[@fieldref='InsuredOrPrincipalInput.MaritalStatus'])[2]
+			</xpath>
+		</Element>
+
+		<Element name="txtApplicant_NamedInsuredApplicantDOB" type="text">
+			<xpath>(//input[@fieldref='InsuredOrPrincipalInput.DateOfBirth'])[2]
+			</xpath>
+		</Element>
+
+		<!--End Named Insured Filling details -->
+
+		<!--Adding Years at residence less than 3yrs objects -->
+
+		<Element name="txtApplicant_YearsResidenceLT3Previoustitle"
+			type="Link">
+			<xpath>//span[contains(text(),"Previous")]</xpath>
+		</Element>
+
+		<Element name="txtApplicant_YearsResidenceLT3InsuredStreetAddress"
+			type="text">
+			<xpath>//input[@fieldref='LocationsInput.Address1']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_YearsResidenceLT3InsuredAddress2"
+			type="text">
+			<xpath>//input[@fieldref='LocationsInput.Address2']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_YearsResidenceLT3InsuredCity"
+			type="text">
+			<xpath>//input[@fieldref='LocationsInput.City']</xpath>
+		</Element>
+
+		<Element name="lstApplicant_YearsResidenceLT3InsuredState"
+			type="Select">
+			<xpath>//select[@fieldref='LocationsInput.State']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_YearsResidenceLT3InsuredZipCode"
+			type="text">
+			<xpath>//input[@fieldref='LocationsInput.ZipCodeDisplay']</xpath>
+		</Element>
+		
+		
+		<Element name="lstApplicant_OverrideAddress" type="Select">
+			<xpath>(//input[@fieldref="LocationsInput.AddressOverridden"])[2]</xpath>
+		</Element>
+
+		<!--End Adding Years at residence less than 3yrs objects -->
+
+		<!--Adding Mailing Address -->
+
+		<Element name="txtApplicant_Mailingtitle" type="Link">
+			<xpath>//span[contains(text(),"Mailing")]</xpath>
+		</Element>
+
+		<Element name="txtApplicant_MailingStreetAddress" type="text">
+			<xpath>//input[@fieldref='LocationsInput.Address1']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_MailingInsuredAddress2" type="text">
+			<xpath>//input[@fieldref='LocationsInput.Address2']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_MailingInsuredCity" type="text">
+			<xpath>//input[@fieldref='LocationsInput.City']</xpath>
+		</Element>
+
+		<Element name="lstApplicant_MailingInsuredState" type="Select">
+			<xpath>//select[@fieldref='LocationsInput.State']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_MailingInsuredZipCode" type="text">
+			<xpath>//input[@fieldref='LocationsInput.ZipCodeDisplay']</xpath>
+		</Element>
+		
+		<Element name="lstApplicant_ReasonForChange" type="Select">
+			<xpath>//select[@fieldref='LocationsInput.ReasonForAddressChange']</xpath>
+		</Element>
+		<Element name="lstOtherLicnsedOperatorCount" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.AdditionalDrivers_Applicant']</xpath>
+		</Element>
+
+		<!--Ending Mailing Address -->
+
+
+		<Element name="txtApplicant_InsuredStreetAddress" type="text">
+			<xpath>//input[@fieldref='LocationsInput.Address1']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_InsuredAddress2" type="text">
+			<xpath>//input[@fieldref='LocationsInput.Address2']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_InsuredCity" type="text">
+			<xpath>//input[@fieldref='LocationsInput.City']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_InsuredZipCode" type="text">
+			<xpath>//input[@fieldref='LocationsInput.ZipCodeDisplay']</xpath>
+		</Element>
+
+		<Element name="lstApplicant_InsuredCountry" type="Select">
+			<xpath>//select[@fieldref='LocationsInput.County']</xpath>
+		</Element>
+
+
+		<Element name="lstApplicant_InsuredYearsResidence" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.YearsAtCurrentResidence']
+			</xpath>
+		</Element>
+
+
+		<Element name="lstApplicant_InsuredCurrentAddressAsMailing"
+			type="Select">
+			<xpath>//select[@fieldref='PolicyInput.CurrentSameAsMailing']</xpath>
+		</Element>
+
+		<Element name="txtApplicant_InsuredEffectiveDate" type="text">
+			<xpath>//input[@fieldref='PolicyInput.EffectiveDate']</xpath>
+		</Element>
+
+		<Element name="lstApplicant_InsuredTerm" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.Term']</xpath>
+		</Element>
+
+
+		<Element name="txtApplicant_InsuredPhone" type="text">
+			<xpath>//input[@fieldref='InsuredOrPrincipalInput.PhoneNumberDisplay']
+			</xpath>
+		</Element>
+
+
+		<Element name="txtApplicant_InsuredEmail" type="text">
+			<xpath>//input[@fieldref='InsuredOrPrincipalInput.EmailAddress']
+			</xpath>
+		</Element>
+
+
+		<Element name="lstApplicant_InsuredTypeOfBusiness" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.TypeOfBusiness']</xpath>
+		</Element>
+
+		<Element name="txtCurrentPolicyNumber" type="text">
+			<xpath>//input[@fieldref='PolicyInput.TypeOfBusiness_Rewrite_MBGPolicyNumber']</xpath>
+		</Element>
+		
+		<Element name="lstApplicant_ReasonForRewrite" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.TypeOfBusiness_Rewrite_Reason']</xpath>
+		</Element>
+		
+		<Element name="txtExplain" type="text">
+			<xpath>//input[@fieldref='PolicyInput.TypeOfBusiness_Rewrite_Explain']</xpath>
+		</Element>
+
+		<Element name="btnApplicant_Next" type="Button">
+			<xpath>//a[contains(text(),'Next')]</xpath>
+		</Element>
+
+	</FeatureSet>
+
+	<FeatureSet name="DriversPage">
+
+		<Element name="lnkDrivers_DeleteLst" type="Link">
+			<xpath>//a[contains(text(),'Delete')]</xpath>
+		</Element>
+		
+		<Element name="lnkDetailsLst" type="Link">
+			<xpath>//a[text()='Detail']</xpath>
+		</Element>
+		<Element name="divDrivers_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Drivers')]</xpath>
+		</Element>
+
+		<Element name="lnkDetail" type="Link">
+			<xpath>(//a[text()='Detail'])[1] </xpath>
+		</Element>
+
+		<Element name="btnAddDriver" type="Button">
+			<xpath>//a[contains(text(),'Add Driver')]</xpath>
+		</Element>
+
+		<Element name="chkMVR" type="check">
+			<xpath>//div[@id='interviewList_DriverInput.OrderMVR']//div</xpath>
+		</Element>
+
+		<Element name="chDoNotIncludeDriverAssignment" type="check">
+			<xpath>(//input[@fieldref='DriverInput.DoNotIncludeInDriverAssignment'])[2]//div
+			</xpath>
+		</Element>
+		
+		<Element name="chkManualReviewRequired" type="check">
+			<xpath>(//*[@id='interviewList_DriverOutput.ManualReviewRequired']/div)[1]
+			</xpath>
+		</Element>
+		
+		<Element name="divLicenseNumber" type="check">
+			<xpath>//div[@id='interviewList_DriverInput.DriversLicenseNumber']
+			</xpath>
+		</Element>
+		
+		<Element name="lstframeReasonDeleted" type="select">
+			<xpath>//select[@fieldref='DriverInput.ReasonDeleted']
+			</xpath>
+		</Element>
+
+		<Element name="btnframeDeleteDriver" type="Button">
+			<xpath>//a[contains(text(),'Delete Driver')]
+			</xpath>
+		</Element>	
+
+	</FeatureSet>
+
+	<FeatureSet name="DriverDetailsPage">
+
+
+		<Element name="txtDriverFirstName" type="text">
+			<xpath>//input[@fieldref='DriverInput.FirstName']</xpath>
+		</Element>
+		<Element name="txtDriverMI" type="text">
+			<xpath>//input[@fieldref='DriverInput.MiddleInitial']</xpath>
+		</Element>
+
+		<Element name="txtDriverLastName" type="text">
+			<xpath>//input[@fieldref='DriverInput.LastName']</xpath>
+		</Element>
+		<Element name="txtDriverDateOfBirth" type="text">
+			<xpath>//input[@fieldref='DriverInput.DateOfBirth']</xpath>
+		</Element>
+		<Element name="lstGender" type="Select">
+			<xpath>//select[@fieldref='DriverInput.Gender']</xpath>
+		</Element>
+		<Element name="lstMaritalStatus" type="Select">
+			<xpath>//select[@fieldref='DriverInput.MaritalStatus']</xpath>
+		</Element>
+
+		<Element name="lstRelationToApplicant" type="Select">
+			<xpath>//select[@fieldref='DriverInput.RelationToApplicant']</xpath>
+		</Element>
+
+		<Element name="txtDateLicensed" type="text">
+			<xpath>//input[@fieldref='DriverInput.DateLicensed']</xpath>
+		</Element>
+
+		<Element name="lstOccupation" type="Select">
+			<xpath>//select[@fieldref='DriverInput.Occupation_OnScreen']</xpath>
+		</Element>
+
+		<Element name="txtDriver_SocialSecurityNumber1" type="text">
+			<xpath>(//input[@type='password'])[1]</xpath>
+		</Element>
+
+		<Element name="txtDriver_SocialSecurityNumber2" type="text">
+			<xpath>(//input[@type='password'])[2]</xpath>
+		</Element>
+		<Element name="txtDriver_SocialSecurityNumber3" type="text">
+			<xpath>//input[@size='4']</xpath>
+		</Element>
+
+		<Element name="lstLicenseState" type="Select">
+			<xpath>//select[@fieldref='DriverInput.LicenseState']</xpath>
+		</Element>
+
+		<Element name="txtDriversLicenseNumber" type="text">
+			<xpath>//input[@fieldref ='DriverInput.DriversLicenseNumber']</xpath>
+		</Element>
+
+		<Element name="chkDontIncludeAsAssignedDriver" type="check">
+			<xpath>(//input[@fieldref='DriverInput.DoNotIncludeInDriverAssignment'])[2]</xpath>
+		</Element>
+
+		<Element name="lstReason" type="Select">
+			<xpath>//select[@fieldref='DriverInput.DoNotIncludeInDriverAssignmentReason']
+			</xpath>
+		</Element>
+
+		<Element name="chkDefenseDriver" type="check">
+			<xpath>//input[@fieldref ='DriverInput.DefensiveDriver']</xpath>
+		</Element>
+
+		<Element name="btnOK" type="Button">
+			<xpath>//a[contains(text(),'OK')]</xpath>
+		</Element>
+
+		<Element name="btnEdit" type="Button">
+			<xpath>//a[contains(text(),'Edit')]</xpath>
+		</Element>
+
+		<Element name="txtDriver_UpdateSSN1" type="text">
+			<xpath>//input[@size=3]</xpath>
+		</Element>
+
+		<Element name="txtDriver_UpdateSSN2" type="text">
+			<xpath>//input[@size=2]</xpath>
+		</Element>
+		<Element name="txtDriver_UpdateSSN3" type="text">
+			<xpath>//input[@size=4]</xpath>
+		</Element>
+
+		<Element name="btnUse" type="Button">
+			<xpath>//a[contains(text(),'Use')]</xpath>
+		</Element>
+
+		<Element name="chkDriverTraining" type="check">
+			<xpath>(//input[@fieldref='DriverInput.DriverTraining'])[2]</xpath>
+		</Element>
+
+		<Element name="chkDistantStudent" type="check">
+			<xpath>(//input[@fieldref='DriverInput.DistantStudent'])[2]</xpath>
+		</Element>
+
+		<Element name="chkGoodStudent" type="check">
+			<xpath>(//input[@fieldref='DriverInput.GoodStudent'])[2]</xpath>
+		</Element>
+		
+		<Element name="txtReportCardDate" type="text">
+			<xpath>//input[@fieldref='DriverInput.ReportCardDate']</xpath>
+		</Element>	
+			
+		<Element name="lstDistantStudentVehicleStatus" type="Select">
+			<xpath>//select[@fieldref='DriverInput.DistantStudentVehicleStatus']
+			</xpath>
+		</Element>
+		<Element name="lstAssignedReason" type="Select">
+			<xpath>//select[@fieldref='DriverInput.DoNotIncludeInDriverAssignmentReason']</xpath>
+		</Element>
+		<Element name="lstPreviousLicenseState" type="Select">
+			<xpath>//select[@fieldref='DriverInput.PrevLicenseState']</xpath>
+		</Element>
+
+		<Element name="txtpreviousLicenseNumber" type="text">
+			<xpath>//input[@fieldref='DriverInput.PrevDriversLicenseNumber']</xpath>
+		</Element>
+	</FeatureSet>
+
+	<FeatureSet>
+
+		<Element name="divViolations_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Violations')]</xpath>
+		</Element>
+		<!--Adding Violations Page details Address -->
+		<Element name="btnAddLoss" type="Button">
+			<xpath>(//a[contains(text(),'Add Loss')])</xpath>
+		</Element>
+		<Element name="txtLossDate" type="text">
+			<xpath>//input[@fieldref='AccidentViolationInput.Date']</xpath>
+		</Element>
+
+        <Element name="chkExcludeReason" type="check">
+               <xpath>//input[@fieldref='AccidentViolationInput.ExcludedViolation']</xpath>
+        </Element>    
+        
+        <Element name="txtExcludeReason" type="text">
+               <xpath>//input[@fieldref='AccidentViolationOutput.ExclusionReason']</xpath>
+        </Element>
+               
+		<Element name="lstLossCoverage" type="Select">
+			<xpath>//select[@fieldref='Coverage.CoverageCode_ShownOnScreen']
+			</xpath>
+		</Element>
+
+		<Element name="txtLossCollisionAmt" type="text">
+			<xpath>//input[@fieldref='Coverage.Amount']</xpath>
+		</Element>
+
+		<Element name="lstLossStatus" type="Select">
+			<xpath>//select[@fieldref='Coverage.ClaimDisposition']</xpath>
+		</Element>
+
+		<Element name="lstLossFaultType" type="Select">
+			<xpath>//select[@fieldref='Coverage.FaultType']</xpath>
+		</Element>
+
+		<Element name="txtLossDetails" type="text">
+			<xpath>//input[@fieldref='Coverage.LossDetails']</xpath>
+		</Element>
+
+		<Element name="btnAddViolation" type="Button">
+			<xpath>(//a[contains(text(),'Add Violation')])</xpath>
+		</Element>
+
+		<Element name="txtViolationDate" type="text">
+			<xpath>//input[@fieldref='AccidentViolationInput.Date']</xpath>
+		</Element>
+
+		<Element name="lstViolationType" type="Select">
+			<xpath>//select[@fieldref='AccidentViolationInput.Violation_ShownOnScreen_Description']
+			</xpath>
+		</Element>
+
+		<Element name="txtDrivingRecordDescription" type="text">
+			<xpath>//input[@fieldref='AccidentViolationPrivate.DrivingRecordDescription']</xpath>
+		</Element>
+				
+		<Element name="chkViolations_MVROverride" type="text">
+			<xpath>//input[@fieldref='DriverOutput.MVRReportOrdered_ManualOverride']</xpath>
+		</Element>
+		
+	</FeatureSet>
+
+	<FeatureSet name="vehicalsPage">
+		<Element name="divVehicals_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Vehicles')]</xpath>
+		</Element>
+		<Element name="lstOtherMBGPolicy" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.OtherMBGAutoPolicy']</xpath>
+		</Element>
+
+		<Element name="divVINNumber" type="check">
+			<xpath>//div[@id='interviewList_VehicleInput.VIN']</xpath>
+		</Element>
+
+		<Element name="btnAddVehicle" type="Button">
+			<xpath>//a[contains(text(),'Add Vehicle')]</xpath>
+		</Element>
+	</FeatureSet>
+
+	<FeatureSet name="vehicalDetailsPage">
+
+		<Element name="divVehicalsDetails_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Vehicles Detail')]</xpath>
+		</Element>
+		<Element name="lstType" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.Type']</xpath>
+		</Element>
+
+		<Element name="lstAcceptVIN" type="Select">
+			<xpath>(//input[@fieldref='CheckDigitCalculation.AcceptVin'])[2]</xpath>
+		</Element>
+		
+		<Element name="txtVIN" type="text">
+			<xpath>//input[@fieldref='VehicleInput.VIN']</xpath>
+		</Element>
+
+		<Element name="txtYear" type="text">
+			<xpath>//input[@fieldref='VehicleInput.ModelYear']</xpath>
+		</Element>
+
+		<Element name="lstMake" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.Make_MEPriorTo1981']</xpath>
+		</Element>
+		
+		<Element name="txtMake" type="text">
+			<xpath>//input[@fieldref='VehicleInput.Make']</xpath>
+		</Element>
+		<Element name="txtModel" type="text">
+			<xpath>//input[@fieldref='VehicleInput.Model']</xpath>
+		</Element>
+		<Element name="txtDescription" type="text">
+			<xpath>//input[@fieldref='VehicleInput.Description']</xpath>
+		</Element>
+		<Element name="lstTitle" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.TitleQuestion']</xpath>
+		</Element>
+
+		<Element name="lstVehicleRegisteredinPA" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.VehicleRegistrationQuestion']
+			</xpath>
+		</Element>
+		<Element name="lstUsage" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.Usage']</xpath>
+		</Element>
+		
+		<Element name="txtMiles" type="text">
+			<xpath>//input[@fieldref='VehicleInput.OneWayMileage']</xpath>
+		</Element>
+		<Element name="txtDetailsofBusinessUsage" type="text">
+			<xpath>//input[@fieldref='VehicleInput.DetailsOfBusinessUse']</xpath>
+		</Element>
+		<Element name="txtCostNew" type="text">
+			<xpath>//input[@fieldref='VehicleInput.CostNew']</xpath>
+		</Element>
+		<Element name="chkStatedAmount" type="check">
+			<xpath>(//input[@fieldref='VehicleInput.StatedAmount'])[2]</xpath>
+		</Element>
+		<Element name="txtInsurablValue" type="text">
+			<xpath>//input[@fieldref='VehicleInput.InsurableValue']</xpath>
+		</Element>
+
+		<Element name="chkAlternateGarage" type="check">
+			<xpath>(//input[@fieldref='VehicleGaraging.AlternateGarage'])[2]
+			</xpath>
+		</Element>
+
+		<Element name="txtGarriageAddress" type="text">
+			<xpath>//input[@fieldref='VehicleGaraging.Address1']</xpath>
+		</Element>
+
+		<Element name="txtGarriageCity" type="text">
+			<xpath>//input[@fieldref='VehicleGaraging.City']</xpath>
+		</Element>
+
+		<Element name="lstGarriageState" type="Select">
+			<xpath>//select[@fieldref='VehicleGaraging.State']</xpath>
+		</Element>
+
+		<Element name="lstGarriageStateChange" type="Select">
+			<xpath>//select[@fieldref='VehicleGaraging.GarageStateChange']
+			</xpath>
+		</Element>
+
+		<Element name="txtGarriageZip" type="text">
+			<xpath>//input[@fieldref='VehicleGaraging.AlternateGarageZipCode_Display']
+			</xpath>
+		</Element>
+
+		<Element name="lstGarriageCounty" type="Select">
+			<xpath>//select[@fieldref='VehicleGaraging.AlternateGarageCountyCode']
+			</xpath>
+		</Element>
+		
+		<Element name="lstAppliedToALlVehicles" type="Select">
+			<xpath>//select[@fieldref='VehicleGaraging.AddressAppliesToAllVehicles']</xpath>
+		</Element>
+
+		<Element name="lstPassiveRestarint" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.AirBags_ShownOnScreen']
+			</xpath>
+		</Element>
+
+		<Element name="lstAntiTheft" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.AntiTheft_ShownOnScreen']
+			</xpath>
+		</Element>
+
+		<Element name="lstAntiLockBrakes" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.AntiLockBrakes_ShownOnScreen']
+			</xpath>
+		</Element>
+
+	</FeatureSet>
+
+	<FeatureSet name="CoverageDetailsPage">
+
+		<Element name="divCoverageDetails_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Coverages')]</xpath>
+		</Element>
+
+		<Element name="lstBI" type="Select">
+			<xpath>//select[@fieldref='Coverages.BILimits']</xpath>
+		</Element>
+
+		<!--Adding PD Object for MD -->
+
+
+		<Element name="lstPersonalInjuryProtection" type="Select">
+			<xpath>//select[@fieldref='Coverages.PIPLimit']</xpath>
+		</Element>
+
+		<Element name="lstMedicalPayments" type="Select">
+			<xpath>//select[@fieldref='Coverages.MedPmLimit']</xpath>
+		</Element>
+
+		<Element name="lstUninsuredPD" type="Select">
+			<xpath>//select[@fieldref='Coverages.UMPDLimit']</xpath>
+		</Element>
+
+		<!--END PD Object for MD -->
+
+		<Element name="lstMedPay" type="Select">
+			<xpath>//select[@fieldref='FSBLimits.FirstPartyMedicalPayments']
+			</xpath>
+		</Element>
+
+		<Element name="lstFuneral" type="Select">
+			<xpath>//select[@fieldref='FSBLimits.FirstPartyFuneral']</xpath>
+		</Element>
+
+		<Element name="lstPD" type="Select">
+			<xpath>//select[@fieldref='Coverages.PDLimits']</xpath>
+		</Element>
+
+		<Element name="lstWKLoss" type="Select">
+			<xpath>//select[@fieldref='FSBLimits.FirstPartyWKLoss']</xpath>
+		</Element>
+
+		<Element name="lstAccDeath" type="Select">
+			<xpath>//select[@fieldref='FSBLimits.FirstPartyAccidentalDeath']
+			</xpath>
+		</Element>
+
+		<Element name="lstTortOption" type="Select">
+			<xpath>//select[@fieldref='Tort.TortOption']</xpath>
+		</Element>
+		<Element name="lstExtraordinaryMedical" type="Select">
+			<xpath>//select[@fieldref='Coverages.ExtraordinaryMed']</xpath>
+		</Element>
+
+		<Element name="lstUnderInsuredStackOption" type="Select">
+			<xpath>//select[@fieldref='Coverages.UIMStacked']</xpath>
+		</Element>
+
+		<Element name="lstUnInsuredStackOption" type="Select">
+			<xpath>//select[@fieldref='Coverages.UMStacked']</xpath>
+		</Element>
+
+		<Element name="lstUnderInsuredBI" type="Select">
+			<xpath>//select[@fieldref='Coverages.UIMLimit']</xpath>
+		</Element>
+
+		<Element name="lstUnInsuredBI" type="Select">
+			<xpath>//select[@fieldref='Coverages.UMLimit']</xpath>
+		</Element>
+
+		<Element name="lstPriorBILimit" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.PriorBILimit' and
+				@fielditems='Prior BI Limit_string_req_']
+			</xpath>
+		</Element>
+
+		<Element name="chkAccountCredit" type="text">
+			<xpath>(//input[@fieldref='PolicyInput.AccountCredit'])[2]</xpath>
+		</Element>
+
+		<Element name="txtAccountCreditPolicynumber" type="text">
+			<xpath>//input[@fieldref='OtherPolicy.PolicyNumber']</xpath>
+		</Element>
+
+		<Element name="lstIsHomeOwnerPolicy" type="Select">
+			<xpath>//select[@fieldref='PolicyInput.PAC_HOPPolicyFormQuestion']
+			</xpath>
+		</Element>
+
+		<Element name="btnAddViewEndorsements" type="button">
+			<xpath>//a[contains(text(),'Add/View Endorsements')]</xpath>
+		</Element>
+
+		<Element name="lnkCoverageDetails" type="link">
+			<xpath>//div[contains(@class,'x-grid3-row')]//a[contains(text(),'Detail')]
+			</xpath>
+		</Element>
+
+		<Element name="divAssignedDriver" type="link">
+			<xpath>//div[@id='interviewList_VehiclePrivate.AssignedDriverID']
+			</xpath>
+		</Element>
+
+		<Element name="lstAssignedDriver" type="Select">
+			<xpath>//select[@fieldref='VehiclePrivate.AssignedDriverID']</xpath>
+		</Element>
+
+		<Element name="lstOperatorStatus" type="Select">
+			<xpath>//select[@fieldref='VehicleInput.OperatorStatus']</xpath>
+		</Element>
+
+		<Element name="lstcompDed" type="Select">
+			<xpath>//select[@fieldref='ComprehensiveInput.Deductible']</xpath>
+		</Element>
+		<Element name="lstCollDed" type="Select">
+			<xpath>//select[@fieldref='CollisionInput.Deductible']</xpath>
+		</Element>
+
+		<Element name="chkAU0015AutoAdvantage" type="check">
+			<xpath>(//input[@fieldref='MBPP15Input.Limit'])[2]</xpath>
+		</Element>
+
+		<Element name="lstTowing" type="Select">
+			<xpath>//select[@fieldref='TowingAndLaborInput.Limit']</xpath>
+		</Element>
+
+		<Element name="lstRental" type="Select">
+			<xpath>//select[@fieldref='RentalReimbursementInput.Limit']</xpath>
+		</Element>
+
+		<Element name="chkExcludeLibility" type="check">
+			<xpath>(//input[@fieldref='VehicleCoverages.ExcludeLiability'])[2]</xpath>
+		</Element>
+
+		<Element name="chkReplacementCostcoverage" type="check">
+			<xpath>//input[@fieldref='VehicleInput.ReplacementCostCoverageReadOnly']
+			</xpath>
+		</Element>
+
+		<Element name="chkLimitedMexicoCoverage" type="check">
+			<xpath>//input[@fieldref='VehicleInput.PP0321Limit"']</xpath>
+		</Element>
+		
+		<Element name="lstExcludeReason" type="Select">
+			<xpath>//select[@fieldref='VehicleCoverages.ExcludeLiabilityReasons']</xpath>
+		</Element>
+
+		<Element name="txtExcludeReasonDescription" type="text">
+			<xpath>//input[@fieldref='VehicleCoverages.OtherReasonDescription']</xpath>
+		</Element>
+		
+	</FeatureSet>
+
+	<FeatureSet name="PremiumPage">
+		<Element name="divPremium_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Premium')]</xpath>
+		</Element>
+
+		<Element name="btnCompleteApplication" type="Button">
+			<xpath>//a[contains(text(),'Complete Application')]</xpath>
+		</Element>
+
+	</FeatureSet>
+
+
+	<FeatureSet name="additionalIntrestPage">
+		<Element name="divAdditionalIntrest_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Additional Interests')]</xpath>
+		</Element>
+	</FeatureSet>
+
+	<FeatureSet name="UnderwritingPage">
+		<Element name="divUnderWriting_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Underwriting')]</xpath>
+		</Element>
+
+		<Element name="lstGeneralInfoYesNO" type="Select">
+			<xpath>//select[@fieldref='GeneralInformationInput.YesNo']</xpath>
+		</Element>
+		
+		<Element name="lstUW_OtherOwnerVehicleNumber" type="Select">
+			<xpath>//Select[@fieldref='NameOfOtherOwnerInput.VehicleNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_OtherOwnerName" type="text">
+			<xpath>//Input[@fieldref='NameOfOtherOwnerInput.NameOfOtherOwner']</xpath>
+		</Element>
+		
+		<Element name="lstUW_CarModifiedVehicleNumber" type="Select">
+			<xpath>//Select[@fieldref='CarModifiedInput.VehicleNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_CarModifiedDescription" type="text">
+			<xpath>//Input[@fieldref='CarModifiedInput.Description']</xpath>
+		</Element>
+
+		<Element name="txtUW_CarModifiedCost" type="text">
+			<xpath>//Input[@fieldref='CarModifiedInput.Cost']</xpath>
+		</Element>
+		
+		<Element name="lstUW_ExistingDamageVehicleNumber" type="Select">
+			<xpath>//Select[@fieldref='ExistingDamageInput.VehicleNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_ExistingDamageDescription" type="text">
+			<xpath>//Input[@fieldref='ExistingDamageInput.Description']</xpath>
+		</Element>
+		
+		<Element name="lstUW_OtherLossesDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='OtherLossesInput.DriverNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_OtherLossesDescription" type="text">
+			<xpath>//Input[@fieldref='OtherLossesInput.Description']</xpath>
+		</Element>
+		
+		<Element name="txtUW_OtherLossesCost" type="text">
+			<xpath>//Input[@fieldref='OtherLossesInput.Cost']</xpath>
+		</Element>
+
+		<Element name="txtUW_GenInfoOperatorsNum" type="text">
+			<xpath>//Input[@fieldref='GeneralInformationInput.NumberOfOperators']</xpath>
+		</Element>
+
+		<Element name="txtUW_OtherInsuranceNamedInsured" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceInput.NamedInsured']</xpath>
+		</Element>
+		
+		<Element name="txtUW_OtherInsuranceYear" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceInput.Year']</xpath>
+		</Element>
+		
+		<Element name="txtUW_OtherInsuranceMake" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceInput.Make']</xpath>
+		</Element>
+
+		<Element name="txtUW_OtherInsuranceModel" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceInput.Model']</xpath>
+		</Element>
+		
+		<Element name="txtUW_OtherInsuranceCarrier" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceInput.Carrier']</xpath>
+		</Element>
+		
+		<Element name="txtUW_OtherInsuranceNAIC" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceInput.NAICCode']</xpath>
+		</Element>
+		
+		<Element name="txtUW_OtherInsurancePolicyNum" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceInput.PolicyNumber']</xpath>
+		</Element>
+		
+		<Element name="txtUW_OtherInsuranceMBGPolicyNum" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceMBGInput.PolicyNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_OtherInsuranceMBGInsType" type="text">
+			<xpath>//Input[@fieldref='OtherInsuranceMBGInput.TypeOfInsurance']</xpath>
+		</Element>
+
+		<Element name="lstUW_MilitaryServiceDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='MilitaryServiceInput.DriverNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_MilitaryServiceBaseLocation" type="text">
+			<xpath>//Input[@fieldref='MilitaryServiceInput.BaseLocation']</xpath>
+		</Element>
+
+		<Element name="lstUW_MilitaryServiceVehicleAtBase" type="Select">
+			<xpath>//Select[@fieldref='MilitaryServiceInput.VehicleAtBase']</xpath>
+		</Element>
+
+		<Element name="lstUW_LicenseSuspendedDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='LicenseSuspendedInput.DriverNumber']</xpath>
+		</Element>
+		
+		<Element name="txtUW_LicenseSuspendedStartDate" type="text">
+			<xpath>//Input[@fieldref='LicenseSuspendedInput.StartDate']</xpath>
+		</Element>
+
+		<Element name="txtUW_LicenseSuspendedEndDate" type="text">
+			<xpath>//Input[@fieldref='LicenseSuspendedInput.EndDate']</xpath>
+		</Element>
+
+		<Element name="txtUW_LicenseSuspendedExplanation" type="text">
+			<xpath>//Input[@fieldref='LicenseSuspendedInput.Explanation']</xpath>
+		</Element>
+
+		<Element name="txtUW_LicenseSuspendedReinstateDate" type="text">
+			<xpath>//Input[@fieldref='LicenseSuspendedInput.ReinstateDate']</xpath>
+		</Element>
+
+		<Element name="lstUW_ImpairmentDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='DriverImpairmentInput.DriverNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_ImpairmentDescription" type="text">
+			<xpath>//Input[@fieldref='DriverImpairmentInput.Description']</xpath>
+		</Element>
+
+		<Element name="lstUW_MedicalTreatmentDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='MedicalTreatmentInput.DriverNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_MedicalTreatmentExplanation" type="text">
+			<xpath>//Input[@fieldref='MedicalTreatmentInput.Explanation']</xpath>
+		</Element>
+
+		<Element name="lstUW_FinancialFilingDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='FinancialFilingInput.DriverNumber']</xpath>
+		</Element>
+				
+		<Element name="txtUW_FinancialFilingReason" type="text">
+			<xpath>//Input[@fieldref='FinancialFilingInput.Reason']</xpath>
+		</Element>
+				
+		<Element name="txtUW_FinancialFilingFilingDate" type="text">
+			<xpath>//Input[@fieldref='FinancialFilingInput.FilingDate']</xpath>
+		</Element>
+				
+
+		<Element name="lstUW_CoverageDeclinedDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='CoverageDeclinedInput.DriverNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_CoverageDeclinedReason" type="text">
+			<xpath>//Input[@fieldref='CoverageDeclinedInput.Reason']</xpath>
+		</Element>
+		
+
+		<Element name="lstUW_LegalActionDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='LegalActionInput.DriverNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_LegalActionExplanation" type="text">
+			<xpath>//Input[@fieldref='LegalActionInput.Explanation']</xpath>
+		</Element>
+				
+		<Element name="lstUW_WithoutLiabilityDriverNumber" type="Select">
+			<xpath>//Select[@fieldref='DrivenWithoutLiabilityInput.DriverNumber']</xpath>
+		</Element>
+
+		<Element name="txtUW_WithoutLiabilityExplanation" type="text">
+			<xpath>//Input[@fieldref='DrivenWithoutLiabilityInput.Explanation']</xpath>
+		</Element>
+
+		<Element name="btnQuestionsComplete" type="link">
+			<xpath>//a[contains(text(),'Questions Complete')]</xpath>
+		</Element>
+		
+		<Element name="btnUW_EditQuestions" type="link">
+			<xpath>//a[contains(text(),'Edit Questions')]</xpath>
+		</Element>
+	</FeatureSet>
+
+
+	<FeatureSet name="genericInfoPage">
+		<Element name="divGeneralInfo_PageTitle" type="text">
+			<xpath>//div[contains(text(),'General Information')]</xpath>
+		</Element>
+
+		<Element name="lstCarrier" type="Select">
+			<xpath>//select[@fieldref='OtherPolicy.PriorCarrierSelect']</xpath>
+		</Element>
+
+		<Element name="lstYearsWithCompany" type="Select">
+			<xpath>//select[@fieldref='OtherPolicy.NumYearsWithPriorCarrierSelect']
+			</xpath>
+		</Element>
+
+		<Element name="lstExpirationDate" type="text">
+			<xpath>//select[@fieldref='OtherPolicy.ExpirationDateSelect']</xpath>
+		</Element>
+
+		<Element name="txtPriorPolicyNumber" type="text">
+			<xpath>//input[@fieldref='OtherPolicy.PriorPolicyNumber']</xpath>
+		</Element>
+
+	</FeatureSet>
+
+	<FeatureSet name="submissionPage">
+		<Element name="divSubmission_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Submission')]</xpath>
+		</Element>
+
+		<Element name="chkMBGUmbrella" type="check">
+			<xpath>(//input[@fieldref='PolicyInput.MBGUmbrella'])[2]</xpath>
+		</Element>
+		<Element name="txtPolicyNumber" type="text">
+			<xpath>//input[@fieldref='OtherPolicy.UmbrellaPolicyNumber']</xpath>
+		</Element>
+
+		<Element name="btnValidateVins" type="link">
+			<xpath>//a[contains(text(),'Validate VIN(s)')]</xpath>
+		</Element>
+
+		<Element name="btnRefertoUnderWriting" type="link">
+			<xpath>//a[contains(text(),'Refer to Underwriting')]</xpath>
+		</Element>
+
+
+		<Element name="btnSubmission_BindAndSubmit" type="link">
+			<xpath>//a[contains(text(),'Bind and Submit')]</xpath>
+		</Element>
+		
+		<Element name="btnMakeChanges" type="button">
+			<xpath>//a[contains(text(),'Make Changes')]</xpath>
+		</Element>
+	</FeatureSet>
+	
+	<FeatureSet name="PaymentOptionsPage">
+		<Element name="divPaymentOptions_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Payment Options')]</xpath>
+		</Element>	
+		
+		<Element name="btnPaymentOptions_ContinueWOPayment" type="button">
+			<xpath>//a[contains(text(),'Continue without Payment')]</xpath>
+		</Element>		
+
+		<Element name="btnPaymentOptions_MakePayment" type="button">
+			<xpath>//a[contains(text(),'Make Payment')]</xpath>
+		</Element>
+
+		<Element name="spnPaymentOptions_PolicyNumber" type="button">
+			<xpath>//span[@fieldref='PolicyOutput.PolicyNumber']</xpath>
+		</Element>
+	</FeatureSet>
+	
+	<FeatureSet name="ThankYouPage">
+		<Element name="divThankYou_PageTitle" type="text">
+			<xpath>//div[contains(text(),'Thank You')]</xpath>
+		</Element>	
+		
+		<Element name="btnThankYou_Exit" type="button">
+			<xpath>//a[contains(text(),'Exit')]</xpath>
+		</Element>		
+
+	</FeatureSet>
+	
+	<FeatureSet name="TransActPage">
+		<Element name="divTransAct_PageTitle" type="text">
+			<xpath>//div[contains(text(),'TransACT')]</xpath>
+		</Element>	
+		
+		<Element name="lstTransAct_TransactionType" type="select">
+			<xpath>//select[@fieldref='TransACTInput.TransactionTypeList']</xpath>
+		</Element>		
+
+		<Element name="lnkTransAct_Go" type="link">
+			<xpath>//a[contains(text(),'Go')]</xpath>
+		</Element>
+			
+		<Element name="lnkTransAct_EditPolicy" type="link">
+			<xpath>//a[@title='Edit Policy']</xpath>
+		</Element>
+		
+		<Element name="txtTransActFrame_EffectiveDate" type="text">
+			<xpath>//input[@fieldref='TransACTInput.NewTransactionEffectiveDate']</xpath>
+		</Element>
+
+		<Element name="lstTransActFrame_Reason" type="select">
+			<xpath>//select[@fieldref='NewTransactionReason.NewTransactionReasonCodes']</xpath>
+		</Element>
+		
+		<Element name="lstTransActFrame_Detail" type="select">
+			<xpath>//select[@fieldref='NewTransactionReason.NewTransactionReasonsShow']</xpath>
+		</Element>
+		
+		<Element name="lnkTransActFrame_OK" type="link">
+			<xpath>//a[contains(text(),'OK')]</xpath>
+		</Element>	
+
+	</FeatureSet>
+	
+</ObjectRepository>

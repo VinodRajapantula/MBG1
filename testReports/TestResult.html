@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script class="include" language="javascript" type="text/javascript" src="js/jquery.jqplot.min.js"></script>
+		
+		<script class="include" language="javascript" type="text/javascript" src="js/plugins/jqplot.barRenderer.min.js"></script>
+		
+		<script type="text/javascript" src="js/plugins/jqplot.pieRenderer.min.js"></script>
+		
+		<script class="include" language="javascript" type="text/javascript" src="js/plugins/jqplot.pointLabels.min.js"></script>
+		<script class="include" language="javascript" type="text/javascript" src="js/plugins/jqplot.enhancedLegendRenderer.min.js"></script>
+		<script class="include" language="javascript" type="text/javascript" src="js/plugins/jqplot.highlighter.min.js"></script>
+		<script class="include" type="text/javascript" src="js/plugins/jqplot.canvasTextRenderer.min.js"></script>
+		<script class="include" language="javascript" type="text/javascript" src="js/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+		<script class="include" language="javascript" type="text/javascript" src="js/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+		<script class="include" type="text/javascript" src="js/plugins/jqplot.dateAxisRenderer.min.js"></script>
+
+		<script language="javascript" type="text/javascript" src="js/plugins/jqplot.donutRenderer.min.js"></script>		
+	
+		<script language="javascript" type="text/javascript" src="js/plugins/jqplot.cursor.min.js"></script>
+		<script language="javascript" type="text/javascript" src="js/plugins/jqplot.funnelRenderer.min.js"></script>
+		
+		
+		<script type="text/javascript" src="js/plugins/jqplot.canvasAxisTickRenderer.min.js"></script>
+		
+	
+
+		<script language='javascript' src='js/common.js'></script>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+		 <link class="include" rel="stylesheet" type="text/css" href="js/jquery.jqplot.min.css" />
+		<style type="text/css"> 
+			.even 
+			{
+				background-color: #BCD2EE;
+				color: black;
+				font-weight: bold;
+				text-align: center; 
+				vertical-align: center; 
+			}
+			
+			.odd 
+			{ 
+				background-color: #88ACE0; 
+				color: black;
+				font-weight: bold;
+				text-align: center; 
+				vertical-align: center;
+			}
+			
+			#dpCalendar 
+			{
+				display: none;          /* Important, do not change */
+				position: absolute;        /* Important, do not change */
+				background-color: #eeeeee;
+				color: black;
+				font-size: xx-small;
+				font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				width: 150px;
+			}
+			
+			/* The table of the Calendar */
+			#dpCalendar table 
+			{
+				border: 1px solid black;
+				background-color: #eeeeee;
+				color: black;
+				font-size: xx-small;
+				font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				width: 100%;
+			}
+			
+			/* The Next/Previous buttons */
+			#dpCalendar .cellButton
+			{
+				background-color: #ddddff;
+				color: black;
+			}
+			
+			/* The Month/Year title cell */
+			#dpCalendar .cellMonth 
+			{
+				background-color: #ddddff;
+				color: black;
+				text-align: center;
+			}
+			
+			/* Any regular day of the month cell */
+			#dpCalendar .cellDay
+			{
+				background-color: #ddddff;
+				color: black;
+				text-align: center;
+			}
+			
+			/* The day of the month cell that is selected */
+			#dpCalendar .cellSelected 
+			{
+				border: 1px solid red;
+				background-color: #ffdddd;
+				color: black;
+				text-align: center;
+			}
+			
+			/* The day of the month cell that is Today */
+			#dpCalendar .cellToday 
+			{
+				background-color: #ddffdd;
+				color: black;
+				text-align: center;
+			}
+			
+			/* Any cell in a month that is unused (ie: Not a Day in that month) */
+			#dpCalendar .unused 
+			{
+				background-color: transparent;
+				color: black;
+			}
+			
+			/* The cancel button */
+			#dpCalendar .cellCancel 
+			{
+				background-color: #cccccc;
+				color: black;
+				border: 1px solid black;
+				text-align: center;
+			}
+			
+			/* The clickable text inside the calendar */
+			#dpCalendar a 
+			{
+				text-decoration: none;
+				background-color: transparent;
+				color: blue;
+			}  
+			
+			* 
+			{
+				font-family: sans-serif;
+			}
+		
+			body
+			{
+				padding: 0 1em 1em 1em;
+			}
+		
+			label
+			{
+				display: block;
+				margin-left: 400px;
+				padding-left: 1em;
+			}
+				
+			h2
+			{
+				padding-top: 1em;
+				margin-top: -6;
+				clear: both;
+				color: #ccc;
+			}
+				
+			code
+			{
+				display: block;
+				background-color: #eee;
+				border: 1px dashed #999;
+				padding: 0.5em;
+				margin: 0.5em;
+				color: #666;
+				font-size:10pt;
+			}
+				
+			code b
+			{
+				color: black;
+			}
+				
+			ul
+			{
+				font-size: 10pt;
+			}
+				
+			ul li
+			{
+				margin-bottom: 0.5em;
+			}
+			
+			ul li i
+			{
+				color: #999;
+			}	
+
+			.chartsDiv
+			{ 
+				width:98%;
+				float:left;
+			}
+			
+			.box2 table, .box3 table, .box4 table,.box6 table
+			{
+				border-collapse:collapse
+			}
+			
+			.box2
+			{
+				width:85%;
+				float:left;
+				height:auto;
+				overflow:auto
+				overflow-y:auto
+			}
+
+			.box3, .box4,.box6
+			{
+				width:85%;
+				float:left;
+				height:auto;
+				overflow:auto
+				overflow-y:auto
+			}
+			
+			.box3
+			{
+				background:#F;
+				border:none;
+				width:98%;
+				margin-top:55px;
+			}
+			
+			.clear
+			{ 
+				clear:both; 
+			}
+			
+			.box1
+			{
+				width:600px;
+				float:left;
+				min-height:10px;
+				max-height:200px;
+				overflow:auto;
+				overflow-y:auto;
+			}
+			
+			.box51
+			{
+				width:100%;
+				float:left;
+				margin-top:5%;
+			}
+			
+			.box5
+			{
+				width:100%;
+				float:left;
+				min-height:80px;
+				max-height:200px;
+				overflow-x:hidden;
+				overflow-y:auto;
+			}
+			
+			.box5 table, .box51 table 
+			{
+				table-layout: fixed;
+				width: 594px;;
+			}
+			
+			.jqplot-highlighter-tooltip
+			{
+			  color:blue;
+			}
+			
+			.jqplot-axis 
+			{
+			height:50px;
+			}
+			
+			.jqplot-xaxis
+			{
+			height:50px;
+			}
+			
+			.jqplot-target .jqplot-highlighter-tooltip
+			{
+			  font-size: 0.8em;
+			}	
+			
+			.leftArea
+			{ 
+				width:50%; 
+				float:left 
+			}
+			
+			.rightArea
+			{ 
+				margin-top:0;
+				width:50%; 
+				float:left; 
+			}
+
+			/*
+			#TestProcess_barChart table, #TestSet_barChart table, #TestSet_barChart1 table{
+				//margin: -180px -100px 0 0;
+				//float: right;
+				font-size: 0.75em;
+			}	*/
+
+			.jqplot-data-label
+			{
+			   color: white;
+			}
+
+			.jqplot-point-label
+			{
+			   color: white;
+			}
+
+			.jqplot-xaxis-tick
+			{
+				height: 30px;
+			}
+			
+			#TestProcess_barChart .jqplot-xaxis{
+				height: 45px!important;
+				bottom: 12px!important;
+			}
+			
+			#TestSet_barChart .jqplot-xaxis{
+				height: 30px!important;
+				bottom: 12px!important;
+			}
+			
+			#TestSet_barChart1 .jqplot-xaxis{
+				height: 30px!important;
+				bottom: 12px!important;
+			}
+			#TestProcess_barChart table, #TestSet_barChart table, #TestSet_barChart1 table {
+				float: right;
+				margin: -210px -90px 0 0;
+			}
+			#pie_chart table {
+				margin: 10px 0;
+			}
+			#tabletitle, #tablesettitle, #pie_title {
+				text-align: center !important;
+				width: 583px;
+			}
+			.rightArea b {
+				margin-left: 160px;
+			}
+
+		</style>	
+	</head>	
+	<body style="background-color:white; overflow: auto;">
+		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td align="left" width ="60%">
+					<span align="left"><img border="0px" width="200px" height="41px" src="..\testReports\images\Epam.png"></span>
+				</td>
+			</tr>
+		</table>	
+		<h2 style="color: #FF4500; text-align: center; vertical-align: top; border: 0px">MBG Test Automation Reporting Engine</h2>
+	    <form name='resultListForm' style="background-color:#FFFFFF" method='get'>
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td align="right" width="20%">
+						<form name='resultListForm' style="background-color:#FFFFFF" method='get'>
+							<Table id='tblDateInfo' align="right" width="100%" border="0" cellspacing="1" cellpadding="1">			
+								<tr>
+									<td	 style="text-align: right; vertical-align: right;">Select Date : 
+										<select id='xml' name='xml' onchange='loadPreviousResults(this)'></select>
+									</td>
+								</tr>
+							</table>
+						</form>
+					</td>
+				</tr>
+			</table>
+			<div class='leftArea'>
+				<TR><Th></Th></TR>
+				<TR><Th></Th></TR>
+				<TR><Th></Th></TR>
+				<TR><Th></Th></TR>
+				<div class="chartsDiv">
+				   <div  id="lnktable1notlink" name="lnktable1notlink">
+						<TABLE id='tblSample123' cellspacing='1' cellpadding='1' width='98%' align='left' border="0" style="table-layout: fixed">
+							<TR style="background-color:  #FFFFFF; text-align:center; ">
+								<Th  colspan="5">
+									<font color="#FF4500">
+										<div id='tabletitle'>Test Execution Status For the Day</div>
+									</font>
+								</Th>
+							</TR>
+							<TR><Th></Th></TR>
+							<TR><Th></Th></TR>
+							<TR><Th></Th></TR>
+							<TR><Th></Th></TR>
+							<TR style="background-color: #26466D; text-align:center; ">					
+								<Th class="th2" style="color:#FFFFFF;width:194px">Execution  Start Time </Th>					
+								<Th class="th2" style="color:#FFFFFF;width:91px">Pass </Th>
+								<Th class="th2" style="color:#FFFFFF;width:91px">Fail </Th>					
+								<Th class="th2" style="color:#FFFFFF;">Total Duration</Th>
+								<Th class="th2" style="color:#FFFFFF;width:114px">Log File</Th>
+								<Th class="th2" style="color:#FFFFFF;">LinkError</Th>
+								<Th class="th2" style="color:#FFFFFF;">SpellError</Th>
+							</TR>
+						</TABLE>
+					</div>
+					
+					<div  id="lnktablespell" name="lnktablespell">		
+						<TABLE id='tblSample123' cellspacing='1' cellpadding='1' width='90%' align='left' border="0" style="table-layout: fixed">
+							<TR style="background-color:  #FFFFFF; text-align:center; ">
+								<Th  colspan="4"><font color="#FF4500"><div id='tabletitle'>Test Execution Status For the Day</div></font></Th>
+							</TR>
+							<TR><Th></Th></TR>
+							<tr><Th></Th></tr>
+							<TR><Th></Th></TR>
+							<tr><Th></Th></tr>
+							<TR style="background-color: #26466D; text-align:center; ">					
+								<Th class="th2" style="color:#FFFFFF;width:194px">Execution  Start Time </Th>					
+								<Th class="th2" style="color:#FFFFFF;width:91px">Pass </Th>
+								<Th class="th2" style="color:#FFFFFF;width:91px">Fail </Th>
+								<Th class="th2" style="color:#FFFFFF;">Total Duration</Th>
+								<Th class="th2" style="color:#FFFFFF;width:114px">Log File</Th>
+								
+							</TR>
+						</TABLE>	
+					</div>			
+				
+					<div class='box1'>			
+						<TABLE id='tblSample' cellspacing='1' cellpadding='1' width='574' align='left' border="0" style="table-layout: fixed">		
+						</TABLE>
+					</div>
+				
+		
+					<div class='box51'  style="display:none" id="lnktable1" name="lnktable1">	
+						<TABLE id='tblSample123' cellspacing='1' cellpadding='1' width='98%' align='left' border="0" style="table-layout: fixed">
+							<TR style="background-color:#FFFFFF; text-align:center; ">
+								<Th  colspan="6">
+									<font color="#FF4500">
+										<div id='tablesettitle'>Test Execution Status for Date and time</div>
+									</font>
+								</Th>
+							</TR>
+							<TR><Th></Th></TR>
+							<TR><Th></Th></TR>
+							<TR><Th></Th></TR>
+							<TR><Th></Th></TR>
+							<TR style="background-color: #26466D; text-align:center; font-size: 12px; ">					
+								<Th style="color:#FFFFFF;">TestSet<br/> Name  </Th>
+								<Th style="color:#FFFFFF;">Duration</Th>					
+								<Th style="color:#FFFFFF;">Browser </Th>
+								<Th style="color:#FFFFFF;">Engine  </Th>					
+								<Th style="color:#FFFFFF;">Pass</Th>
+								<Th style="color:#FFFFFF;">Fail</Th>
+							</TR>
+						</TABLE>
+					</div>	
+		
+					<div class='box5'  style="display:none" id="lnktable" name="lnktable">	
+						<TABLE id='tblSample1' cellspacing='1' cellpadding='1' width='100%' align='left' border="0">
+						</TABLE>
+					</div>
+				
+					<div class="box3">
+						<div id="pie_title" style="color:#FF4500;font-weight:bold"></div>
+						<TABLE id='pie_chart' cellspacing='1' cellpadding='1' width='100%' align='left' border="0">
+							<tr>
+								<td style="width: 150px; height: 350px;"></td>
+							</tr>
+						</TABLE>
+					</div>
+				
+					<div class='box2'>
+						<TR style="background-color:#FFFFFF; text-align:right; ">
+							<Th  colspan="4"><font color="#FF4500" style="margin-left: 50px;"><b></b></font></Th>
+						</TR>
+						<table id ="Errorspie_spl" cellspacing='1' cellpadding='0' width='99%' align='right' border="0" >
+							<tr>
+								<td style="width:200px; height: auto;"></td>
+							</tr>
+						</table>	
+						<div class='box3'>
+							<TR style="background-color:#FFFFFF; text-align:right; ">
+								<Th  colspan="4"><font color="#FF4500" style="margin-left: 50px;"><b></b></font></Th>
+							</TR>	
+							<table id ="Errorspie_gra" cellspacing='1' cellpadding='0' width='99%' align='left' border="0" >
+								<tr>
+									<td  style="width:200px; height:auto;"></td>
+								</tr>
+							</table>	
+						</div>
+					</div>
+					
+				</div> 
+			</div>      <!-- LeftArea div end here -->	
+			<div class='rightArea'>			
+				<div class="box2">
+					<TR style="background-color:#FFFFFF; text-align:center; ">
+						<Th><font color="#FF4500"><b>Test Progress Report</b></font></Th>
+					</TR>
+					<table id ="TestProcess_barChart" cellspacing='1' cellpadding='1' width='100%' align='left' border="0">
+						<tr><td  style="width: 200px; height: 210px;"></td></tr>
+					</table>
+				</div>
+				<div class="box4">
+					<TR style="background-color:#FFFFFF; text-align:center;">
+						<Th><font color="#FF4500"><b>Test Sets Execution Statistics</b></font></Th>
+					</TR>
+					<table id ="TestSet_barChart" cellspacing='1' cellpadding='1' width='100%' align='left' border="0">
+						<tr><td  style="width: 200px; height:210px;"></td></tr>
+					</table>
+				</div>	
+				<div class="box6" id ="TestSet_barChart111">
+					<TR style="background-color:#FFFFFF; text-align:center;">
+						<Th><font color="#FF4500"><b>Test Browser Execution Statistics</b></font></Th>
+					</TR>
+					<table id ="TestSet_barChart1" cellspacing='1' cellpadding='1' width='100%' align='left' border="0">
+						<tr><td  style="width: 200px; height: 210px;"></td></tr>
+					</table>
+				</div>			
+				<br class="clear" />
+			</div>			<!-- rightArea div end here -->	
+		</form>
+	</body>
+	<script type="text/javascript">
+		
+			var parseQueryString = new ParseQueryString();
+			var the_xmlFileName = parseQueryString.getParamValue('xml');
+			
+			if(!the_xmlFileName) {
+				the_xmlFileName = "";
+			}
+
+			var listDoc = null;
+			listDoc = CreateXMLObject();
+			
+			parseResultList(listDoc, the_xmlFileName);
+			
+			//var the_xmlFile = XML_PATH + document.getElementById("xml").value;
+			var the_xmlFile = document.getElementById("xml").value;
+			//alert(the_xmlFile);
+			//var the_xmlFile = "./xml/hyd-rmajji_20130107_163648159.xml"
+			
+			
+			var xmlDoc = null;
+			xmlDoc = CreateXMLObject();
+
+			
+			//parseSuiteLevelXML(the_xmlFile, xmlDoc);
+			parsemultipleSuiteLevelXML(the_xmlFile, xmlDoc);
+			//Apply Alternate row color 
+			
+			
+			var table1 = document.getElementById("tblSample123");
+			var rows1 = table1.getElementsByTagName("tr");
+			
+			var table = document.getElementById("tblSample");
+			var rows = table.getElementsByTagName("tr");
+			//alert('rows='+rows.length);			
+			for(var i=0; i<rows.length; i++ ){
+				if(i % 2 == 0){
+						rows[i].className = "even";			
+				}else{
+						rows[i].className = "odd";								
+				}
+		    }
+			//load();
+	</script>
+</html>

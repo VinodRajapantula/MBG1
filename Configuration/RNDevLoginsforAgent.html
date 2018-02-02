@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<title>Mutual Benefits Group Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+function buttonClick(form){
+      document.form1.action=document.form1.serverSelection.value;
+      if(document.form1.longPassword.checked){
+      document.form1._password.value="";
+      }
+      document.form1.submit();
+}
+</SCRIPT>
+
+<form name="form1" method="post">
+  <table width="500" border="0" align="center" cellpadding="4" cellspacing="0">
+    <tr> 
+      <td colspan="2"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><strong></strong></font>Duck Creek Personal Lines</div></td>
+    </tr>
+    <tr> 
+      <td height="38">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><div align="right"><font size="2"><font face="Arial, Helvetica, sans-serif">Username</font></font></div></td>
+      <td><input name="_username" type="text" id="_username" value="" size="15"></td>
+    </tr>
+    <tr> 
+      <td><div align="right"><font size="2"><font face="Arial, Helvetica, sans-serif">Password</font></font></div></td>
+      <td><input name="_password" type="password" id="_password" value="" size="15"> <input
+			type="checkbox" name="longPassword" value="Use long Pass"></td>
+    </tr>
+
+
+	
+	
+		<tr>
+		<td><div align="right"><font size="2"><font face="Arial, Helvetica, sans-serif">Server Selection</font></font></div></td>
+		<td>
+			<select name="serverSelection">
+			<!-- <OPTION value='http://MBGProServer01/express4x/default.aspx'>MBG Pro Login</OPTION> -->
+			<!-- <option value=http://vmdct4xQApl/express4x/default.aspx>PL QA Server 4.X</option> -->
+			<!-- <OPTION value=http://vmdct4xdevpl/express4x/default.aspx>PL Dev Server 4.X</OPTION> -->
+			<!-- <option value='http://mbgclirserver01/express4x/default.aspx'>MBG CLIR Login</option> -->
+			<!-- <option value=http://vmdct4xQAcl/express4x/default.aspx>CL QA Server 4.X</option> -->
+			<!-- <option value=http://vmdct4xdevcl/express4x/default.aspx>CL Dev Server 4.X</option> -->
+			<OPTION value=http://192.168.100.182/express4xRN/default.aspx>CL RNDev Server 4.X</OPTION>		
+			
+			</select>
+		</td>
+	</tr>
+	
+	
+	<tr> 
+     	 <td height="52">&nbsp;</td>
+     	 <td height="52"><input type="button" name="Submit" value="Submit" onClick="buttonClick(this.form)"></td>
+    	</tr>
+  </table>
+</form>
+</body>
+</html>

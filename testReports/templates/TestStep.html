@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<body style="background-color:White">
+		<span align="left"><img border="0px" width="200px" height="54px" src="..\images\Epam.png"></span>
+		<h1  class="header" style="color: #FF4500; text-align: center; vertical-align: bottom; border: 0px">
+		<span id='teststepname'></span> - Test Step Level Report</h1>
+		<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+		
+		<TABLE id='tblEnvInfo' align="center" width="100%" border="0" cellspacing="1" cellpadding="1">        
+		 <tr>
+			<td	style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Host : <span class='data' style="color: #000000" id='host_info'></span>
+			</td>
+			<td	style="text-align: left; vertical-align: bottom;"
+				class="environment_details">
+				Operating System : <span class='data' style="color: #000000" id='os_info'></span>
+			</td>
+		</tr>
+		<tr>
+			<td	style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Start Time : <span id='start_time' style="color: #000000" class='data'></span>
+			</td>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				End Time : <span id='end_time' style="color: #000000" class='data'></span>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Browser : <span id='browser_name' style="color: #000000" class='data'></span>
+			</td>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Execution URL : <span id='executionUrl' style="color: #000000" class='data'></span>
+			</td>
+		</tr>	
+		<tr>
+			<td style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Test Scenario Id : <span id='scenario_id' style="color: #000000" class='data'></span>
+			</td>
+			<td	style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='2'>
+				Category : <span id='category' style="color: #000000" class='data'></span>
+			</td>
+		</tr>
+		   <tr>			
+			<td	style="text-align: left; vertical-align: bottom;"
+				class="environment_details" colspan='4'>
+				Execution Engine : <span id='executionEngine' style="color: #000000" class='data'></span>
+			</td>
+		   </tr>
+      </TABLE>
+
+	  <TABLE align="center" width="98%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td style="background-color: #FFFFFF; text-align:right;"><a href='#' onclick="home(); return false;" class='view'>Home</a>&nbsp;&nbsp;<a href='#' onclick="history.back(); return false;" class='view'>Back</a></td>
+		</tr>
+	   </TABLE> 
+
+		<!-- <div align='right' style=' padding: 10px 35px 10px 10px;'><a href='#' onclick="home(); return false;" class='view'>Home</a>&nbsp;&nbsp;<a href='#' onclick="history.back(); return false;" class='view'>Back</a></div> -->
+
+		<TABLE id='tblSample' cellspacing='1' cellpadding='0' width='100%' align='center' style='table-layout:fixed'>
+		<col width='6%'> <!-- Slno-->
+		<col width='18%'> <!-- Test Case ID -->
+		<col width='35%'> <!-- Execution Details -->
+		<col width='5%'> <!-- Result -->
+		<col width='7%'> <!-- Result -->
+		<col width='24%'> <!-- Error Message -->
+		<!-- <col width='8%'> --> <!-- Execution Duration -->
+		<col width='5%'> <!-- Screen Shot -->
+		<tr> </tr>
+		<TR style="background-color: #26466D;text-align:center;">
+			 <Th class="th2" style="color:#FFFFFF;">Test Case Id</Th> 			
+			 <Th class="th2" style="color:#FFFFFF;">Test Step Description</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Execution Details</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Result</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Execution-Duration (mm:ss:sss)</Th>
+			 <Th class="th2" style="color:#FFFFFF;">Result Description</Th>
+			<!--  <Th class="th2" style="color:#FFFFFF;">Execution Duration (mm:ss:sss)</Th> -->
+			 <Th class="th2" style="color:#FFFFFF;">Screen Shot</Th>
+		 </TR>
+		<tr style="background-color: white" height="2px"></tr>
+		</TABLE>
+		
+	</body>
+
+	<script language='javascript' src='../js/common.js' ></script>
+	<script language='javascript'>
+		var parseQueryString = new ParseQueryString();
+		var appName = parseQueryString.getParamValue('apps');	
+		var browser = parseQueryString.getParamValue('browser');
+		var baseurl = parseQueryString.getParamValue('baseurl');
+		var scenarioId = parseQueryString.getParamValue('test');
+		var testCaseId = parseQueryString.getParamValue('testCaseId');
+		var sortId = parseQueryString.getParamValue('sortId');
+		var the_xmlFileName = parseQueryString.getParamValue('xml');		
+		//document.getElementById("teststepname").innerHTML = appName.toUpperCase();
+		var xmlDoc = null;
+		xmlDoc = CreateXMLObject();
+
+		if(testCaseId == ''){
+			parseStepLevelXML(the_xmlFileName, xmlDoc, appName, browser, baseurl, scenarioId, testCaseId);		  
+		}else{
+			parseReusableStepLevelXML(the_xmlFileName, xmlDoc, appName, browser, baseurl, scenarioId, testCaseId,sortId);		
+		}
+
+		//Apply Alternate row color 
+		var table = document.getElementById("tblSample");
+		var rows = table.getElementsByTagName("tr");
+		//alert('rows='+rows.length);
+		
+		for(var i=0; i<rows.length; i++ ){
+	
+				if(rows[i].className.toLowerCase() == "pass")
+				{
+					rows[i].className = "evenPass";			
+				}
+				else if(rows[i].className.toLowerCase() == "fail")
+				{				
+					rows[i].className = "evenFail";	
+				}
+			   else if(rows[i].className.toLowerCase() == "info")
+				{				
+					rows[i].className = "evenInfo";	
+				}
+					
+			
+		}
+
+		function home(){
+			location.href="../TestResult.html?xml="+the_xmlFileName;
+		}
+	</script>
+</html>

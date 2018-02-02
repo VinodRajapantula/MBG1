@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<title>Mutual Benefits Group Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+function buttonClick(form){
+      document.form1.action=document.form1.serverSelection.value;
+
+      document.form1.submit();
+}
+</SCRIPT>
+
+<form name="form1" method="post">
+  <table width="500" border="0" align="center" cellpadding="4" cellspacing="0">
+    <tr> 
+      <td colspan="2"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><strong></strong></font>Accenture Duck Creek Login Page</div></td>
+    </tr>
+    <tr> 
+      <td height="38">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td><div align="right"><font size="2"><font face="Arial, Helvetica, sans-serif">Username</font></font></div></td>
+      <td><input size="15" type="text"></td>
+    </tr>
+    <tr> 
+      <td><div align="right"><font size="2"><font face="Arial, Helvetica, sans-serif">Password</font></font></div></td>
+      <td><input type="text" size="15"> </td>
+    </tr>
+
+
+	
+	
+		<tr>
+		<td><div align="right"><font size="2"><font face="Arial, Helvetica, sans-serif">Server Selection</font></font></div></td>
+		<td>
+			<select name2="serverSelection">
+			<option value='http://vmdct4xdevpl/express4x/default.aspx'>Accenture Personal Lines Policy</option>
+			<option value='http://192.168.100.182/express4xrn/default.aspx'>Accenture Personal Lines Policy - RN Environment</option>			
+			<option value='http://vmdct4xdevcl/express4x/default.aspx'>Accenture Commercial Lines Policy - Dev</option>
+			<option value='http://vmdct4xQAcl/express4x/default.aspx'>Accenture Commercial Lines Policy - UAT</option>			
+			<option value='http://vmclaimsdev-1/MBGAT_AFS.Claims/Desktop/HomePage/HomePage.aspx'>Accenture Claims</option>	
+			</select>
+		</td>
+	</tr>
+	
+	
+	<tr> 
+     	 <td height="52">&nbsp;</td>
+     	 <td height="52"><input type="button" name="Submit" value="Submit" onClick="buttonClick(this.form)"></td>
+    	</tr>
+  </table>
+</form>
+</body>
+</html>
